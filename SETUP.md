@@ -48,32 +48,45 @@ That count is also the honest version of the `grep` check from earlier: `grep -c
 https://<you>.github.io/pib-rss/feed.xml
 ```
 
-## 6. WhatsApp digest (optional)
+## 6. Telegram digest (optional)
 
-Delivery goes through [CallMeBot](https://www.callmebot.com/blog/free-api-whatsapp-messages/), a free bridge that can only message *your own* number — that restriction is how they prevent spam, and it fits this use case exactly.
+Official Telegram Bot API — no third-party bridge, no phone number shared with anyone, free with no message quota.
 
-**Read this before setting it up.** CallMeBot is an unofficial third party. Your phone number gets registered with their service, and every digest passes through their servers. PIB press releases are public government information, so there's nothing sensitive in transit here — that's the main reason this is an acceptable trade. I wouldn't route private content through it. The service is free and run by one person; it can change or disappear without notice, and if it does, the workflow will log an error but keep building the feed normally.
+**Create the bot.** In Telegram, message [@BotFather](https://t.me/BotFather):
 
-Setup, which only you can do since it involves your WhatsApp:
+1. Send `/newbot`
+2. Give it a name (display name) and a username (must end in `bot`, e.g. `pib_feed_bot`)
+3. BotFather replies with a token like `8123456789:AAH...`. Treat it like a password.
 
-1. Save **+34 644 51 95 23** to your phone contacts as "CallMeBot".
-2. From WhatsApp, message it exactly: `I allow callmebot to send me messages`
-3. Wait for the reply containing your API key.
-4. In the repo: **Settings → Secrets and variables → Actions → New repository secret**, twice:
-   - `CALLMEBOT_PHONE` — your number with country code, e.g. `+919876543210`
-   - `CALLMEBOT_APIKEY` — the key from step 3
+**Get your chat id.** Bots can't message you until you message them first — Telegram's anti-spam rule.
 
-Until both secrets exist, `notify.py` exits quietly and sends nothing, so the workflow is safe to run before you get to this.
+1. Open your new bot in Telegram and send it anything, e.g. `hi`
+2. Then run locally:
 
-**What arrives:** one digest per run, not one message per release — PIB can publish dozens an hour. Up to 8 headlines with ministry and link, then "…and N more", then a link to the reader page.
+```bash
+TELEGRAM_BOT_TOKEN=<your-token> python notify.py --get-chat-id
+```
 
-**The first run after you add the secrets sends nothing.** It records everything currently in the feed as a baseline, so you don't get the entire backlog at once. Digests begin with the next new release.
+It prints something like `Chat ids found:  123456789   (private benbenny)`.
 
-Test it locally without sending anything:
+**Add the secrets.** Repo → **Settings → Secrets and variables → Actions → New repository secret**, twice:
+
+- `TELEGRAM_BOT_TOKEN` — the token from BotFather
+- `TELEGRAM_CHAT_ID` — the number from the previous step
+
+Until both exist, `notify.py` exits quietly and sends nothing, so the workflow is safe to run before you get to this.
+
+**What arrives:** one digest per run, not one message per release — PIB can publish dozens an hour. Up to 8 linked headlines with ministry, then "…and N more", then a link to the reader.
+
+**The first run after you add the secrets sends nothing.** It records the current feed as a baseline so you don't receive the entire backlog at once. Digests start with the next new release.
+
+Preview the message without sending:
 
 ```bash
 python notify.py --dry-run
 ```
+
+**Want it on your phone only, muted at night?** Telegram's per-chat notification settings handle that — the bot chat is a normal chat.
 
 ## Things that will bite you eventually
 

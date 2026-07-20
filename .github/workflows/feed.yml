@@ -58,11 +58,11 @@ jobs:
               print("::warning::under 80% of items have full text — check selectors")
           PY
 
-      - name: WhatsApp digest
+      - name: Telegram digest
         # No-ops when the secrets aren't set, so this is safe before setup.
         env:
-          CALLMEBOT_PHONE: ${{ secrets.CALLMEBOT_PHONE }}
-          CALLMEBOT_APIKEY: ${{ secrets.CALLMEBOT_APIKEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python notify.py --state pib_state.json --max 8
 
       - name: Commit if changed
