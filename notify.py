@@ -238,6 +238,11 @@ def main() -> int:
         return 0
 
     if not send(token, chat_id, msg):
+        # The workflow step is continue-on-error so a Telegram outage can't
+        # block feed publication. That would otherwise hide failures behind a
+        # green check, so raise an annotation that shows up on the run summary.
+        print(f"::error title=Telegram delivery failed::"
+              f"{len(fresh)} release(s) not sent; will retry next run")
         return 1   # state untouched, so the next run retries these items
 
     live = set(state.get("items", {}))
