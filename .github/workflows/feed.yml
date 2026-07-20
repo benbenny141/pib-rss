@@ -58,7 +58,7 @@ jobs:
               print("::warning::under 80% of items have full text — check selectors")
           PY
 
-      - name: Telegram digest
+      - name: Telegram notifications
         # No-ops when the secrets aren't set, so this is safe before setup.
         # continue-on-error: publishing the feed must not depend on Telegram
         # being reachable. A failed send leaves the state ledger untouched, so
@@ -67,7 +67,7 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python notify.py --state pib_state.json --max 8
+        run: python notify.py --state pib_state.json --max 20 --delay 3
 
       - name: Commit if changed
         run: |

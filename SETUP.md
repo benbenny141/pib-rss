@@ -101,7 +101,11 @@ A test message should appear in the group. If Telegram says *chat not found* the
 
 Until both exist, `notify.py` exits quietly and sends nothing, so the workflow is safe to run before you get to this.
 
-**What arrives:** one digest per run, not one message per release — PIB can publish dozens an hour. Up to 8 linked headlines with ministry, then "…and N more", then a link to the reader.
+**What arrives:** one message per release — headline (linked, capitalisation exactly as PIB published it), then ministry and timestamp. Sent oldest first so the group reads in publication order.
+
+Messages are spaced 3 seconds apart and capped at 20 per run, because Telegram rate-limits a single group to roughly 20 messages a minute. Anything over the cap goes out on the next hourly run rather than being dropped. If Telegram does return a rate-limit error, the script waits the exact backoff Telegram asks for and retries once.
+
+Delivery is recorded **per release**, so a failure partway through a batch never causes the already-sent ones to repeat.
 
 **The first run after you add the secrets sends nothing.** It records the current feed as a baseline so you don't receive the entire backlog at once. Digests start with the next new release.
 

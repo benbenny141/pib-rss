@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-notify.py — Telegram digest of new PIB releases.
+notify.py — Telegram notifications for new PIB releases, one message per release.
 
-Sends ONE digest per run rather than one message per release: PIB can publish
-dozens of items an hour. Notified releases are recorded in the state file, so
-nothing is ever sent twice.
+Each new release is sent as its own Telegram message, oldest first so the chat
+reads chronologically. Delivery is recorded per release, so a failure partway
+through never causes the already-sent ones to be repeated.
 
 Inert by default. Without TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID in the
 environment it exits 0 without sending, so the workflow is safe to run before
@@ -19,8 +19,8 @@ Setup (needs your own Telegram account):
   4. Add both as GitHub repo secrets: TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID.
 
 Usage:
-    python notify.py --state pib_state.json --max 8
-    python notify.py --dry-run          # print the message, send nothing
+    python notify.py --state pib_state.json --max 20
+    python notify.py --dry-run          # print the messages, send nothing
     python notify.py --get-chat-id      # look up chat ids the bot can reach
     python notify.py --test             # send a test message to the chat
 """
@@ -32,15 +32,20 @@ import html
 import json
 import os
 import sys
-from datetime import datetime, timezone
+import time
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 import requests
 
 API = "https://api.telegram.org/bot{token}/{method}"
 READER_URL = "https://benbenny141.github.io/pib-rss/"
-TELEGRAM_LIMIT = 4096
-SAFE_LIMIT = 3800     # headroom, since HTML entities expand the payload
+IST = timezone(timedelta(hours=5, minutes=30))
+
+# Telegram allows roughly 20 messages/minute to one group before it starts
+# returning 429. 3s spacing keeps a comfortable margin.
+DEFAULT_DELAY = 3.0
+MAX_CONSECUTIVE_FAILURES = 3
 
 
 def sort_key(item: dict) -> str:
@@ -52,36 +57,31 @@ def esc(s: str) -> str:
     return html.escape(s or "", quote=False)
 
 
-def build_digest(new_items: list[dict], max_items: int) -> str:
-    total = len(new_items)
-    head = f"<b>PIB — {total} new release{'' if total == 1 else 's'}</b>"
-    lines = [head, ""]
+def fmt_when(iso: str | None) -> str:
+    if not iso:
+        return ""
+    try:
+        dt = datetime.fromisoformat(iso).astimezone(IST)
+    except ValueError:
+        return ""
+    return dt.strftime("%d %b %Y, %-I:%M %p IST")
 
-    for it in new_items[:max_items]:
-        title = it["title"]
-        if len(title) > 120:
-            title = title[:117].rsplit(" ", 1)[0] + "…"
-        lines.append(f"• <a href=\"{esc(it['link'])}\">{esc(title)}</a>")
-        if it.get("ministry"):
-            lines.append(f"  <i>{esc(it['ministry'])}</i>")
+
+def build_message(it: dict) -> str:
+    """One release. Title verbatim — PIB's capitalisation is left as published."""
+    lines = [f'<a href="{esc(it["link"])}"><b>{esc(it["title"])}</b></a>']
+    meta = [esc(it["ministry"])] if it.get("ministry") else []
+    when = fmt_when(it.get("posted_at"))
+    if when:
+        meta.append(when)
+    if meta:
         lines.append("")
-
-    remaining = total - min(total, max_items)
-    if remaining:
-        lines.append(f"…and {remaining} more.")
-        lines.append("")
-    lines.append(f'<a href="{READER_URL}">Open reader</a>')
-
-    msg = "\n".join(lines)
-    if len(msg) > SAFE_LIMIT:
-        # Trim whole lines so we never cut an HTML tag in half.
-        while len(msg) > SAFE_LIMIT and "\n" in msg:
-            msg = msg.rsplit("\n", 1)[0]
-        msg += f'\n…\n<a href="{READER_URL}">Open reader</a>'
-    return msg
+        lines.append(" · ".join(meta))
+    return "\n".join(lines)
 
 
-def api_call(token: str, method: str, params: dict, timeout: int = 30):
+def api_call(token: str, method: str, params: dict, timeout: int = 30) -> dict | None:
+    """Return Telegram's JSON payload, or None if the request itself failed."""
     try:
         r = requests.post(API.format(token=token, method=method),
                           data=params, timeout=timeout)
@@ -89,16 +89,32 @@ def api_call(token: str, method: str, params: dict, timeout: int = 30):
         print(f"[error] request failed: {e}", file=sys.stderr)
         return None
     try:
-        payload = r.json()
+        return r.json()
     except ValueError:
         print(f"[error] non-JSON reply: {r.text[:200]}", file=sys.stderr)
         return None
-    if not payload.get("ok"):
-        # description is where Telegram puts the actual reason.
-        print(f"[error] Telegram: {payload.get('description', r.text[:200])}",
-              file=sys.stderr)
-        return None
-    return payload["result"]
+
+
+def send(token: str, chat_id: str, text: str) -> tuple[bool, int | None]:
+    """Returns (ok, retry_after). retry_after is set when Telegram rate-limits."""
+    payload = api_call(token, "sendMessage", {
+        "chat_id": chat_id,
+        "text": text,
+        "parse_mode": "HTML",
+        "disable_web_page_preview": "true",
+    })
+    if payload is None:
+        return False, None
+    if payload.get("ok"):
+        return True, None
+
+    desc = payload.get("description", "unknown error")
+    retry_after = (payload.get("parameters") or {}).get("retry_after")
+    if retry_after:
+        print(f"[warn] rate limited, retry after {retry_after}s", file=sys.stderr)
+        return False, int(retry_after)
+    print(f"[error] Telegram: {desc}", file=sys.stderr)
+    return False, None
 
 
 def get_chat_id(token: str) -> int:
@@ -110,9 +126,13 @@ def get_chat_id(token: str) -> int:
       bots. Commands starting with '/' always get through, which is why the
       instructions say to send /start rather than 'hi'.
     """
-    result = api_call(token, "getUpdates", {})
-    if result is None:
+    payload = api_call(token, "getUpdates", {})
+    if payload is None:
         return 1
+    if not payload.get("ok"):
+        print(f"[error] Telegram: {payload.get('description')}", file=sys.stderr)
+        return 1
+    result = payload["result"]
 
     chats = {}
     for upd in result:
@@ -145,15 +165,17 @@ def get_chat_id(token: str) -> int:
         if any(t == "group" for t, _ in groups.values()):
             print("\nNote: a basic 'group' gets a NEW id if Telegram ever\n"
                   "upgrades it to a supergroup (which happens automatically on\n"
-                  "certain admin changes). If digests stop arriving, re-run\n"
+                  "certain admin changes). If messages stop arriving, re-run\n"
                   "this and update the secret.")
     return 0
 
 
 def send_test(token: str, chat_id: str) -> int:
-    text = ('<b>PIB feed — test</b>\n\nIf you can read this, digests will '
+    text = ('<b>PIB feed — test</b>\n\nIf you can read this, releases will '
             f'arrive here.\n\n<a href="{READER_URL}">Open reader</a>')
-    if send(token, chat_id, text):
+    ok, _ = send(token, chat_id, text)
+    if ok:
+        print("[ok] test message delivered", file=sys.stderr)
         return 0
     print("\nIf Telegram said 'chat not found' or 'bot is not a member', add "
           "the bot to the group first.\nIf it said 'have no rights to send', "
@@ -161,23 +183,14 @@ def send_test(token: str, chat_id: str) -> int:
     return 1
 
 
-def send(token: str, chat_id: str, text: str) -> bool:
-    ok = api_call(token, "sendMessage", {
-        "chat_id": chat_id,
-        "text": text,
-        "parse_mode": "HTML",
-        "disable_web_page_preview": "true",
-    })
-    if ok:
-        print(f"[ok] digest delivered ({len(text)} chars)", file=sys.stderr)
-    return ok is not None
-
-
 def main() -> int:
-    ap = argparse.ArgumentParser(description="Telegram digest of new PIB releases")
+    ap = argparse.ArgumentParser(
+        description="Telegram notifications for new PIB releases")
     ap.add_argument("--state", default="pib_state.json")
-    ap.add_argument("--max", type=int, default=8,
-                    help="releases listed before the digest says '…and N more'")
+    ap.add_argument("--max", type=int, default=20,
+                    help="max messages per run; the rest go out next run")
+    ap.add_argument("--delay", type=float, default=DEFAULT_DELAY,
+                    help="seconds between messages (Telegram rate limits)")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--get-chat-id", action="store_true",
                     help="print chat ids the bot can reach, then exit")
@@ -220,37 +233,76 @@ def main() -> int:
         state["notified"] = [i["prid"] for i in items]
         path.write_text(json.dumps(state, ensure_ascii=False, indent=1),
                         encoding="utf-8")
-        print(f"[init] baseline set at {len(items)} items; no message sent",
+        print(f"[init] baseline set at {len(items)} items; nothing sent",
               file=sys.stderr)
         return 0
 
-    fresh = sorted([i for i in items if i["prid"] not in notified],
-                   key=sort_key, reverse=True)
+    # Oldest first, so the chat reads in the order PIB published.
+    fresh = sorted([i for i in items if i["prid"] not in notified], key=sort_key)
     if not fresh:
-        print("[skip] nothing new since last digest", file=sys.stderr)
+        print("[skip] nothing new since last run", file=sys.stderr)
         return 0
 
-    msg = build_digest(fresh, args.max)
+    batch = fresh[: args.max]
+    deferred = len(fresh) - len(batch)
+    print(f"[info] {len(fresh)} new; sending {len(batch)}"
+          + (f", {deferred} deferred to next run" if deferred else ""),
+          file=sys.stderr)
 
     if args.dry_run:
-        print("--- dry run, message not sent ---")
-        print(msg)
+        print("--- dry run, nothing sent ---")
+        for it in batch:
+            print(build_message(it))
+            print("-" * 40)
         return 0
 
-    if not send(token, chat_id, msg):
-        # The workflow step is continue-on-error so a Telegram outage can't
-        # block feed publication. That would otherwise hide failures behind a
-        # green check, so raise an annotation that shows up on the run summary.
-        print(f"::error title=Telegram delivery failed::"
-              f"{len(fresh)} release(s) not sent; will retry next run")
-        return 1   # state untouched, so the next run retries these items
+    sent = 0
+    consecutive_failures = 0
+    for n, it in enumerate(batch, 1):
+        text = build_message(it)
+        ok, retry_after = send(token, chat_id, text)
 
+        # One retry on rate limit, honouring Telegram's own backoff figure.
+        if not ok and retry_after:
+            time.sleep(retry_after + 1)
+            ok, _ = send(token, chat_id, text)
+
+        if ok:
+            notified.add(it["prid"])
+            sent += 1
+            consecutive_failures = 0
+            print(f"  [{n}/{len(batch)}] {it['prid']} {it['title'][:60]}",
+                  file=sys.stderr)
+        else:
+            consecutive_failures += 1
+            print(f"  [{n}/{len(batch)}] FAILED {it['prid']}", file=sys.stderr)
+            if consecutive_failures >= MAX_CONSECUTIVE_FAILURES:
+                print(f"[abort] {MAX_CONSECUTIVE_FAILURES} consecutive "
+                      "failures; stopping so the rest retry next run",
+                      file=sys.stderr)
+                break
+
+        if n < len(batch):
+            time.sleep(args.delay)
+
+    # Persist whatever actually got through, so successes are never repeated.
     live = set(state.get("items", {}))
-    state["notified"] = sorted((notified | {i["prid"] for i in fresh}) & live)
-    state["notified_at"] = datetime.now(timezone.utc).isoformat()
-    path.write_text(json.dumps(state, ensure_ascii=False, indent=1), encoding="utf-8")
+    state["notified"] = sorted(notified & live)
+    if sent:
+        state["notified_at"] = datetime.now(timezone.utc).isoformat()
+    path.write_text(json.dumps(state, ensure_ascii=False, indent=1),
+                    encoding="utf-8")
 
-    print(f"[done] notified {len(fresh)} release(s)", file=sys.stderr)
+    failed = len(batch) - sent
+    if failed:
+        # The workflow step is continue-on-error so a Telegram outage can't
+        # block feed publication. Raise an annotation so it isn't hidden
+        # behind a green check.
+        print(f"::error title=Telegram delivery incomplete::"
+              f"{sent} sent, {failed} failed; failures retry next run")
+        return 1
+
+    print(f"[done] sent {sent} release(s)", file=sys.stderr)
     return 0
 
 

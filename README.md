@@ -21,7 +21,7 @@ Note that PIB assigns **separate PRIDs to English and Hindi** versions of the sa
 
 - **Web reader:** <https://benbenny141.github.io/pib-rss/> — search across full text, filter by ministry, expand releases inline, share to WhatsApp.
 - **RSS reader:** subscribe to <https://benbenny141.github.io/pib-rss/feed.xml>.
-- **Telegram digest:** optional, see [SETUP.md](SETUP.md#6-telegram-digest-optional).
+- **Telegram:** optional, one message per release — see [SETUP.md](SETUP.md#6-telegram-digest-optional).
 
 ## Install
 
