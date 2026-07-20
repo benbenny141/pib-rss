@@ -58,16 +58,41 @@ Official Telegram Bot API — no third-party bridge, no phone number shared with
 2. Give it a name (display name) and a username (must end in `bot`, e.g. `pib_feed_bot`)
 3. BotFather replies with a token like `8123456789:AAH...`. Treat it like a password.
 
-**Get your chat id.** Bots can't message you until you message them first — Telegram's anti-spam rule.
+**Add the bot to your group.** Group → name at top → **Add members** → search your bot's `@username` → add.
 
-1. Open your new bot in Telegram and send it anything, e.g. `hi`
-2. Then run locally:
+**Get the group's chat id.** Two Telegram behaviours matter here:
+
+- A bot can't see any chat until it receives something from it.
+- In groups, bots run in *privacy mode* by default and **cannot see ordinary messages** — only ones starting with `/`. This is the step people get stuck on: sending "hi" in the group does nothing.
+
+So, in the group, send:
+
+```
+/start
+```
+
+Then run locally:
 
 ```bash
 TELEGRAM_BOT_TOKEN=<your-token> python notify.py --get-chat-id
 ```
 
-It prints something like `Chat ids found:  123456789   (private benbenny)`.
+Output looks like:
+
+```
+  -1002345678901   supergroup  PIB Updates  ← group
+  987654321        private     Ben
+```
+
+Take the negative number — **include the minus sign**.
+
+**Confirm it lands** before wiring up the workflow:
+
+```bash
+TELEGRAM_BOT_TOKEN=<token> TELEGRAM_CHAT_ID=-100... python notify.py --test
+```
+
+A test message should appear in the group. If Telegram says *chat not found* the bot isn't a member; if it says *no rights to send*, the group restricts posting and the bot needs permission.
 
 **Add the secrets.** Repo → **Settings → Secrets and variables → Actions → New repository secret**, twice:
 
@@ -86,7 +111,9 @@ Preview the message without sending:
 python notify.py --dry-run
 ```
 
-**Want it on your phone only, muted at night?** Telegram's per-chat notification settings handle that — the bot chat is a normal chat.
+**Want it muted at night?** Telegram's per-chat notification settings handle that — mute the group and the messages still arrive silently.
+
+**If digests suddenly stop arriving in the group**, check whether the chat id changed. A *basic group* is assigned a new id when Telegram converts it to a *supergroup*, which happens automatically on certain changes (adding an admin, making it public, growing past the member limit). Re-run `--get-chat-id` and update the secret. Groups that already show as `supergroup` above are stable and won't do this.
 
 ## Things that will bite you eventually
 

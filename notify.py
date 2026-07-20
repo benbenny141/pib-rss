@@ -12,14 +12,17 @@ you finish setup.
 
 Setup (needs your own Telegram account):
   1. Message @BotFather, send /newbot, follow the prompts, copy the token.
-  2. Send your new bot any message (say "hi") so it's allowed to reply to you.
+  2. Add the bot to your group, then send "/start" IN the group. A plain
+     message will not work: bots run in privacy mode and only see commands.
   3. Run:  TELEGRAM_BOT_TOKEN=<token> python notify.py --get-chat-id
+     Group ids are negative — keep the minus sign.
   4. Add both as GitHub repo secrets: TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID.
 
 Usage:
     python notify.py --state pib_state.json --max 8
     python notify.py --dry-run          # print the message, send nothing
-    python notify.py --get-chat-id      # look up your chat id
+    python notify.py --get-chat-id      # look up chat ids the bot can reach
+    python notify.py --test             # send a test message to the chat
 """
 
 from __future__ import annotations
@@ -99,27 +102,63 @@ def api_call(token: str, method: str, params: dict, timeout: int = 30):
 
 
 def get_chat_id(token: str) -> int:
-    """Print chat ids from recent updates. The bot only sees messages sent to
-    it after creation, so the user must message it first."""
+    """Print chat ids from recent updates.
+
+    Two things reliably trip people up here:
+    - Bots can't see a chat until someone messages them in it.
+    - In groups, Telegram's default privacy mode hides ordinary messages from
+      bots. Commands starting with '/' always get through, which is why the
+      instructions say to send /start rather than 'hi'.
+    """
     result = api_call(token, "getUpdates", {})
     if result is None:
         return 1
+
     chats = {}
     for upd in result:
-        msg = upd.get("message") or upd.get("channel_post") or {}
+        msg = (upd.get("message") or upd.get("channel_post")
+               or upd.get("my_chat_member") or {})
         chat = msg.get("chat") or {}
         if chat.get("id"):
-            name = chat.get("username") or chat.get("title") or chat.get("first_name", "")
-            chats[chat["id"]] = f"{chat.get('type', '?')} {name}".strip()
+            name = (chat.get("title") or chat.get("username")
+                    or chat.get("first_name", ""))
+            chats[chat["id"]] = (chat.get("type", "?"), name)
+
     if not chats:
-        print("No messages found. Send your bot a message in Telegram first, "
-              "then re-run this.", file=sys.stderr)
+        print("No chats found.\n"
+              "  • Private chat: send your bot any message, then re-run.\n"
+              "  • Group: add the bot to the group, then send '/start' IN the\n"
+              "    group. Plain messages stay hidden from bots by default, so\n"
+              "    a command is required.",
+              file=sys.stderr)
         return 1
-    print("Chat ids found:")
-    for cid, desc in chats.items():
-        print(f"  {cid}   ({desc})")
-    print("\nAdd the id above as the TELEGRAM_CHAT_ID repo secret.")
+
+    groups = {c: v for c, v in chats.items() if v[0] in ("group", "supergroup")}
+    print("Chat ids found:\n")
+    for cid, (ctype, name) in chats.items():
+        tag = "  ← group" if ctype in ("group", "supergroup") else ""
+        print(f"  {cid:<16} {ctype:<11} {name}{tag}")
+
+    print("\nAdd the id you want as the TELEGRAM_CHAT_ID repo secret.")
+    if groups:
+        print("Group ids are negative — include the minus sign.")
+        if any(t == "group" for t, _ in groups.values()):
+            print("\nNote: a basic 'group' gets a NEW id if Telegram ever\n"
+                  "upgrades it to a supergroup (which happens automatically on\n"
+                  "certain admin changes). If digests stop arriving, re-run\n"
+                  "this and update the secret.")
     return 0
+
+
+def send_test(token: str, chat_id: str) -> int:
+    text = ('<b>PIB feed — test</b>\n\nIf you can read this, digests will '
+            f'arrive here.\n\n<a href="{READER_URL}">Open reader</a>')
+    if send(token, chat_id, text):
+        return 0
+    print("\nIf Telegram said 'chat not found' or 'bot is not a member', add "
+          "the bot to the group first.\nIf it said 'have no rights to send', "
+          "give it permission to post in the group settings.", file=sys.stderr)
+    return 1
 
 
 def send(token: str, chat_id: str, text: str) -> bool:
@@ -142,6 +181,8 @@ def main() -> int:
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--get-chat-id", action="store_true",
                     help="print chat ids the bot can reach, then exit")
+    ap.add_argument("--test", action="store_true",
+                    help="send a one-off test message to TELEGRAM_CHAT_ID")
     args = ap.parse_args()
 
     token = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
@@ -152,6 +193,13 @@ def main() -> int:
             print("Set TELEGRAM_BOT_TOKEN first.", file=sys.stderr)
             return 1
         return get_chat_id(token)
+
+    if args.test:
+        if not (token and chat_id):
+            print("Set both TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID first.",
+                  file=sys.stderr)
+            return 1
+        return send_test(token, chat_id)
 
     if not args.dry_run and not (token and chat_id):
         print("[skip] TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set; not sending",
