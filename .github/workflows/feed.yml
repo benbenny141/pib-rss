@@ -60,6 +60,10 @@ jobs:
 
       - name: Telegram digest
         # No-ops when the secrets aren't set, so this is safe before setup.
+        # continue-on-error: publishing the feed must not depend on Telegram
+        # being reachable. A failed send leaves the state ledger untouched, so
+        # the next run retries those releases rather than losing them.
+        continue-on-error: true
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
