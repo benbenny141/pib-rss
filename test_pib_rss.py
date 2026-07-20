@@ -93,7 +93,45 @@ check("relative link absolutised", "https://www.pib.gov.in/PressReleasePage.aspx
 check("relative img absolutised", "https://www.pib.gov.in/images/x.png" in rec["body_html"])
 check("summary non-empty", len(rec["summary"]) > 20, rec["summary"])
 
-print("\n[5] ministry != title guard")
+print("\n[5] Hindi -> English twin resolution (RssMain ignores Lang=1)")
+HINDI = """<html><head>
+<meta property="og:title" content="संसद के मानसून सत्र 2026 की शुरुआत"/></head><body>
+<div class="ReleaseDateSubHeaddateTime">20 JUL 2026 11:11AM by PIB Delhi</div>
+<div id="PdfDiv"><p>स्वागत है भाई आप सबका। यह हिंदी संस्करण है।</p></div>
+<p>Read this release in: <a href="https://pib.gov.in/PressReleasePage.aspx?PRID=2286456">English</a></p>
+</body></html>"""
+ORPHAN = HINDI.replace('<a href="https://pib.gov.in/PressReleasePage.aspx?PRID=2286456">English</a>', '')
+
+def lang_fetch(session, url, params=None, retries=3):
+    if url == P.RELEASE_URL:
+        return {"2286457": HINDI, "2286456": RELEASE, "777": ORPHAN}.get(params["PRID"], "")
+    return ""
+
+check("is_hindi detects Devanagari", P.is_hindi("प्रधानमंत्री") and not P.is_hindi("Prime Minister"))
+P.fetch = lang_fetch
+hop = P.parse_release(FakeSession(), "2286457", {}, want_body=True)
+check("Hindi PRID resolves to English twin", hop and hop["prid"] == "2286456", hop and hop["prid"])
+check("resolved title is English", hop and not P.is_hindi(hop["title"]), hop and hop["title"][:40])
+check("alias recorded for dedup", hop.get("hindi_prid") == "2286457", hop.get("hindi_prid"))
+check("body is English, not Hindi", "monsoon session" in hop["body_html"].lower())
+orphan = P.parse_release(FakeSession(), "777", {}, want_body=False)
+check("Hindi with no twin is dropped", orphan is None, orphan)
+check("no infinite recursion (_hop caps)",
+      P.parse_release(FakeSession(), "2286457", {}, want_body=False, _hop=1) is not None)
+
+print("\n[5b] alias pruning in state")
+import tempfile as _tf
+with _tf.TemporaryDirectory() as td:
+    sp = Path(td) / "s.json"
+    st = {"items": {"100": {"prid": "100", "posted_at": "2026-07-20T10:00:00+05:30", "title": "keep"}},
+          "aliases": {"999": "100", "888": "gone"}}
+    P.save_state(sp, st, max_items=10)
+    al = P.load_state(sp)["aliases"]
+    check("alias to retained item kept", al.get("999") == "100", al)
+    check("alias to dropped item pruned", "888" not in al, al)
+
+print("\n[5c] ministry != title guard")
+P.fetch = fake_fetch("listing")
 rec2 = P.parse_release(FakeSession(), "1", {"ministry_hint": "Ministry of Coal"}, want_body=False)
 check("no body when --no-body", rec2["body_html"] == "")
 
@@ -137,7 +175,11 @@ with tempfile.TemporaryDirectory() as td:
     P.save_state(sp, back, max_items=2)
     check("max_items trims oldest", len(P.load_state(sp)["items"]) == 2)
     (Path(td)/"bad.json").write_text("{ broken")
-    check("corrupt state recovers", P.load_state(Path(td)/"bad.json") == {"items": {}})
+    check("corrupt state recovers",
+          P.load_state(Path(td)/"bad.json") == {"items": {}, "aliases": {}})
+    (Path(td)/"legacy.json").write_text('{"items": {}}')  # pre-alias state file
+    check("legacy state upgrades cleanly",
+          P.load_state(Path(td)/"legacy.json") == {"items": {}, "aliases": {}})
 
 print(f"\n{'FAILED: ' + ', '.join(fails) if fails else 'All checks passed.'}")
 sys.exit(1 if fails else 0)

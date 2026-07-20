@@ -66,6 +66,12 @@ USER_AGENT = (
 
 PRID_RE = re.compile(r"PressRelease(?:Iframe)?Page\.aspx\?PRID=(\d+)", re.I)
 
+# RssMain.aspx ignores Lang=1 and serves Hindi regardless of query params or
+# cookies (allRel.aspx honours it; the RSS endpoint does not). Rather than guess
+# at PIB's session internals, detect Devanagari and hop to the English twin,
+# which every release page links as "Read this release in: English".
+DEVANAGARI_RE = re.compile(r"[ऀ-ॿ]")
+
 # "Posted On: 20 JUL 2026 11:11AM by PIB Delhi"  /  Hindi: "प्रविष्टि तिथि:"
 DATE_RE = re.compile(
     r"(\d{1,2})\s+([A-Za-z]{3,9})\s+(\d{4})\s+(\d{1,2}):(\d{2})\s*([AP]M)", re.I
@@ -305,14 +311,41 @@ def clean_body(node) -> tuple[str, str]:
     return html, text
 
 
+def is_hindi(text: str) -> bool:
+    return bool(DEVANAGARI_RE.search(text or ""))
+
+
+def find_english_twin(soup: BeautifulSoup) -> str | None:
+    """Release pages carry 'Read this release in: <lang>' links. Return the
+    PRID of the English edition, which PIB numbers separately."""
+    for a in soup.find_all("a", href=True):
+        if a.get_text(strip=True).lower() == "english":
+            m = PRID_RE.search(a["href"])
+            if m:
+                return m.group(1)
+    return None
+
+
 def parse_release(session: requests.Session, prid: str, hints: dict,
-                  want_body: bool) -> dict | None:
+                  want_body: bool, _hop: int = 0) -> dict | None:
     html = fetch(session, RELEASE_URL, {"PRID": prid})
     if not html:
         return None
     soup = BeautifulSoup(html, "html.parser")
 
     og = soup.find("meta", property="og:title")
+    probe = (og.get("content", "") if og else "") or _first_text(soup, TITLE_SELECTORS)
+    if _hop == 0 and is_hindi(probe):
+        twin = find_english_twin(soup)
+        if twin and twin != prid:
+            rec = parse_release(session, twin, hints, want_body, _hop=1)
+            if rec:
+                rec["hindi_prid"] = prid   # remembered so we never re-resolve it
+                return rec
+        print(f"[warn] {prid} is Hindi with no English twin; skipping",
+              file=sys.stderr)
+        return None
+
     title = (og.get("content", "").strip() if og else "") \
         or _first_text(soup, TITLE_SELECTORS) \
         or hints.get("title_hint", "") \
@@ -362,19 +395,24 @@ def parse_release(session: requests.Session, prid: str, hints: dict,
 
 def load_state(path: Path) -> dict:
     if not path.exists():
-        return {"items": {}}
+        return {"items": {}, "aliases": {}}
     try:
         data = json.loads(path.read_text(encoding="utf-8"))
         data.setdefault("items", {})
+        data.setdefault("aliases", {})   # hindi_prid -> english_prid
         return data
     except (json.JSONDecodeError, OSError) as e:
         print(f"[warn] state unreadable ({e}); starting fresh", file=sys.stderr)
-        return {"items": {}}
+        return {"items": {}, "aliases": {}}
 
 
 def save_state(path: Path, state: dict, max_items: int) -> None:
     items = sorted(state["items"].values(), key=sort_key, reverse=True)[:max_items]
     state["items"] = {i["prid"]: i for i in items}
+    # Keep only aliases still pointing at a retained item, so this can't grow forever.
+    kept = set(state["items"])
+    state["aliases"] = {h: e for h, e in state.setdefault("aliases", {}).items()
+                        if e in kept}
     state["updated_at"] = datetime.now(timezone.utc).isoformat()
     path.parent.mkdir(parents=True, exist_ok=True)
     tmp = path.with_suffix(path.suffix + ".tmp")
@@ -458,7 +496,9 @@ def main() -> int:
     args = ap.parse_args()
 
     state = load_state(Path(args.state))
-    known = set(state["items"])
+    # Hindi PRIDs already resolved to their English twin count as seen, or we'd
+    # re-fetch and re-resolve all of them on every single run.
+    known = set(state["items"]) | set(state["aliases"])
 
     session = make_session(args.timeout)
     discovered = discover(session)
@@ -474,14 +514,26 @@ def main() -> int:
     for i, d in enumerate(new, 1):
         rec = parse_release(session, d["prid"], d, want_body=not args.no_body)
         if rec:
+            hindi = rec.pop("hindi_prid", None)
+            if hindi:
+                state["aliases"][hindi] = rec["prid"]
             state["items"][rec["prid"]] = rec
             added += 1
-            print(f"  [{i}/{len(new)}] {rec['prid']} {rec['title'][:70]}",
+            note = f" (via hi:{hindi})" if hindi else ""
+            print(f"  [{i}/{len(new)}] {rec['prid']}{note} {rec['title'][:60]}",
                   file=sys.stderr)
         if i < len(new):
             time.sleep(args.delay)
 
-    items = sorted(state["items"].values(), key=sort_key, reverse=True)[: args.max_items]
+    # Last line of defence: nothing non-English reaches subscribers, even if a
+    # future PIB change slips past the twin-resolution step.
+    english = [i for i in state["items"].values() if not is_hindi(i["title"])]
+    dropped = len(state["items"]) - len(english)
+    if dropped:
+        print(f"[warn] filtered {dropped} non-English item(s) from output",
+              file=sys.stderr)
+
+    items = sorted(english, key=sort_key, reverse=True)[: args.max_items]
     out = Path(args.out)
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(build_rss(items, args.self_url), encoding="utf-8")
