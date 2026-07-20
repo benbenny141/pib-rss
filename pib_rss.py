@@ -209,15 +209,47 @@ def discover_from_rss(session: requests.Session) -> list[dict]:
 
 
 def discover(session: requests.Session) -> list[dict]:
-    items = discover_from_listing(session)
-    if items:
-        print(f"[info] listing page: {len(items)} releases", file=sys.stderr)
-        return items
-    print("[warn] listing page yielded nothing; falling back to RssMain.aspx",
+    """Union of both sources, because neither is sufficient alone.
+
+    allRel.aspx shows a single selected date and sits behind aggressive CDN
+    caching — observed serving a nine-day-old page, and separately showing 1
+    release for a day when RssMain listed 20 for that same day. It does give
+    ministry headings, which the RSS lacks.
+
+    RssMain.aspx is fresher but caps at ~20 items and carries no ministry.
+
+    So: merge. Listing entries win on ministry attribution; RSS fills in
+    anything the cached listing missed.
+    """
+    merged: dict[str, dict] = {}
+
+    listing = discover_from_listing(session)
+    for d in listing:
+        merged[d["prid"]] = d
+
+    rss = discover_from_rss(session)
+    rss_only = 0
+    for d in rss:
+        existing = merged.get(d["prid"])
+        if existing:
+            if not existing.get("title_hint"):
+                existing["title_hint"] = d["title_hint"]
+        else:
+            merged[d["prid"]] = d
+            rss_only += 1
+
+    print(f"[info] listing page: {len(listing)} | rss: {len(rss)} "
+          f"(+{rss_only} the listing missed) | union: {len(merged)}",
           file=sys.stderr)
-    items = discover_from_rss(session)
-    print(f"[info] fallback feed: {len(items)} releases", file=sys.stderr)
-    return items
+
+    if listing and rss_only > len(listing):
+        print("::warning::RSS found more than the listing page did — "
+              "allRel.aspx is likely serving a stale cached copy",
+              file=sys.stderr)
+    if not merged:
+        print("[error] both sources empty", file=sys.stderr)
+
+    return list(merged.values())
 
 
 # ------------------------------------------------------------------ extraction

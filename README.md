@@ -58,10 +58,27 @@ launchd (macOS), systemd timer, or a GitHub Action on `schedule:` all work the s
 ## How it works
 
 1. Warms a `requests.Session` against `index.aspx?lang=1&reg=3`, setting `lang`/`reg` cookies. PIB stores language/region server-side per session, which is why passing `Lang=1` alone silently fails.
-2. Scrapes `allRel.aspx` for the day's releases, walking the DOM in order so each release inherits the ministry heading above it.
-3. Falls back to `RssMain.aspx` if the listing parse returns nothing.
+2. Scrapes `allRel.aspx`, walking the DOM in order so each release inherits the ministry heading above it.
+3. **Also** reads `RssMain.aspx` every run and unions the two. Neither source is sufficient alone — see below.
 4. Fetches each new `PressReleasePage.aspx?PRID=…`, pulling title (`og:title` first), ministry, timestamp, PIB bureau, and body — stripping scripts and share widgets, absolutising relative URLs.
 5. Merges into the archive and writes RSS 2.0.
+
+## Why two sources
+
+`allRel.aspx` is aggressively CDN-cached and shows only one selected date. Observed failures:
+
+- Served a page dated **11 Jul** when fetched on **20 Jul** — nine days stale.
+- Listed **1** release for a day when `RssMain.aspx` listed **20** for that same day.
+
+`RssMain.aspx` is fresher but caps at ~20 items and carries no ministry attribution.
+
+So each run queries both and merges on PRID. Listing entries win on ministry; RSS fills whatever the cached listing dropped. The log reports the split:
+
+```
+[info] listing page: 5 | rss: 20 (+17 the listing missed) | union: 22
+```
+
+If RSS is consistently contributing more than the listing, that's `allRel.aspx` being stale, not a parser bug — the script emits a warning saying so.
 
 ## Robustness
 

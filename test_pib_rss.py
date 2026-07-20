@@ -50,17 +50,24 @@ def fake_fetch(kind):
 
 print("\n[1] listing discovery")
 P.fetch = fake_fetch("listing")
-found = P.discover(FakeSession())
+found = P.discover_from_listing(FakeSession())
 check("finds 3 unique PRIDs (dedupes)", len(found) == 3, [f["prid"] for f in found])
 check("PMO ministry attributed", found[0]["ministry_hint"] == "Prime Minister's Office", found[0])
 check("MHA ministry attributed", found[1]["ministry_hint"] == "Ministry of Home Affairs", found[1])
 check("relative + absolute hrefs both parsed",
       {f["prid"] for f in found} == {"2286456", "2286385", "2286352"})
 
-print("\n[2] RSS fallback when listing is empty")
+print("\n[2] two-source union (allRel is cache-flaky; RSS is fresher)")
+P.fetch = fake_fetch("listing")
+u = P.discover(FakeSession())
+check("union = listing + rss-only", len(u) == 4, [x["prid"] for x in u])
+check("rss-only PRID included", "999" in {x["prid"] for x in u})
+check("listing ministry survives merge",
+      next(x for x in u if x["prid"] == "2286456")["ministry_hint"] == "Prime Minister's Office")
+
 P.fetch = fake_fetch("empty")
 fb = P.discover(FakeSession())
-check("falls back to RssMain", len(fb) == 1 and fb[0]["prid"] == "999", fb)
+check("RSS alone carries a stale/empty listing", len(fb) == 1 and fb[0]["prid"] == "999", fb)
 
 print("\n[3] date parsing")
 d = P.parse_posted_at("Posted On: 20 JUL 2026 11:11AM by PIB Delhi")
