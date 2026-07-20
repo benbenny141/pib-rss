@@ -1,0 +1,71 @@
+name: Build PIB feed
+
+on:
+  schedule:
+    # Hourly at :17. GitHub's scheduler is best-effort and often runs late —
+    # avoid :00, which is the most congested slot.
+    - cron: "17 * * * *"
+  workflow_dispatch:        # lets you trigger a run manually from the Actions tab
+
+permissions:
+  contents: write           # needed to commit feed.xml + state back to the repo
+
+concurrency:
+  group: pib-feed
+  cancel-in-progress: false # never interrupt a run mid-write; state must stay consistent
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Generate feed
+        run: |
+          python pib_rss.py \
+            --out docs/feed.xml \
+            --state pib_state.json \
+            --self-url "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/feed.xml" \
+            --max-items 300 \
+            --limit 80 \
+            --delay 1.5
+
+      - name: Sanity-check output
+        run: |
+          python - <<'PY'
+          import sys, xml.etree.ElementTree as ET
+          NS = {"c": "http://purl.org/rss/1.0/modules/content/"}
+          items = ET.parse("docs/feed.xml").getroot().findall("channel/item")
+          if not items:
+              sys.exit("feed.xml has no items — refusing to publish")
+          dated = sum(i.find("pubDate") is not None for i in items)
+          bodied = sum(i.find("c:encoded", NS) is not None for i in items)
+          print(f"{len(items)} items | {dated} with pubDate | {bodied} with full text")
+          # Degraded extraction is a warning, not a failure: a stale-but-valid
+          # feed beats no feed. Check the log if these numbers drift apart.
+          if dated < len(items) * 0.8:
+              print("::warning::under 80% of items have a pubDate — check selectors")
+          if bodied < len(items) * 0.8:
+              print("::warning::under 80% of items have full text — check selectors")
+          PY
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/feed.xml pib_state.json
+          if git diff --staged --quiet; then
+            echo "No new releases; nothing to commit."
+          else
+            git commit -m "Update PIB feed — $(date -u '+%Y-%m-%d %H:%M UTC') [skip ci]"
+            git push
+          fi

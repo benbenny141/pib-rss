@@ -1,0 +1,5 @@
+# Local test runs write here; the published feed lives in docs/feed.xml
+/feed.xml
+__pycache__/
+*.pyc
+.DS_Store
