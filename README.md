@@ -17,6 +17,12 @@ PIB publishes RSS at `RssMain.aspx?ModId=6&Lang=1&Regid=3`, but it's minimal:
 
 Note that PIB assigns **separate PRIDs to English and Hindi** versions of the same release, so pinning the language actually matters — you're not just changing a display setting.
 
+## Reading it
+
+- **Web reader:** <https://benbenny141.github.io/pib-rss/> — search across full text, filter by ministry, expand releases inline, share to WhatsApp.
+- **RSS reader:** subscribe to <https://benbenny141.github.io/pib-rss/feed.xml>.
+- **WhatsApp digest:** optional, see [SETUP.md](SETUP.md#6-whatsapp-digest-optional).
+
 ## Install
 
 ```bash

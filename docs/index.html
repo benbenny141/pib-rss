@@ -3,59 +3,209 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>PIB India — Press Releases (unofficial RSS)</title>
+<title>PIB India — Press Releases</title>
 <link rel="alternate" type="application/rss+xml" title="PIB India — Press Releases" href="feed.xml">
 <style>
-  :root { color-scheme: light dark; }
+  :root {
+    color-scheme: light dark;
+    --bg: #fff; --fg: #16181d; --muted: #5c6370;
+    --line: #e3e6ea; --accent: #0b5cad; --chip: #eef2f7; --card: #fff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14161a; --fg: #e8eaed; --muted: #9aa2af;
+      --line: #2a2e35; --accent: #6aa9e9; --chip: #21262e; --card: #191c21;
+    }
+  }
+  * { box-sizing: border-box; }
   body {
+    margin: 0; background: var(--bg); color: var(--fg);
     font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif;
-    max-width: 42rem; margin: 4rem auto; padding: 0 1.25rem;
   }
-  h1 { font-size: 1.5rem; margin-bottom: .25rem; }
-  .sub { opacity: .7; margin-top: 0; }
-  code {
-    background: color-mix(in srgb, currentColor 10%, transparent);
-    padding: .15em .4em; border-radius: 4px; font-size: .9em;
+  header {
+    position: sticky; top: 0; z-index: 10; background: var(--bg);
+    border-bottom: 1px solid var(--line); padding: 1rem 1.25rem .75rem;
   }
-  .feed {
-    display: inline-block; margin: 1.5rem 0; padding: .7rem 1.1rem;
-    border: 1px solid currentColor; border-radius: 6px;
-    text-decoration: none; font-weight: 600;
+  .wrap { max-width: 52rem; margin: 0 auto; }
+  h1 { font-size: 1.15rem; margin: 0 0 .15rem; }
+  .meta { font-size: .8rem; color: var(--muted); margin: 0 0 .75rem; }
+  .meta a { color: var(--accent); }
+  .controls { display: flex; gap: .5rem; flex-wrap: wrap; }
+  input, select {
+    font: inherit; font-size: .9rem; padding: .45rem .6rem; color: var(--fg);
+    background: var(--card); border: 1px solid var(--line); border-radius: 7px;
   }
-  table { border-collapse: collapse; width: 100%; margin: 1.5rem 0; }
-  th, td { text-align: left; padding: .5rem .6rem; border-bottom: 1px solid rgba(128,128,128,.3); }
-  th { font-weight: 600; }
-  footer { margin-top: 3rem; font-size: .85rem; opacity: .65; }
+  input { flex: 1 1 14rem; min-width: 0; }
+  select { max-width: 100%; }
+  main { padding: 1rem 1.25rem 4rem; }
+  .count { font-size: .8rem; color: var(--muted); margin: .25rem 0 1rem; }
+  article {
+    border: 1px solid var(--line); border-radius: 10px; background: var(--card);
+    padding: .85rem 1rem; margin-bottom: .7rem;
+  }
+  .chips { display: flex; gap: .4rem; flex-wrap: wrap; margin-bottom: .4rem; }
+  .chip {
+    font-size: .72rem; background: var(--chip); color: var(--muted);
+    padding: .15rem .5rem; border-radius: 999px; white-space: nowrap;
+  }
+  .title {
+    font-size: 1rem; font-weight: 600; margin: 0 0 .35rem; cursor: pointer;
+  }
+  .title:hover { color: var(--accent); }
+  .when { font-size: .78rem; color: var(--muted); }
+  .body {
+    display: none; margin-top: .85rem; padding-top: .85rem;
+    border-top: 1px solid var(--line); font-size: .94rem;
+  }
+  article.open .body { display: block; }
+  .body img { max-width: 100%; height: auto; }
+  .body a { color: var(--accent); }
+  .body table { max-width: 100%; overflow-x: auto; display: block; }
+  .actions { margin-top: .6rem; font-size: .82rem; }
+  .actions a { color: var(--accent); text-decoration: none; margin-right: 1rem; }
+  .actions a:hover { text-decoration: underline; }
+  .empty, .loading { color: var(--muted); padding: 2rem 0; text-align: center; }
+  mark { background: #ffe066; color: #16181d; border-radius: 2px; }
 </style>
 </head>
 <body>
 
-<h1>PIB India — Press Releases</h1>
-<p class="sub">Unofficial RSS feed for the Press Information Bureau, Government of India. English, National region, full article text. Rebuilt hourly.</p>
+<header><div class="wrap">
+  <h1>PIB India — Press Releases</h1>
+  <p class="meta">
+    Unofficial feed · English · <span id="built">loading…</span> ·
+    <a href="feed.xml">RSS</a>
+  </p>
+  <div class="controls">
+    <input id="q" type="search" placeholder="Search titles and full text…" autocomplete="off">
+    <select id="ministry"><option value="">All ministries</option></select>
+    <select id="sort">
+      <option value="new">Newest first</option>
+      <option value="old">Oldest first</option>
+    </select>
+  </div>
+</div></header>
 
-<a class="feed" href="feed.xml">Subscribe → feed.xml</a>
+<main><div class="wrap">
+  <div class="count" id="count"></div>
+  <div id="list"><p class="loading">Loading feed…</p></div>
+</div></main>
 
-<p>Paste that URL into any reader (NetNewsWire, Feedly, Inoreader, Thunderbird).</p>
+<script>
+const NS_CONTENT = "http://purl.org/rss/1.0/modules/content/";
+let items = [];
 
-<h2>Why not PIB's own feed?</h2>
-<p>PIB publishes RSS at <code>RssMain.aspx</code>, but it carries titles and links only:</p>
+const esc = s => s.replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 
-<table>
-  <tr><th></th><th>Official</th><th>This feed</th></tr>
-  <tr><td>Publication date</td><td>—</td><td>✓</td></tr>
-  <tr><td>Description</td><td>—</td><td>✓</td></tr>
-  <tr><td>Full article text</td><td>—</td><td>✓</td></tr>
-  <tr><td>Ministry</td><td>—</td><td>✓</td></tr>
-  <tr><td>Items</td><td>~20, today only</td><td>Rolling archive</td></tr>
-  <tr><td>Language</td><td><code>Lang=1</code> silently ignored</td><td>Pinned to English</td></tr>
-</table>
+function highlight(text, term) {
+  if (!term) return esc(text);
+  const re = new RegExp("(" + term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + ")", "ig");
+  return esc(text).replace(re, "<mark>$1</mark>");
+}
 
-<p>That last row matters more than it looks: PIB stores language server-side per session, so requesting English via the URL alone returns Hindi. English and Hindi versions of a release also carry <em>different</em> release IDs.</p>
+function fmtDate(d) {
+  if (!d || isNaN(d)) return "";
+  return d.toLocaleString("en-IN", {
+    day: "numeric", month: "short", year: "numeric",
+    hour: "numeric", minute: "2-digit", timeZone: "Asia/Kolkata"
+  }) + " IST";
+}
 
-<footer>
-  Not affiliated with or endorsed by the Press Information Bureau. Content belongs to
-  <a href="https://www.pib.gov.in">pib.gov.in</a>; this feed only reformats what PIB publishes.
-</footer>
+function parseFeed(xmlText) {
+  const doc = new DOMParser().parseFromString(xmlText, "application/xml");
+  if (doc.querySelector("parsererror")) throw new Error("Feed is not valid XML");
+
+  const built = doc.querySelector("channel > lastBuildDate");
+  document.getElementById("built").textContent =
+    built ? "updated " + fmtDate(new Date(built.textContent)) : "";
+
+  return [...doc.querySelectorAll("item")].map(it => {
+    const cats = [...it.querySelectorAll("category")].map(c => c.textContent);
+    const body = it.getElementsByTagNameNS(NS_CONTENT, "encoded")[0];
+    const pd = it.querySelector("pubDate");
+    return {
+      title: it.querySelector("title")?.textContent || "",
+      link: it.querySelector("link")?.textContent || "",
+      desc: it.querySelector("description")?.textContent || "",
+      html: body ? body.textContent : "",
+      date: pd ? new Date(pd.textContent) : null,
+      // First category is the ministry; a second, if present, is the PIB bureau.
+      ministry: cats[0] || "",
+      bureau: cats[1] || ""
+    };
+  });
+}
+
+function render() {
+  const term = document.getElementById("q").value.trim().toLowerCase();
+  const min = document.getElementById("ministry").value;
+  const desc = document.getElementById("sort").value === "new";
+
+  let shown = items.filter(i => {
+    if (min && i.ministry !== min) return false;
+    if (!term) return true;
+    return (i.title + " " + i.desc + " " + i.html).toLowerCase().includes(term);
+  });
+
+  shown.sort((a, b) => {
+    const av = a.date ? a.date.getTime() : 0, bv = b.date ? b.date.getTime() : 0;
+    return desc ? bv - av : av - bv;
+  });
+
+  document.getElementById("count").textContent =
+    `${shown.length} of ${items.length} release${items.length === 1 ? "" : "s"}`;
+
+  const list = document.getElementById("list");
+  if (!shown.length) {
+    list.innerHTML = '<p class="empty">Nothing matches that filter.</p>';
+    return;
+  }
+
+  list.innerHTML = shown.map((i, n) => `
+    <article data-n="${n}">
+      <div class="chips">
+        ${i.ministry ? `<span class="chip">${esc(i.ministry)}</span>` : ""}
+        ${i.bureau ? `<span class="chip">${esc(i.bureau)}</span>` : ""}
+      </div>
+      <p class="title">${highlight(i.title, term)}</p>
+      <div class="when">${fmtDate(i.date)}</div>
+      <div class="body">
+        ${i.html || "<p>" + esc(i.desc) + "</p>"}
+        <div class="actions">
+          <a href="${esc(i.link)}" target="_blank" rel="noopener">Open on pib.gov.in ↗</a>
+          <a href="#" data-share="${n}">Share to WhatsApp</a>
+        </div>
+      </div>
+    </article>`).join("");
+
+  list.querySelectorAll(".title").forEach(t =>
+    t.onclick = () => t.closest("article").classList.toggle("open"));
+
+  list.querySelectorAll("[data-share]").forEach(a => a.onclick = e => {
+    e.preventDefault();
+    const i = shown[+a.dataset.share];
+    const msg = encodeURIComponent(`${i.title}\n\n${i.link}`);
+    window.open(`https://wa.me/?text=${msg}`, "_blank", "noopener");
+  });
+}
+
+fetch("feed.xml", { cache: "no-store" })
+  .then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.text(); })
+  .then(txt => {
+    items = parseFeed(txt);
+    const ms = [...new Set(items.map(i => i.ministry).filter(Boolean))].sort();
+    const sel = document.getElementById("ministry");
+    ms.forEach(m => sel.add(new Option(m, m)));
+    ["q", "ministry", "sort"].forEach(id =>
+      document.getElementById(id).addEventListener("input", render));
+    render();
+  })
+  .catch(e => {
+    document.getElementById("list").innerHTML =
+      `<p class="empty">Could not load the feed — ${esc(e.message)}.<br>
+       <a href="feed.xml">Open feed.xml directly</a></p>`;
+  });
+</script>
 
 </body>
 </html>

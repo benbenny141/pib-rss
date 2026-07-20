@@ -48,6 +48,33 @@ That count is also the honest version of the `grep` check from earlier: `grep -c
 https://<you>.github.io/pib-rss/feed.xml
 ```
 
+## 6. WhatsApp digest (optional)
+
+Delivery goes through [CallMeBot](https://www.callmebot.com/blog/free-api-whatsapp-messages/), a free bridge that can only message *your own* number — that restriction is how they prevent spam, and it fits this use case exactly.
+
+**Read this before setting it up.** CallMeBot is an unofficial third party. Your phone number gets registered with their service, and every digest passes through their servers. PIB press releases are public government information, so there's nothing sensitive in transit here — that's the main reason this is an acceptable trade. I wouldn't route private content through it. The service is free and run by one person; it can change or disappear without notice, and if it does, the workflow will log an error but keep building the feed normally.
+
+Setup, which only you can do since it involves your WhatsApp:
+
+1. Save **+34 644 51 95 23** to your phone contacts as "CallMeBot".
+2. From WhatsApp, message it exactly: `I allow callmebot to send me messages`
+3. Wait for the reply containing your API key.
+4. In the repo: **Settings → Secrets and variables → Actions → New repository secret**, twice:
+   - `CALLMEBOT_PHONE` — your number with country code, e.g. `+919876543210`
+   - `CALLMEBOT_APIKEY` — the key from step 3
+
+Until both secrets exist, `notify.py` exits quietly and sends nothing, so the workflow is safe to run before you get to this.
+
+**What arrives:** one digest per run, not one message per release — PIB can publish dozens an hour. Up to 8 headlines with ministry and link, then "…and N more", then a link to the reader page.
+
+**The first run after you add the secrets sends nothing.** It records everything currently in the feed as a baseline, so you don't get the entire backlog at once. Digests begin with the next new release.
+
+Test it locally without sending anything:
+
+```bash
+python notify.py --dry-run
+```
+
 ## Things that will bite you eventually
 
 **Scheduled workflows get disabled after 60 days of repo inactivity.** GitHub does this to every repo. This one dodges it by design — each run that finds new releases pushes a commit, which counts as activity. But if PIB goes quiet for two months, or the job breaks silently and stops committing, the schedule switches itself off. If the feed goes stale, check the Actions tab first.
