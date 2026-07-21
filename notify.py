@@ -17,6 +17,8 @@ Setup (needs your own Telegram account):
   3. Run:  TELEGRAM_BOT_TOKEN=<token> python notify.py --get-chat-id
      Group ids are negative — keep the minus sign.
   4. Add both as GitHub repo secrets: TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID.
+     TELEGRAM_CHAT_ID takes several ids, comma-separated, to post to
+     multiple groups. Groups added later are baselined, not backfilled.
 
 Usage:
     python notify.py --state pib_state.json --max 20
@@ -170,6 +172,34 @@ def get_chat_id(token: str) -> int:
     return 0
 
 
+def parse_chats(raw: str) -> list[str]:
+    """TELEGRAM_CHAT_ID accepts one id or several, comma-separated."""
+    seen, out = set(), []
+    for part in raw.replace(";", ",").split(","):
+        c = part.strip()
+        if c and c not in seen:
+            seen.add(c)
+            out.append(c)
+    return out
+
+
+def migrate_ledgers(state: dict, chats: list[str]) -> dict[str, list[str]]:
+    """Delivery used to be one flat 'notified' list, from when there was a
+    single chat. Seed every currently-configured chat from it, so switching to
+    per-chat tracking never replays the archive into an existing group.
+
+    Chats added *later* are absent from the result and get baselined instead.
+    """
+    ledgers = dict(state.get("notified_by_chat") or {})
+    legacy = state.get("notified")
+    if legacy and not ledgers:
+        for c in chats:
+            ledgers[c] = list(legacy)
+        print(f"[migrate] seeded {len(chats)} chat ledger(s) from the previous "
+              f"flat list ({len(legacy)} items)", file=sys.stderr)
+    return ledgers
+
+
 def send_test(token: str, chat_id: str) -> int:
     text = ('<b>PIB feed — test</b>\n\nIf you can read this, releases will '
             f'arrive here.\n\n<a href="{READER_URL}">Open reader</a>')
@@ -199,7 +229,7 @@ def main() -> int:
     args = ap.parse_args()
 
     token = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
-    chat_id = os.environ.get("TELEGRAM_CHAT_ID", "").strip()
+    chats = parse_chats(os.environ.get("TELEGRAM_CHAT_ID", ""))
 
     if args.get_chat_id:
         if not token:
@@ -208,16 +238,22 @@ def main() -> int:
         return get_chat_id(token)
 
     if args.test:
-        if not (token and chat_id):
+        if not (token and chats):
             print("Set both TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID first.",
                   file=sys.stderr)
             return 1
-        return send_test(token, chat_id)
+        rc = 0
+        for c in chats:
+            print(f"[test] {c}", file=sys.stderr)
+            rc |= send_test(token, c)
+        return rc
 
-    if not args.dry_run and not (token and chat_id):
+    if not args.dry_run and not (token and chats):
         print("[skip] TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set; not sending",
               file=sys.stderr)
         return 0
+    if args.dry_run and not chats:
+        chats = ["<dry-run>"]
 
     path = Path(args.state)
     if not path.exists():
@@ -225,84 +261,101 @@ def main() -> int:
         return 0
     state = json.loads(path.read_text(encoding="utf-8"))
 
-    notified = set(state.get("notified", []))
     items = list(state.get("items", {}).values())
+    live = set(state.get("items", {}))
+    ledgers = migrate_ledgers(state, chats)
 
-    # First run: record a baseline silently instead of blasting the backlog.
-    if not notified and items:
-        state["notified"] = [i["prid"] for i in items]
-        path.write_text(json.dumps(state, ensure_ascii=False, indent=1),
-                        encoding="utf-8")
-        print(f"[init] baseline set at {len(items)} items; nothing sent",
+    total_sent = 0
+    total_failed = 0
+
+    for chat in chats:
+        delivered = set(ledgers.get(chat, []))
+
+        # A chat with no ledger is new: baseline it silently rather than
+        # replaying the whole archive into a group that just got added.
+        if chat not in ledgers and items:
+            ledgers[chat] = [i["prid"] for i in items]
+            print(f"[init] {chat}: baseline set at {len(items)} items; "
+                  "nothing sent", file=sys.stderr)
+            continue
+
+        # Oldest first, so the chat reads in the order PIB published.
+        fresh = sorted([i for i in items if i["prid"] not in delivered],
+                       key=sort_key)
+        if not fresh:
+            print(f"[skip] {chat}: nothing new", file=sys.stderr)
+            continue
+
+        batch = fresh[: args.max]
+        deferred = len(fresh) - len(batch)
+        print(f"[info] {chat}: {len(fresh)} new; sending {len(batch)}"
+              + (f", {deferred} deferred to next run" if deferred else ""),
               file=sys.stderr)
-        return 0
 
-    # Oldest first, so the chat reads in the order PIB published.
-    fresh = sorted([i for i in items if i["prid"] not in notified], key=sort_key)
-    if not fresh:
-        print("[skip] nothing new since last run", file=sys.stderr)
-        return 0
+        if args.dry_run:
+            for it in batch:
+                print(build_message(it))
+                print("-" * 40)
+            continue
 
-    batch = fresh[: args.max]
-    deferred = len(fresh) - len(batch)
-    print(f"[info] {len(fresh)} new; sending {len(batch)}"
-          + (f", {deferred} deferred to next run" if deferred else ""),
-          file=sys.stderr)
+        sent = 0
+        consecutive_failures = 0
+        for n, it in enumerate(batch, 1):
+            text = build_message(it)
+            ok, retry_after = send(token, chat, text)
+
+            # One retry on rate limit, honouring Telegram's own backoff figure.
+            if not ok and retry_after:
+                time.sleep(retry_after + 1)
+                ok, _ = send(token, chat, text)
+
+            if ok:
+                delivered.add(it["prid"])
+                sent += 1
+                consecutive_failures = 0
+                print(f"  [{n}/{len(batch)}] {it['prid']} {it['title'][:55]}",
+                      file=sys.stderr)
+            else:
+                consecutive_failures += 1
+                print(f"  [{n}/{len(batch)}] FAILED {it['prid']}",
+                      file=sys.stderr)
+                if consecutive_failures >= MAX_CONSECUTIVE_FAILURES:
+                    print(f"[abort] {chat}: {MAX_CONSECUTIVE_FAILURES} "
+                          "consecutive failures; the rest retry next run",
+                          file=sys.stderr)
+                    break
+
+            if n < len(batch):
+                time.sleep(args.delay)
+
+        # Persist per chat, so one group's outage never resends to another.
+        ledgers[chat] = sorted(delivered & live)
+        total_sent += sent
+        total_failed += len(batch) - sent
 
     if args.dry_run:
         print("--- dry run, nothing sent ---")
-        for it in batch:
-            print(build_message(it))
-            print("-" * 40)
         return 0
 
-    sent = 0
-    consecutive_failures = 0
-    for n, it in enumerate(batch, 1):
-        text = build_message(it)
-        ok, retry_after = send(token, chat_id, text)
-
-        # One retry on rate limit, honouring Telegram's own backoff figure.
-        if not ok and retry_after:
-            time.sleep(retry_after + 1)
-            ok, _ = send(token, chat_id, text)
-
-        if ok:
-            notified.add(it["prid"])
-            sent += 1
-            consecutive_failures = 0
-            print(f"  [{n}/{len(batch)}] {it['prid']} {it['title'][:60]}",
-                  file=sys.stderr)
-        else:
-            consecutive_failures += 1
-            print(f"  [{n}/{len(batch)}] FAILED {it['prid']}", file=sys.stderr)
-            if consecutive_failures >= MAX_CONSECUTIVE_FAILURES:
-                print(f"[abort] {MAX_CONSECUTIVE_FAILURES} consecutive "
-                      "failures; stopping so the rest retry next run",
-                      file=sys.stderr)
-                break
-
-        if n < len(batch):
-            time.sleep(args.delay)
-
-    # Persist whatever actually got through, so successes are never repeated.
-    live = set(state.get("items", {}))
-    state["notified"] = sorted(notified & live)
-    if sent:
+    state["notified_by_chat"] = {c: sorted(set(p) & live)
+                                 for c, p in ledgers.items()}
+    state.pop("notified", None)   # superseded by the per-chat ledgers
+    if total_sent:
         state["notified_at"] = datetime.now(timezone.utc).isoformat()
     path.write_text(json.dumps(state, ensure_ascii=False, indent=1),
                     encoding="utf-8")
 
-    failed = len(batch) - sent
-    if failed:
+    if total_failed:
         # The workflow step is continue-on-error so a Telegram outage can't
         # block feed publication. Raise an annotation so it isn't hidden
         # behind a green check.
         print(f"::error title=Telegram delivery incomplete::"
-              f"{sent} sent, {failed} failed; failures retry next run")
+              f"{total_sent} sent, {total_failed} failed across "
+              f"{len(chats)} chat(s); failures retry next run")
         return 1
 
-    print(f"[done] sent {sent} release(s)", file=sys.stderr)
+    print(f"[done] sent {total_sent} message(s) across {len(chats)} chat(s)",
+          file=sys.stderr)
     return 0
 
 

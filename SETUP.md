@@ -105,7 +105,25 @@ Until both exist, `notify.py` exits quietly and sends nothing, so the workflow i
 
 Messages are spaced 3 seconds apart and capped at 20 per run, because Telegram rate-limits a single group to roughly 20 messages a minute. Anything over the cap goes out on the next hourly run rather than being dropped. If Telegram does return a rate-limit error, the script waits the exact backoff Telegram asks for and retries once.
 
-Delivery is recorded **per release**, so a failure partway through a batch never causes the already-sent ones to repeat.
+Delivery is recorded **per release, per chat**, so a failure partway through a batch never causes the already-sent ones to repeat.
+
+### Posting to more than one group
+
+`TELEGRAM_CHAT_ID` accepts several ids, comma-separated:
+
+```
+-1002345678901,-1009876543210
+```
+
+For each additional group: add the bot to it, send `/start` in it, run `--get-chat-id`, and append the new id to the secret.
+
+**A newly added group is baselined, not backfilled.** It starts receiving from the next new release rather than replaying the archive — the same behaviour as the first group on day one. Each group keeps its own ledger, so if one group is unreachable for a while, the others keep receiving normally and the failed one catches up when it recovers, without duplicating anything.
+
+Verify all configured groups at once:
+
+```bash
+TELEGRAM_BOT_TOKEN=<token> TELEGRAM_CHAT_ID=<id1>,<id2> python notify.py --test
+```
 
 **The first run after you add the secrets sends nothing.** It records the current feed as a baseline so you don't receive the entire backlog at once. Digests start with the next new release.
 
