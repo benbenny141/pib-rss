@@ -5,10 +5,428 @@
 <link>https://www.pib.gov.in/allRel.aspx</link>
 <description>All press releases from the Press Information Bureau, Government of India. Unofficial enriched feed with dates, ministries, and full text.</description>
 <language>en-IN</language>
-<lastBuildDate>Mon, 14 Sep 2026 01:03:40 +0000</lastBuildDate>
+<lastBuildDate>Mon, 14 Sep 2026 06:16:40 +0000</lastBuildDate>
 <generator>pib_rss.py</generator>
 <ttl>30</ttl>
 <atom:link href="https://benbenny141.github.io/pib-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>Data Centres in India Infrastructure for the Digital Age</title>
+<link>https://www.pib.gov.in/PressReleasePage.aspx?PRID=2309950</link>
+<guid isPermaLink="false">pib-release-2309950</guid>
+<pubDate>Mon, 14 Sep 2026 11:05:00 +0530</pubDate>
+<category>PIB Backgrounder</category>
+<dc:creator>PIB Backgrounder</dc:creator>
+<category>PIB Delhi</category>
+<description>PIB Backgrounder
+Data Centres in India Infrastructure for the Digital Age
+Posted On:
+                        14 SEP 2026 11:05AM by PIB Delhi
+Data centres are the invisible engines powering India’s digital life. They support banking, e-Governance and online services every second. As emerging technologies drive rapid data growth, the Government is building a supportive policy ecosystem. Infrastructure status, fiscal incentives and clean energy adoption are strengthening India’s data centre ecosystem.
+Strengthening India's Digital Infrastructure through Data Centres
+India’s
+digital economy
+is…</description>
+<content:encoded><![CDATA[<table width="100%">
+<tr>
+<td style="font-weight: 200; text-align: center">
+                                    PIB Backgrounder
+                                    <div style="height: 30px; width: 100%;">
+</div>
+<div style="font-weight: 200; text-align: center; font-size: 30px;">
+                                          Data Centres in India Infrastructure for the Digital Age
+                                    </div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="font-weight: 200; text-align: center; font-size: 30px;">
+</div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="text-align: center; font-size: 14px;">
+                                          Posted On:
+                        14 SEP 2026 11:05AM by PIB Delhi
+                                    </div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="font-weight: 200; text-align: left; font-size: 16px;">
+<table align="center" border="1" bordercolor="#ccc" cellpadding="5" cellspacing="0" class="MsoTableGrid" style="border-collapse:collapse">
+<tbody>
+<tr>
+<td style="background-color:#d9e2f3; width:467.55pt">
+<p style="margin-left:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><em>Data centres are the invisible engines powering India’s digital life. They support banking, e-Governance and online services every second. As emerging technologies drive rapid data growth, the Government is building a supportive policy ecosystem. Infrastructure status, fiscal incentives and clean energy adoption are strengthening India’s data centre ecosystem.</em></span></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:#4472c4"><strong><span style="color:white">Strengthening India's Digital Infrastructure through Data Centres</span></strong></span></span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">India’s <strong>digital economy</strong> is entering a new phase of rapid growth and technological transformation. <strong>Digitalisation</strong> is reshaping productivity, competitiveness and service delivery across sectors. As digital services expand, they are generating unprecedented demand for <strong>computing capacity, data storage and high-speed connectivity</strong>. Meeting this demand requires infrastructure that can operate continuously, securely and at scale. <strong>Data centres provide this critical foundation, powering the digital services that increasingly drive India’s economy and governance.</strong></span></span></p>
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/image002_20260914105650_471350.jpg" style="height:302px; width:522px"/></span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">A <strong>data centre is a secure facility that houses computing, storage and networking equipment</strong>. It stores, processes, manages and distributes large volumes of digital information. These capabilities support <strong>online banking, e-Governance, digital payments, cloud computing and other emerging technologies</strong>. </span></span></p>
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/0002_20260914105826_8d8d0e.jpg" style="height:124px; width:600px"/></span></span></p>
+<p style="text-align:justify"><span style='font-family:"Times New Roman",Times,serif; font-size:16px'>Modern data centres integrate computing, networking, power, cooling, security and management systems. These systems work continuously to maintain </span><strong>reliable operations, data security and uninterrupted digital services</strong><span style='font-family:"Times New Roman",Times,serif; font-size:16px'>. As India’s digital economy expands, </span><strong>resilient data centres are becoming a strategic infrastructure for innovation, competitiveness and sustained digital growth</strong><span style='font-family:"Times New Roman",Times,serif; font-size:16px'>.</span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:#4472c4"><strong><span style="color:white">Inside a Data Centre: The Technologies Powering Digital Services</span></strong></span></span></span></p>
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/image004_20260914105848_408bd2.png" style="height:392px; width:531px"/></span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">A data centre relies on a <strong>reliable power infrastructure</strong> to ensure uninterrupted operation of critical equipment. Data centre computers can never turn off—not even for a millisecond. <strong>Uninterruptible Power Supplies (UPS)</strong> provide immediate backup during electrical interruptions. Backup generators and electrical distribution systems provide additional resilience during prolonged power disruptions. Continuous operations of this scale requires  <strong>cooling systems</strong> to maintain suitable operating conditions for the computing equipment. <strong>Heating, Ventilation and Air Conditioning (HVAC)</strong> systems regulate temperature and airflow within the facility. Advanced airflow management and liquid cooling further improve thermal efficiency and reliability.</span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The <strong>Information Technology (IT) infrastructure</strong> then performs the core computing functions. <strong>Servers</strong> process information and run digital applications. <strong>Storage systems</strong> securely hold large volumes of data using <strong>Hard Disk Drives (HDDs)</strong> and <strong>Solid-State Drives (SSDs). Security systems protect equipment, networks and data from physical and digital threats.</strong></span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>Networking equipment</strong>, including routers and high-speed switches, enables data exchange within and beyond the facility. <strong>Fiber-optic connections</strong> provide high-speed communication between the data centre and external networks.</span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Finally, <strong>management software</strong> monitors the systems and helps optimize the use of<strong> </strong>computing resources efficiently. <strong>Virtualisation</strong> allows multiple virtual machines to run on one physical server, improving resource use. Imagine taking one large house and dividing it into several separate apartments. Virtualization allows one physical computer to run multiple virtual "mini-computers" inside it, maximizing resource efficiency.<strong> Automation tools</strong> manage workloads, support maintenance and help identify operational problems.</span></span></p>
+<div style="border-bottom:solid windowtext 1.0pt; padding:0cm 0cm 1.0pt 0cm">
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:#4472c4">From Click to Response: How a Data Centre Handles Your Request</span></strong></span></span></p>
+</div>
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/image005_20260914105911_44afd4.png" style="height:337px; width:549px"/></span></span></p>
+<p><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Every digital request begins with a simple action, such as opening an app, checking a bank balance or accessing a document. Behind the instant response, the request travels through a network to a data centre, where multiple systems work together to process it securely and efficiently.</span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The <strong>security layer</strong> first checks the request and protects the system from cyber threats. The <strong>load balancer</strong> then directs the request to an available server, helping distribute the workload efficiently.</span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The <strong>application server</strong> processes the request and determines what information or service is required. If necessary, it uses an <strong>Application Programming Interface (API)</strong> to communicate with other applications or services.</span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The <strong>database server</strong> then retrieves the required information and sends it back to the application server. Once processed, the information travels back through the network and reaches the user’s device.</span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">This entire process can take just <strong>1–2 seconds</strong>, enabling fast and seamless digital services. This interconnected chain<strong>— Connect →</strong><strong> Receive </strong><strong>→</strong><strong> Network </strong><strong>→</strong><strong> Process </strong><strong>→</strong><strong> Store </strong><strong>→</strong><strong> Secure </strong><strong>→</strong><strong> Respond—</strong>allows cloud services, e-governance platforms and Artificial Intelligence (AI) applications to deliver information reliably and at scale. It shows why modern data centres are far more than storage facilities; they are the <strong>digital infrastructure that enables everyday online services</strong>. </span></span></p>
+<table align="center" border="1" bordercolor="#ccc" cellpadding="5" cellspacing="0" class="MsoTableGrid" style="border-collapse:collapse">
+<tbody>
+<tr>
+<td style="background-color:#d9e2f3; width:467.5pt">
+<p style="margin-left:36.0pt; text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><u>In Simple Terms: The Behind-the-Scenes Team</u></strong></span></span></p>
+<ul>
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>Network = </strong>The Corridors &amp; Intercom, the internal hallways that connect the whole team so they can pass information to each other instantly.</span></span></li>
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>Security Layer</strong> = The Security Guard, inspects your request at the entrance for safety. </span></span></li>
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>Load Balancer</strong> = The Traffic Cop, directs incoming digital traffic so no single server gets overwhelmed</span></span></li>
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>Application Server</strong> = The Chef, takes your order, figures out what information or recipe is needed.</span></span></li>
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>API</strong> = The Waiter, acts as a messenger.</span></span></li>
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>Database Server</strong> = The Digital Vault, where details are locked away and retrieved when needed.</span></span></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="text-align:justify"> </p>
+<p><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:#4472c4"><span style="color:white">Status of Data Centers in India </span></span></span></span></p>
+<p style="text-align:justify"><span style='font-family:"Times New Roman",Times,serif; font-size:16px'>India’s data-centre journey has evolved alongside the rapid expansion of e-Governance and digital services. Rising citizen expectations for online services are increasing demand for robust data-centre infrastructure. </span><strong>The National Informatics Centre (NIC) </strong><span style='font-family:"Times New Roman",Times,serif; font-size:16px'>has established state-of-the-art National Data Centres across the country. These include facilities at NIC Headquarters in </span><strong>Delhi, Pune, Hyderabad and Bhubaneswar.</strong><span style='font-family:"Times New Roman",Times,serif; font-size:16px'> NIC has also established </span><strong>37 smaller Data Centres</strong><span style='font-family:"Times New Roman",Times,serif; font-size:16px'> at various State Capitals. These facilities provide reliable digital services to Government institutions at different levels. They support round-the-clock operations, system management and skilled onsite personnel.</span></p>
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/image006_20260914110126_c49cc2.png" style="height:313px; width:293px"/><img src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/image007_20260914110132_96f078.jpg" style="height:313px; width:293px"/></span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">India’s rapidly expanding digital economy is further strengthening demand for secure and reliable data infrastructure. Installed data-centre power capacity stood at around 375 MW in 2020. It has increased to 1.57 GW as of August 2026. The capacity is projected to expand further to nearly <strong>8 GW by 2030</strong>. <span style="background-color:white">Investments of nearly</span></span> <strong><span style="background-color:white"><span style="color:black">USD 70 billion</span></span></strong> <span style="background-color:white"><span style="color:black">are already underway in India’s data centre sector, with an additional</span></span> <strong><span style="background-color:white"><span style="color:black">USD 90 billion</span></span></strong> <span style="background-color:white"><span style="color:black">in announced projects, highlighting the scale of expansion and </span></span><span style="color:black">reflecting strong investor confidence</span>.</span></span></p>
+<p><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:#4472c4"><span style="color:white">Enabling Policy Environment for Data Centres</span></span></span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The Government has strengthened the data-centre ecosystem through targeted policy and fiscal measures. In the <strong>Union Budget 2022–23</strong>, data centres were included in the <strong>Harmonized List of Infrastructure</strong>. This accorded infrastructure status to data centres and facilitated greater access to credit for digital infrastructure. The measure also supported investment and expansion of India’s data-centre capacity.<strong> </strong></span></span></p>
+<table align="center" border="1" bordercolor="#ccc" cellpadding="5" cellspacing="0" class="MsoTableGrid" style="border-collapse:collapse">
+<tbody>
+<tr>
+<td style="background-color:#d9e2f3; width:467.5pt">
+<p style="margin-left:36.0pt; text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>Infrastructure Status</strong> <strong>in Simple Terms</strong></span></span></p>
+<p style="margin-left:0cm; text-align:left"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Giving data centres "Infrastructure Status" treats them like <strong>national highways, airports, and power grids</strong>, granting them access to easier and cheaper long-term loans.</span></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The <strong>Union Budget 2026–27</strong> further introduced a <strong>tax holiday for eligible foreign cloud service providers until 2047</strong>. The incentive applies to global operations using India-based data-centre infrastructure. It covers <strong>Tax Years 2026–27 to 2046–47</strong> for notified foreign companies. These measures strengthen India’s investment environment for data centres and cloud infrastructure.<strong> </strong></span></span></p>
+<table align="center" border="1" bordercolor="#ccc" cellpadding="5" cellspacing="0" class="MsoTableGrid" style="border-collapse:collapse">
+<tbody>
+<tr>
+<td style="background-color:#d9e2f3; width:467.5pt">
+<p style="margin-left:36.0pt; text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><u>Linked Ecosystem Schemes Supporting Data Centre Growth</u></strong></span></span></p>
+<ul>
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The second phase of the <strong>Semicon India Programme (Semicon 2.0)</strong> was approved by the Union Cabinet on 15.07.2026, with an outlay of <strong>₹</strong><strong>1,27,500 crore</strong> under the India Semiconductor Mission (ISM). It aims to holistically build a trusted and resilient semiconductor ecosystem in the country.</span></span></li>
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The <strong>IndiaAI Mission</strong> was approved with a total budget outlay of <strong>₹</strong><strong>10,371.92 crore</strong> to build a comprehensive AI ecosystem in the country. The AI ecosystem being <strong>fostered</strong> under the Mission is a key driver of data centre growth in India.</span></span></li>
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The <strong>Electronics Components Manufacturing Scheme (ECMS)</strong> has also received higher financial support. Its allocation increased from ₹22,000 crore to ₹40,000 crore.</span></span></li>
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">The Government of India has also launched <strong>PLI Scheme 2.0 for IT Hardware </strong>to create a robust domestic manufacturing ecosystem for IT hardware (such as servers), attract large investments, reduce import reliance, and make India a trusted global supply chain </span>hub.</span></span></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:#4472c4"><span style="color:white">Sustaining the Data Centre Sector: Energy and Water Planning </span></span></span></span></p>
+<p style="text-align:justify"><span style='font-family:"Times New Roman",Times,serif; font-size:16px'>Data centre capacity is expanding rapidly, making energy and resource efficiency increasingly important. Data centres require reliable electricity and efficient cooling systems for continuous operations. According to the Central Electricity Authority (CEA), Ministry of Power, demand could reach </span><strong>17 GW by 2031–32</strong><span style='font-family:"Times New Roman",Times,serif; font-size:16px'>. As the sector is expanding, the Government is also promoting cleaner energy and efficient resource use to support sustainable sectoral growth.</span></p>
+<div style="border-bottom:solid windowtext 1.0pt; padding:0cm 0cm 1.0pt 0cm">
+<p><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:#4472c4">Renewable Energy &amp; Clean Power</span></strong></span></span></p>
+</div>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The Government is promoting renewable energy through several key initiatives. These include the Green Energy Open Access Rules, Green Energy Corridor Scheme and National Green Hydrogen Mission. The National Programme on High Efficiency Solar PV Modules and Solar Park Scheme further support clean-energy deployment. These measures improve access to cleaner and more reliable power for energy-intensive digital infrastructure.</span></span></p>
+<div style="border-bottom:solid windowtext 1.0pt; padding:0cm 0cm 1.0pt 0cm">
+<p><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:#4472c4">SHANTI Act &amp; Clean Power</span></strong></span></span></p>
+</div>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white"><span style="color:black">The Sustainable Harnessing and Advancement of Nuclear Energy for Transforming India (SHANTI) Act strengthens the clean-power ecosystem. It supports reliable nuclear power for emerging sectors, including Artificial Intelligence and data centres. The framework also enables future deployment of Small Modular Reactors and Micro Nuclear Reactors. </span></span></span></span></p>
+<div style="border-bottom:solid windowtext 1.0pt; padding:0cm 0cm 1.0pt 0cm">
+<p><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:#4472c4">BIS Standards for Data Centres</span></strong></span></span></p>
+</div>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white"><span style="color:black">The Bureau of Indian Standards (BIS) has developed standards for data-centre efficiency. Its technical committee LITD 31 covers Cloud Computing, Information Technology and Data Centres. BIS has published standards covering Power Usage Effectiveness (PUE) and Carbon Usage Effectiveness (CUE). These standards also address Cooling Efficiency Ratio (CER) and Water Usage Effectiveness (WUE).</span></span></span></span></p>
+<table align="center" border="1" bordercolor="#ccc" cellpadding="5" cellspacing="0" class="MsoTableGrid" style="border-collapse:collapse">
+<tbody>
+<tr>
+<td style="background-color:#d9e2f3; width:467.5pt">
+<p style="margin-left:36.0pt; text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>In Simple Terms</strong></span></span></p>
+<p style="margin-left:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>PUE and WUE</strong> - serve as green mileage ratings to measure how efficiently a facility uses electricity and water.</span></span></p>
+<p style="margin-left:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>CUE </strong>measures how much carbon pollution a data centre produces for every bit of electricity its computers use.</span></span></p>
+<p style="margin-left:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>CER</strong> measures how efficiently the cooling systems (like fans, chilled water pipes, or liquid coolant) remove that heat relative to the electricity they consume.</span></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<div style="border-bottom:solid windowtext 1.0pt; padding:0cm 0cm 1.0pt 0cm">
+<p><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:#4472c4">Energy and Water Efficiency Standards</span></strong></span></span></p>
+</div>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The Bureau of Energy Efficiency (BEE) has notified the Energy Conservation Building Code (ECBC) 2017. It also notified the Energy Conservation and Sustainable Building Code (ECSBC) 2024. These codes prescribe energy-efficiency and water-conservation norms for buildings. They also include provisions relevant to data-centre infrastructure.</span></span></p>
+<div style="border-bottom:solid windowtext 1.0pt; padding:0cm 0cm 1.0pt 0cm">
+<p><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:#4472c4">Advanced Cooling and Water Management</span></strong></span></span></p>
+</div>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Data-centre water requirements depend on the cooling technologies deployed. Groundwater extraction, including for industrial purposes, is regulated under guidelines issued by the Ministry of Jal Shakti. AI infrastructure is driving adoption of advanced cooling technologies in data centres. These include direct-to-chip liquid cooling, adiabatic cooling and immersion cooling. Closed-loop liquid cooling systems are also emerging as resource-efficient solutions.</span></span></p>
+<p><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:#4472c4"><span style="color:white">Way Forward</span></span></span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">India’s data-centre growth reflects a steady policy journey towards a resilient and sovereign digital infrastructure. It is increasingly important for <em>data sovereignty, digital trust, economic competitiveness and technological self-reliance</em>. The expansion of cloud and Artificial Intelligence infrastructure is creating new opportunities for innovation and economic growth. However, this growth also requires responsible governance of data, technology, energy and digital infrastructure. <strong>A technology governance approach can help balance innovation with security, sustainability, accountability and public interes</strong>t. This requires strong standards, robust cybersecurity, responsible data practices and efficient resource management. It also calls for greater domestic capabilities across computing, semiconductors, energy and critical digital infrastructure. As India advances towards <strong>Viksit Bharat by 2047</strong>, data centres can serve as a foundational layer of the digital economy. </span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:#4472c4"><strong><span style="color:white">References:</span></strong></span></span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>Niti Aayog</strong></span></span></p>
+<ul style="margin-left:40px">
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><a href="https://www.nitiforstates.gov.in/public-assets/Policy/policy_files/PNC510C000384.pdf" target="_blank">https://www.nitiforstates.gov.in/public-assets/Policy/policy_files/PNC510C000384.pdf</a></span></span></li>
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><a href="https://nitiforstates.gov.in/policy-viewer?id=PNC510C000384" target="_blank">https://nitiforstates.gov.in/policy-viewer?id=PNC510C000384</a></span></span></li>
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><a href="https://icemf.niti.gov.in/sites/default/files/inline-files/Energy%20and%20AI%20(IEA).pdf" target="_blank">https://icemf.niti.gov.in/sites/default/files/inline-files/Energy%20and%20AI%20(IEA).pdf</a></span></span></li>
+</ul>
+<p style="text-align:justify"><strong>Ministry of Electronics &amp; IT</strong></p>
+<ul style="margin-left:40px">
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><a href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=2298108&amp;reg=3&amp;lang=1" target="_blank">https://www.pib.gov.in/PressReleasePage.aspx?PRID=2298108&amp;reg=3&amp;lang=1</a></span></span></li>
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><a href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=2241783&amp;reg=48&amp;lang=2" target="_blank">https://www.pib.gov.in/PressReleasePage.aspx?PRID=2241783&amp;reg=48&amp;lang=2</a></span></span></li>
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><a href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=2202897&amp;reg=3&amp;lang=1" target="_blank">https://www.pib.gov.in/PressReleasePage.aspx?PRID=2202897&amp;reg=3&amp;lang=1</a></span></span></li>
+</ul>
+<p style="text-align:justify"><strong>Ministry of Finance</strong></p>
+<ul style="margin-left:40px">
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><a href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219981&amp;reg=6&amp;lang=1" target="_blank">https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219981&amp;reg=6&amp;lang=1</a></span></span></li>
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><a href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=1794165&amp;reg=48&amp;lang=2">https://www.pib.gov.in/PressReleasePage.aspx?PRID=1794165&amp;reg=48&amp;lang=2</a></span></span></li>
+</ul>
+<p style="text-align:justify"><strong>Ministry of Communications</strong></p>
+<ul style="margin-left:40px">
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><a href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=1877179&amp;reg=48&amp;lang=2" target="_blank">https://www.pib.gov.in/PressReleasePage.aspx?PRID=1877179&amp;reg=48&amp;lang=2</a></span></span></li>
+</ul>
+<p style="text-align:justify"><strong>Press Information Bureau</strong></p>
+<ul style="margin-left:40px">
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><a href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=2227953&amp;reg=48&amp;lang=2" target="_blank">https://www.pib.gov.in/PressReleasePage.aspx?PRID=2227953&amp;reg=48&amp;lang=2</a></span></span></li>
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><a href="https://static.pib.gov.in/WriteReadData/specificdocs/documents/2022/dec/doc2022128141601.pdf" target="_blank">https://static.pib.gov.in/WriteReadData/specificdocs/documents/2022/dec/doc2022128141601.pdf</a></span></span></li>
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><a href="https://www.pib.gov.in/PressNoteDetails.aspx?NoteId=157352&amp;ModuleId=3&amp;reg=3&amp;lang=3" target="_blank">https://www.pib.gov.in/PressNoteDetails.aspx?NoteId=157352&amp;ModuleId=3&amp;reg=3&amp;lang=3</a></span></span></li>
+</ul>
+<p style="text-align:justify"><strong>Others:</strong></p>
+<ul style="margin-left:40px">
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><a href="https://www.nic.gov.in/service/data-centre/" target="_blank">https://www.nic.gov.in/service/data-centre/</a></span></span></li>
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><a href="https://sathee.iitk.ac.in/sathee-bank-exam/student-corner/ncert-books/class-11/information-practices/chapter-02-emerging-trends/" target="_blank">https://sathee.iitk.ac.in/sathee-bank-exam/student-corner/ncert-books/class-11/information-practices/chapter-02-emerging-trends/</a></span></span></li>
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><a href="https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1784110792.pdf">https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1784110792.pdf</a></span></span></li>
+</ul>
+<p><a href="https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/sep/doc_9859_20260914_10550401.pdf" target="_blank"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Click here to see pdf</span></span></a></p>
+<p><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>PIB Research</strong></span></span></p>
+</div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="font-weight: 100; text-align: left; font-size: 16px;">
+                                          (Release ID: 2309950)
+                                    </div>
+<div style="height: 30px; width: 100%;">
+</div>
+</td>
+</tr>
+<tr>
+<td style="font-weight: 200; text-align: center; font-size: 24px;"></td>
+</tr>
+</table>]]></content:encoded>
+</item>
+<item>
+<title>Prime Minister congratulates Indian Women’s Cricket Team on winning Asia Cup</title>
+<link>https://www.pib.gov.in/PressReleasePage.aspx?PRID=2309934</link>
+<guid isPermaLink="false">pib-release-2309934</guid>
+<pubDate>Mon, 14 Sep 2026 08:45:00 +0530</pubDate>
+<category>Prime Minister's Office</category>
+<dc:creator>Prime Minister's Office</dc:creator>
+<category>PIB Delhi</category>
+<description>Prime Minister's Office
+Prime Minister congratulates Indian Women’s Cricket Team on winning Asia Cup
+Posted On:
+                        14 SEP 2026 8:45AM by PIB Delhi
+The Prime Minister, Shri Narendra Modi, has congratulated the Indian Women’s Cricket Team on winning the Asia Cup.
+The Prime Minister said that the team’s confidence, consistency and remarkable spirit were on full display throughout the tournament.
+Shri Modi expressed hope that this triumph would inspire millions of youngsters across the country to play more and shine.
+In a post on X, Shri Modi said;
+“A proud moment for Indian…</description>
+<content:encoded><![CDATA[<table width="100%">
+<tr>
+<td style="font-weight: 200; text-align: center">
+                                    Prime Minister's Office
+                                    <div style="height: 30px; width: 100%;">
+</div>
+<div style="font-weight: 200; text-align: center; font-size: 30px;">
+                                          Prime Minister congratulates Indian Women’s Cricket Team on winning Asia Cup
+                                    </div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="font-weight: 200; text-align: center; font-size: 30px;">
+</div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="text-align: center; font-size: 14px;">
+                                          Posted On:
+                        14 SEP 2026 8:45AM by PIB Delhi
+                                    </div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="font-weight: 200; text-align: left; font-size: 16px;">
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The Prime Minister, Shri Narendra Modi, has congratulated the Indian Women’s Cricket Team on winning the Asia Cup.</span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The Prime Minister said that the team’s confidence, consistency and remarkable spirit were on full display throughout the tournament.</span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Shri Modi expressed hope that this triumph would inspire millions of youngsters across the country to play more and shine.</span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">In a post on X, Shri Modi said;</span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">“A proud moment for Indian cricket!</span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Congratulations to the Women’s team on winning the Asia Cup. Their confidence, consistency and remarkable spirit were on full display throughout the tournament.</span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">May this triumph inspire millions of youngsters across the country to play more and shine.”<br/>
+<br/>
+<center><blockquote class="twitter-tweet"><p dir="ltr" lang="en">A proud moment for Indian cricket!<br/><br/>Congratulations to the Women’s team on winning the Asia Cup. Their confidence, consistency and remarkable spirit were on full display throughout the tournament.<br/><br/>May this triumph inspire millions of youngsters across the country to play more…</p>— Narendra Modi (@narendramodi) <a href="https://x.com/narendramodi/status/2099324829023588599?ref_src=twsrc%5Etfw">September 14, 2026</a></blockquote> </center>
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">*****</span></span></p>
+<p style="text-align:justify"><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">MJPS/SS/ST</span></span></strong></p>
+</span></span></p></div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="font-weight: 100; text-align: left; font-size: 16px;">
+                                          (Release ID: 2309934)
+                                    </div>
+<div style="height: 30px; width: 100%;">
+</div>
+</td>
+</tr>
+<tr>
+<td style="font-weight: 200; text-align: center; font-size: 24px;"></td>
+</tr>
+</table>]]></content:encoded>
+</item>
+<item>
+<title>Prime Minister shares Sanskrit Subhashitam on Ganesh Chaturthi, seeks blessings of Lord Ganesha</title>
+<link>https://www.pib.gov.in/PressReleasePage.aspx?PRID=2309933</link>
+<guid isPermaLink="false">pib-release-2309933</guid>
+<pubDate>Mon, 14 Sep 2026 08:41:00 +0530</pubDate>
+<category>Prime Minister's Office</category>
+<dc:creator>Prime Minister's Office</dc:creator>
+<category>PIB Delhi</category>
+<description>Prime Minister's Office
+Prime Minister shares Sanskrit Subhashitam on Ganesh Chaturthi, seeks blessings of Lord Ganesha
+Posted On:
+                        14 SEP 2026 8:41AM by PIB Delhi
+The Prime Minister, Shri Narendra Modi has extended his heartfelt greetings to all citizens on the auspicious occasion of Ganesh Chaturthi. He expressed the hope that the sacred festival of worshipping and seeking the blessings of Vighnaharta, Lord Ganesha, would infuse everyone’s lives with new energy and enthusiasm. Shri Modi prayed that, with the divine blessings of Lord Ganesha, everyone’s efforts would…</description>
+<content:encoded><![CDATA[<table width="100%">
+<tr>
+<td style="font-weight: 200; text-align: center">
+                                    Prime Minister's Office
+                                    <div style="height: 30px; width: 100%;">
+</div>
+<div style="font-weight: 200; text-align: center; font-size: 30px;">
+                                          Prime Minister shares Sanskrit Subhashitam on Ganesh Chaturthi, seeks blessings of Lord Ganesha
+                                    </div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="font-weight: 200; text-align: center; font-size: 30px;">
+</div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="text-align: center; font-size: 14px;">
+                                          Posted On:
+                        14 SEP 2026 8:41AM by PIB Delhi
+                                    </div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="font-weight: 200; text-align: left; font-size: 16px;">
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The Prime Minister, Shri Narendra Modi has extended his heartfelt greetings to all citizens on the auspicious occasion of Ganesh Chaturthi. He expressed the hope that the sacred festival of worshipping and seeking the blessings of Vighnaharta, Lord Ganesha, would infuse everyone’s lives with new energy and enthusiasm. Shri Modi prayed that, with the divine blessings of Lord Ganesha, everyone’s efforts would succeed and the nation would continue to progress on the path of development.<br/>
+<br/>
+The Prime Minister shared a Sanskrit Subhashitam-<br/>
+<br/>
+“मुदाकरात्तमोदकं सदा विमुक्तिसाधकं<br/>
+कलाधरावतंसकं विलासिलोकरक्षकम्।<br/>
+<br/>
+अनायकैकनायकं विनाशितेभदैत्यकं<br/>
+नताशुभाशुनाशकं नमामि तं विनायकम्॥”<br/>
+<br/>
+The Subhashitam conveys that I bow to Lord Shri Vinayaka, whose sacred hands are adorned with modakas; who forever guides seekers on the path of liberation; who wears the crescent moon as an ornament upon his forehead; who is the protector of the entire universe and the sole supreme lord of the cosmos; who vanquished the demon Gajasura and who swiftly frees his devotees from all sorrows and afflictions.<br/>
+<br/>
+The Prime Minister wrote on X;<br/>
+<br/>
+“देशवासियों को गणेश चतुर्थी की अनंत शुभकामनाएं। विघ्नहर्ता के दर्शन और पूजन का यह पावन पर्व सबके जीवन में नई ऊर्जा और नए उत्साह का संचार करे। उनके दिव्य आशीर्वाद से सभी के प्रयास सफल हों और राष्ट्र निरंतर प्रगति के पथ पर आगे बढ़ता रहे, यही कामना है। गणपति बाप्पा मोरया!<br/>
+<br/>
+मुदाकरात्तमोदकं सदा विमुक्तिसाधकं<br/>
+कलाधरावतंसकं विलासिलोकरक्षकम्।<br/>
+<br/>
+अनायकैकनायकं विनाशितेभदैत्यकं<br/>
+नताशुभाशुनाशकं नमामि तं विनायकम्॥”<br/>
+<br/>
+<center><blockquote class="twitter-tweet"><p dir="ltr" lang="hi">देशवासियों को गणेश चतुर्थी की अनंत शुभकामनाएं। विघ्नहर्ता के दर्शन और पूजन का यह पावन पर्व सबके जीवन में नई ऊर्जा और नए उत्साह का संचार करे। उनके दिव्य आशीर्वाद से सभी के प्रयास सफल हों और राष्ट्र निरंतर प्रगति के पथ पर आगे बढ़ता रहे, यही कामना है। गणपति बाप्पा मोरया!… <a href="https://t.co/5biHnkWHJ4">pic.twitter.com/5biHnkWHJ4</a></p>— Narendra Modi (@narendramodi) <a href="https://x.com/narendramodi/status/2099317300784775242?ref_src=twsrc%5Etfw">September 14, 2026</a></blockquote> </center>
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">******</span></span></p>
+<p style="text-align:justify"><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">MJPS/SS/ST</span></span></strong></p>
+</span></span></p></div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="font-weight: 100; text-align: left; font-size: 16px;">
+                                          (Release ID: 2309933)
+                                    </div>
+<div style="height: 30px; width: 100%;">
+</div>
+</td>
+</tr>
+<tr>
+<td style="font-weight: 200; text-align: center; font-size: 24px;"></td>
+</tr>
+</table>]]></content:encoded>
+</item>
+<item>
+<title>Shri Bhupender Yadav reviews progress of Great Indian Bustard Conservation, Grassland Restoration and Project Cheetah at Bhuj; Releases Gujarat Action Plan for GIB Conservation</title>
+<link>https://www.pib.gov.in/PressReleasePage.aspx?PRID=2309882</link>
+<guid isPermaLink="false">pib-release-2309882</guid>
+<pubDate>Sun, 13 Sep 2026 20:51:00 +0530</pubDate>
+<category>Ministry of Environment, Forest and Climate Change</category>
+<dc:creator>Ministry of Environment, Forest and Climate Change</dc:creator>
+<category>PIB Delhi</category>
+<description>Ministry of Environment, Forest and Climate Change
+Shri Bhupender Yadav reviews progress of Great Indian Bustard Conservation, Grassland Restoration and Project Cheetah at Bhuj; Releases Gujarat Action Plan for GIB Conservation
+Conservation succeeds when we Restore Whole Landscapes, Not Isolated Species: Union Environment Minister
+Posted On:
+                        13 SEP 2026 8:51PM by PIB Delhi
+Union Minister for Environment, Forest and Climate Change, Shri Bhupender Yadav, today chaired a Review Meeting of Flagship Programmes at Bhuj, Kachchh (Gujarat), covering the conservation status of…</description>
+<content:encoded><![CDATA[<table width="100%">
+<tr>
+<td style="font-weight: 200; text-align: center">
+                                    Ministry of Environment, Forest and Climate Change
+                                    <div style="height: 30px; width: 100%;">
+</div>
+<div style="font-weight: 200; text-align: center; font-size: 30px;">
+                                          Shri Bhupender Yadav reviews progress of Great Indian Bustard Conservation, Grassland Restoration and Project Cheetah at Bhuj; Releases Gujarat Action Plan for GIB Conservation
+                                    </div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="font-weight: 200; text-align: center; font-size: 30px;">
+<div style="height:30px;width:100%;"></div>Conservation succeeds when we Restore Whole Landscapes, Not Isolated Species: Union Environment Minister
+                                    </div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="text-align: center; font-size: 14px;">
+                                          Posted On:
+                        13 SEP 2026 8:51PM by PIB Delhi
+                                    </div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="font-weight: 200; text-align: left; font-size: 16px;">
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Union Minister for Environment, Forest and Climate Change, Shri Bhupender Yadav, today chaired a Review Meeting of Flagship Programmes at Bhuj, Kachchh (Gujarat), covering the conservation status of the Great Indian Bustard, grassland restoration and Project Cheetah. The Review Meeting was also attended by Shri Arjun Modhwadia, Cabinet Minister for Forest and Environment, Climate Change and Science &amp; Technology, Government of Gujarat. Senior officials of the Union Ministry of Environment, Forest and Climate Change, the Gujarat Forest Department, the Wildlife Institute of India and the National Tiger Conservation Authority were also present.</span></span></p>
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/image001_20260913205229_c6f13a.jpg" style="height:332px; width:672px"/></span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">On the occasion, the Union Minister emphasised that conservation must move beyond individual species to the restoration of entire landscapes, combining scientific management, habitat restoration and community participation, and said India is working towards becoming a global benchmark in landscape-level conservation.</span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Shri Yadav highlighted renewed efforts to conserve the Critically Endangered <strong>Great Indian Bustard (GIB)</strong> in Gujarat, where, he noted, Kachchh supports an important but small and isolated population. Releasing the Gujarat Action Plan for GIB Conservation, prepared by the Wildlife Institute of India in collaboration with the Gujarat Forest Department, the Minister said it provides a science-based roadmap to establish a minimum viable population of over 30 birds and secure 200–500 sq. km. of safe, contiguous habitat. He added that the immediate focus is on the approximately 200 sq. km. Lala–Rawa landscape, with interventions including habitat restoration, grazing management, invasive species removal, predator management and mitigation of infrastructure-related threats.</span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Shri Yadav informed that significant on-ground action has already been undertaken to secure this population. He noted that in Naliya, around 11 sq. km. of grassland infested with the invasive Prosopis juliflora has been restored, and the enclosure secured with 30 km of predator-proof fencing covering 15 sq. km., alongside targeted management of nest predators. Shri Yadav further emphasised that GIB conservation is ultimately the conservation of Kachchh's open natural ecosystems, which, he said, also support the lesser florican, chinkara, desert cats, raptors, vultures and other specialised wildlife.</span></span></p>
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/image002_20260913205243_7518e6.jpg" style="height:336px; width:672px"/></span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Referring to a pioneering ‘jump-start’ intervention, in which infertile eggs laid by wild GIB females were replaced with viable eggs from the conservation breeding programme, the Minister said the resulting chick from the second such attempt has survived beyond the critical first three months in the wild – a landmark result for the species' recovery in Gujarat. He further stated that a GIB Soft Release Centre has been developed near Naliya, which will house and acclimatise captive-bred birds from Rajasthan ahead of their eventual release, once appropriate protocols and habitat conditions are in place.</span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">On <strong>Grassland Restoration</strong>, Shri Yadav underlined the ecological importance of grasslands, which, he said, cover nearly 24% of India's land area but remain among the country's most degraded and under-conserved ecosystems. He informed that a proposed five-year national assessment, in collaboration with the Wildlife Institute of India, ICFRE and the Forest Survey of India, with National CAMPA support, would provide a scientific basis for developing a national framework for grassland management, focusing on mapping, ecological assessment, restoration and improved management of Open Natural Ecosystems, including Gujarat's Banni Grassland.</span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Reviewing <strong>Project Cheetah</strong>, the Minister noted that India has established a growing population from 29 founder cheetahs, with the population now reaching 52 individuals, including 49 cubs born in India. He observed that the cub survival rate in Kuno, at around 68%, significantly demonstrates the potential for successful population establishment under appropriate ecological conditions. Shri Yadav further noted that the protected habitat for cheetahs has expanded to 3,428 sq. km. through the integrated management of Kuno National Park and Gandhi Sagar, and that Banni Grasslands in Gujarat and Nauradehi Wildlife Sanctuary in Madhya Pradesh have been identified as future release sites. The Minister said the programme is increasingly moving towards landscape-level management, ensuring adequate habitat, prey base and ecological connectivity for the long-term recovery of the species.</span></span></p>
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/image003_20260913205256_71f935.jpg" style="height:379px; width:672px"/></span></span></p>
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">*****</span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>VM</strong></span></span></p>
+</div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="font-weight: 100; text-align: left; font-size: 16px;">
+                                          (Release ID: 2309882)
+                                    </div>
+<div style="height: 30px; width: 100%;">
+</div>
+</td>
+</tr>
+<tr>
+<td style="font-weight: 200; text-align: center; font-size: 24px;"></td>
+</tr>
+</table>]]></content:encoded>
+</item>
 <item>
 <title>Prime Minister congratulates Indian Junior Men’s Hockey Team on winning Asia Cup</title>
 <link>https://www.pib.gov.in/PressReleasePage.aspx?PRID=2309880</link>
@@ -23936,256 +24354,6 @@ The ECLGS 5.0 provides targeted credit guarantee support to businesses affected 
 </div>
 <div style="font-weight: 100; text-align: left; font-size: 16px;">
                                           (Release ID: 2306876)
-                                    </div>
-<div style="height: 30px; width: 100%;">
-</div>
-</td>
-</tr>
-<tr>
-<td style="font-weight: 200; text-align: center; font-size: 24px;"></td>
-</tr>
-</table>]]></content:encoded>
-</item>
-<item>
-<title>Union Home Minister and Minister of Cooperation Shri Amit Shah extend warm greetings to the people of the country on the auspicious occasion of ‘Shri Krishna Janmashtami’</title>
-<link>https://www.pib.gov.in/PressReleasePage.aspx?PRID=2306830</link>
-<guid isPermaLink="false">pib-release-2306830</guid>
-<pubDate>Fri, 04 Sep 2026 20:54:00 +0530</pubDate>
-<category>Ministry of Home Affairs</category>
-<dc:creator>Ministry of Home Affairs</dc:creator>
-<category>PIB Delhi</category>
-<description>Ministry of Home Affairs
-Union Home Minister and Minister of Cooperation Shri Amit Shah extend warm greetings to the people of the country on the auspicious occasion of ‘Shri Krishna Janmashtami’
-On the occasion of ‘Shri Krishna Janmashtami’, Home Minister offered prayers to Lord Shri Krishna at the Birla Mandir in New Delhi; prayed for the happiness, peace, and prosperity of all citizens
-The entire nation is celebrating the auspicious festival of ‘Shri Krishna Janmashtami’ with reverence, devotion, and great enthusiasm
-May Yogeshwar Lord Shri Krishna—the embodiment of righteousness, ethics,…</description>
-<content:encoded><![CDATA[<table width="100%">
-<tr>
-<td style="font-weight: 200; text-align: center">
-                                    Ministry of Home Affairs
-                                    <div style="height: 30px; width: 100%;">
-</div>
-<div style="font-weight: 200; text-align: center; font-size: 30px;">
-                                          Union Home Minister and Minister of Cooperation Shri Amit Shah extend warm greetings to the people of the country on the auspicious occasion of ‘Shri Krishna Janmashtami’
-                                    </div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="font-weight: 200; text-align: center; font-size: 30px;">
-<div style="height:30px;width:100%;"></div>On the occasion of ‘Shri Krishna Janmashtami’, Home Minister offered prayers to Lord Shri Krishna at the Birla Mandir in New Delhi; prayed for the happiness, peace, and prosperity of all citizens<div style="height:30px;width:100%;"></div><div style="height:30px;width:100%;"></div>The entire nation is celebrating the auspicious festival of ‘Shri Krishna Janmashtami’ with reverence, devotion, and great enthusiasm<div style="height:30px;width:100%;"></div><div style="height:30px;width:100%;"></div>May Yogeshwar Lord Shri Krishna—the embodiment of righteousness, ethics, and public welfare—bestow His blessings upon everyone
-                                    </div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="text-align: center; font-size: 14px;">
-                                          Posted On:
-                        04 SEP 2026 8:54PM by PIB Delhi
-                                    </div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="font-weight: 200; text-align: left; font-size: 16px;">
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Union Home Minister and Minister of Cooperation Shri Amit Shah extended his heartfelt greetings to the people of the country today on the auspicious occasion of ‘Shri Krishna Janmashtami’. On this occasion, the Home Minister visited the Birla Mandir in New Delhi to offer prayers to Lord Shri Krishna and prayed for the happiness, peace, and prosperity of all citizens.</span></span></p>
-<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img alt="003.jpg.jpeg" src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/image001_20260904205559_632510.jpg" style="height:472px; width:624px"/></span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Union Home Minister Shri Amit Shah posted on X, “Heartfelt greetings to all countrymen on the sacred festival of ‘Shri Krishna Janmashtami’. May Yogeshwar Lord Shri Krishna, the embodiment of righteousness, ethics, and public welfare bestow His blessings upon everyone. Jai Shri Krishna.”</span></span></p>
-<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img alt="CR3_0105.JPG.jpeg" src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/image002_20260904205606_64d94f.jpg" style="height:765px; width:624px"/></span></span></p>
-<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img alt="HWP_0305.JPG.jpeg" src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/image003_20260904205619_32a11b.jpg" style="height:507px; width:624px"/></span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">In another post on X, the Home Minister said, “Jai Shri Krishna! The entire nation is celebrating the holy festival of ‘Shri Krishna Janmashtami’ with reverence, devotion, and great enthusiasm. On this auspicious occasion today, I offered prayers to Lord Shri Krishna at the Birla Mandir in New Delhi and prayed for the happiness, peace, and prosperity of all the countrymen.”</span></span></p>
-<center><blockquote class="twitter-tweet"><p dir="ltr" lang="hi">समस्त देशवासियों को ‘श्रीकृष्ण जन्माष्टमी’ के पावन पर्व की हार्दिक शुभकामनाएं।<br/><br/>धर्म, नीति और लोककल्याण के प्रतीक योगेश्वर भगवान श्रीकृष्ण सभी पर अपनी कृपा बनाए रखें।<br/><br/>जय श्री कृष्ण 🙏 <a href="https://t.co/g6BZLzB5tB">pic.twitter.com/g6BZLzB5tB</a></p>— Amit Shah (@AmitShah) <a href="https://x.com/AmitShah/status/2095701452719276505?ref_src=twsrc%5Etfw">September 4, 2026</a></blockquote> 
-<blockquote class="twitter-tweet"><p dir="ltr" lang="hi">जय श्री कृष्ण!<br/><br/>पूरा देश 'श्रीकृष्ण जन्माष्टमी' का पावन पर्व श्रद्धा, भक्ति और हर्षोल्लास के साथ मना रहा है। आज इस शुभ अवसर पर नई दिल्ली के बिरला मंदिर में भगवान श्री कृष्ण के दर्शन-पूजन कर समस्त देशवासियों की सुख, शांति और उन्नति की कामना की। <a href="https://t.co/0A7BuPYXHh">pic.twitter.com/0A7BuPYXHh</a></p>— Amit Shah (@AmitShah) <a href="https://x.com/AmitShah/status/2095869689201328275?ref_src=twsrc%5Etfw">September 4, 2026</a></blockquote> </center>
-<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>****</strong></span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>RK/RR/PR/PS</strong></span></span></p>
-</div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="font-weight: 100; text-align: left; font-size: 16px;">
-                                          (Release ID: 2306830)
-                                    </div>
-<div style="height: 30px; width: 100%;">
-</div>
-</td>
-</tr>
-<tr>
-<td style="font-weight: 200; text-align: center; font-size: 24px;"></td>
-</tr>
-</table>]]></content:encoded>
-</item>
-<item>
-<title>Union Minister Jyotiraditya Scindia Attends the Northeast Students’ Fest in Delhi</title>
-<link>https://www.pib.gov.in/PressReleasePage.aspx?PRID=2306826</link>
-<guid isPermaLink="false">pib-release-2306826</guid>
-<pubDate>Fri, 04 Sep 2026 20:51:00 +0530</pubDate>
-<category>Ministry of Development of North-East Region</category>
-<dc:creator>Ministry of Development of North-East Region</dc:creator>
-<category>PIB Delhi</category>
-<description>Ministry of Development of North-East Region
-Union Minister Jyotiraditya Scindia Attends the Northeast Students’ Fest in Delhi
-Northeast youth will build the foundation of Viksit Bharat 2047: Scindia
-Scindia stands in solidarity with victims of Nepal floods; leads gathering in observing  two-minute silence
-Posted On:
-                        04 SEP 2026 8:51PM by PIB Delhi
-Union Minister for Communications and Development of North Eastern Region, Jyotiraditya M. Scindia, today attended the 9th edition of the Northeast Students’ Fest in Talkatora Stadium, New Delhi, and interacted with…</description>
-<content:encoded><![CDATA[<table width="100%">
-<tr>
-<td style="font-weight: 200; text-align: center">
-                                    Ministry of Development of North-East Region
-                                    <div style="height: 30px; width: 100%;">
-</div>
-<div style="font-weight: 200; text-align: center; font-size: 30px;">
-                                          Union Minister Jyotiraditya Scindia Attends the Northeast Students’ Fest in Delhi
-                                    </div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="font-weight: 200; text-align: center; font-size: 30px;">
-<div style="height:30px;width:100%;"></div>Northeast youth will build the foundation of Viksit Bharat 2047: Scindia<div style="height:30px;width:100%;"></div><div style="height:30px;width:100%;"></div>Scindia stands in solidarity with victims of Nepal floods; leads gathering in observing  two-minute silence
-                                    </div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="text-align: center; font-size: 14px;">
-                                          Posted On:
-                        04 SEP 2026 8:51PM by PIB Delhi
-                                    </div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="font-weight: 200; text-align: left; font-size: 16px;">
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Union Minister for Communications and Development of North Eastern Region, Jyotiraditya M. Scindia, today attended the 9th edition of the Northeast Students’ Fest in Talkatora Stadium, New Delhi, and interacted with students and young people from across the Northeastern states.</span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">At the event, Shri Scindia expressed his solidarity with the people of Nepal in the wake of the devastating floods in the country. He asked everyone in the audience to stand up and observe two-minute silence in memory of the victims of the floods and prayed for those who lost their lives and expressed his condolences to their families.</span></span></p>
-<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img id="Picture_x0020_1" src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/image001_20260904205231_23f2d2.jpg" style="height:400px; width:600px"/></span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Addressing the gathering, Scindia said that the Northeast Students’ Fest is a celebration of the region’s vibrant culture, creativity and youth. He highlighted the role of My Home India in fostering national integration, social harmony and youth empowerment over the past 21 years. Recalling how the initiative began as a “Home Away from Home” for students from the Northeast, Scindia said it has today evolved into a national platform where young Indians celebrate both the diversity that makes them unique and the shared bonds that unite them.</span></span></p>
-<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img id="Picture_x0020_2" src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/image002_20260904205252_2decb3.jpg" style="height:400px; width:600px"/></span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Drawing an analogy with India’s rivers, Scindia said that the Ganga, Yamuna, Saraswati and Brahmaputra emerge from different terrains and flow through distinct landscapes, yet eventually come together as one powerful force without losing their individual identities.</span></span></p>
-<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img id="Picture_x0020_5" src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/image003_20260904205304_0ef5c1.jpg" style="height:400px; width:600px"/></span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Calling the youth the real growth engine of the Northeast and builders of Viksit Bharat, Union minister Scindia highlighted the achievements of young talent from the region across sports, music, education, technology and innovation. He cited the achievements of Mirabai Chanu and Lovlina Borgohain as examples of the immense talent emerging from the region.</span></span></p>
-<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img id="Picture_x0020_4" src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/image004_20260904205320_bcb0d4.jpg" style="height:400px; width:600px"/></span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Union minister Scindia also felicitated students and participants of the dance competition at the festival and congratulated all the winners.</span></span></p>
-<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">****</span></span></p>
-<p style="text-align:justify"><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">PS</span></span></strong></p>
-</div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="font-weight: 100; text-align: left; font-size: 16px;">
-                                          (Release ID: 2306826)
-                                    </div>
-<div style="height: 30px; width: 100%;">
-</div>
-</td>
-</tr>
-<tr>
-<td style="font-weight: 200; text-align: center; font-size: 24px;"></td>
-</tr>
-</table>]]></content:encoded>
-</item>
-<item>
-<title>Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates the Archery Association of India’s ‘World Archery Para Series’ through video conferencing</title>
-<link>https://www.pib.gov.in/PressReleasePage.aspx?PRID=2306818</link>
-<guid isPermaLink="false">pib-release-2306818</guid>
-<pubDate>Fri, 04 Sep 2026 20:19:00 +0530</pubDate>
-<category>Ministry of Home Affairs</category>
-<dc:creator>Ministry of Home Affairs</dc:creator>
-<category>PIB Delhi</category>
-<description>Ministry of Home Affairs
-Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates the Archery Association of India’s ‘World Archery Para Series’ through video conferencing
-This competition, being held from September 5 to 9, will be a memorable occasion for both the athletes and Ahmedabad
-The coaching and training facilities at this sports centre will be developed in accordance with international standards, this centre will become a major training hub not only for athletes from India but also for sportspersons from across the world
-India will also become a hub for training in…</description>
-<content:encoded><![CDATA[<table width="100%">
-<tr>
-<td style="font-weight: 200; text-align: center">
-                                    Ministry of Home Affairs
-                                    <div style="height: 30px; width: 100%;">
-</div>
-<div style="font-weight: 200; text-align: center; font-size: 30px;">
-                                          Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates the Archery Association of India’s ‘World Archery Para Series’ through video conferencing
-                                    </div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="font-weight: 200; text-align: center; font-size: 30px;">
-<div style="height:30px;width:100%;"></div>This competition, being held from September 5 to 9, will be a memorable occasion for both the athletes and Ahmedabad<div style="height:30px;width:100%;"></div><div style="height:30px;width:100%;"></div>The coaching and training facilities at this sports centre will be developed in accordance with international standards, this centre will become a major training hub not only for athletes from India but also for sportspersons from across the world<div style="height:30px;width:100%;"></div><div style="height:30px;width:100%;"></div>India will also become a hub for training in all kinds of sports, as well as for the production of sports facilities and equipment<div style="height:30px;width:100%;"></div><div style="height:30px;width:100%;"></div>In the coming days, India will rapidly emerge as a global leader in the fields of sports engineering and sports medical science, while also becoming a major medical centre for the treatment and rehabilitation of sports injuries<div style="height:30px;width:100%;"></div><div style="height:30px;width:100%;"></div>Under the leadership of Prime Minister Shri Narendra Modi, we are moving forward with the vision of making India the world’s largest sporting hub<div style="height:30px;width:100%;"></div><div style="height:30px;width:100%;"></div>India’s aim is not merely to win the maximum number of medals, but to strengthen all the sports included in the Olympics, Asian Games, Commonwealth Games, Police Games, and other such competitions<div style="height:30px;width:100%;"></div><div style="height:30px;width:100%;"></div>Union Home Minister Shri Amit Shah extended his best wishes to the 108 athletes from 19 countries participating in the “World Archery Para Series” and said, “You have come to India, whose civilizational ethos is rooted in the spirit of ‘Vasudhaiva Kutumbakam’—the world is one family”<div style="height:30px;width:100%;"></div><div style="height:30px;width:100%;"></div>2030 Commonwealth Games will mark the centenary edition, and it is a matter of great joy that Ahmedabad will host the event<div style="height:30px;width:100%;"></div><div style="height:30px;width:100%;"></div>Ahmedabad has submitted its bid to host the 2036 Olympic Games, and we are confident that the 2036 Olympic Games will also be held in Ahmedabad<div style="height:30px;width:100%;"></div><div style="height:30px;width:100%;"></div>Champions are not made merely through sports, practice or coaching; they are made through the desire to win and consistent hard work, the true foundation of becoming a champion is an athlete’s passion, dedication and determination to win<div style="height:30px;width:100%;"></div>
-</div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="text-align: center; font-size: 14px;">
-                                          Posted On:
-                        04 SEP 2026 8:19PM by PIB Delhi
-                                    </div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="font-weight: 200; text-align: left; font-size: 16px;">
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Union Home Minister and Minister of Cooperation Shri Amit Shah today inaugurated the Archery Association of India’s ‘World Archery Para Series’ through video conferencing. In his address, Union Home Minister and Minister of Cooperation said that this competition, being held from September 5 to 9, 2026, will be a very memorable occasion for both the athletes and Ahmedabad. </span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Shri Amit Shah said that Ahmedabad, Gujarat and India will emerge as major hubs of the sporting world in the coming days. India will also become a hub for training in all kinds of sports, as well as for the production of sports facilities and equipment. He said that with this comprehensive vision, under the leadership of Prime Minister Shri Narendra Modi, we are moving forward towards making India the world’s largest sporting hub.</span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Union Home Minister and Minister of Cooperation said that our aim is not merely to win the maximum number of medals, but to strengthen all the sports included in the Olympics, Asian Games, Commonwealth Games, Police Games, and other such competitions. He said that the state-of-the-art training and coaching facilities available here will not remain limited to Ahmedabad, Gujarat or India; rather, they are being developed keeping international standards in mind. This facility will become a major coaching hub not only for athletes from India but also for sportspersons from across the world. He said that in the coming days, India and Gujarat will also emerge as major global hubs in the field of sports injury care.</span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Shri Amit Shah said that athletes from 19 countries, including Bhutan, the United Kingdom, China, Bangladesh, France, Germany, Indonesia and the United States, are participating in these games. Union Home Minister extended his best wishes to the 108 athletes from 19 countries participating in the “World Archery Para Series” and said, “You have come to India, whose civilizational ethos is rooted in the spirit of ‘Vasudhaiva Kutumbakam’—the world is one family”<strong>. </strong>Athletes such as Harvinder Singh, Sheetal Devi, Rakesh Kumar, Shyam Sundar Sami and Payal Nag have brought glory to India at the global level.</span></span></p>
-<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img alt="CR3_0247.JPG (1).jpeg" src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/image001_20260904202048_107177.jpg" style="height:445px; width:690px"/></span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Union Home Minister and Minister of Cooperation said that the 2030 Commonwealth Games will mark the centenary edition, and it is a matter of great joy that Ahmedabad will host the event. Ahmedabad has also submitted its bid to host the 2036 Olympic Games, and we are confident that the 2036 Olympics will also be held in Ahmedabad. Shri Shah added that Gujarat has hosted around 10 international sporting events between 2025 and 2026. These events provide participating athletes with an opportunity to experience and learn about Ahmedabad, Gujarat and India. He said that a champion is not made merely through sports, practice and coaching, but by the athlete’s desire to win.</span></span></p>
-<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>****</strong></span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>RK/RR/PR/PS</strong></span></span></p>
-</div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="font-weight: 100; text-align: left; font-size: 16px;">
-                                          (Release ID: 2306818)
-                                    </div>
-<div style="height: 30px; width: 100%;">
-</div>
-</td>
-</tr>
-<tr>
-<td style="font-weight: 200; text-align: center; font-size: 24px;"></td>
-</tr>
-</table>]]></content:encoded>
-</item>
-<item>
-<title>NFRA Constitutes Advisory Committee on Audit Quality, Assurance and Technology</title>
-<link>https://www.pib.gov.in/PressReleasePage.aspx?PRID=2306815</link>
-<guid isPermaLink="false">pib-release-2306815</guid>
-<pubDate>Fri, 04 Sep 2026 20:17:00 +0530</pubDate>
-<category>National Financial Reporting Authority</category>
-<dc:creator>National Financial Reporting Authority</dc:creator>
-<category>PIB Delhi</category>
-<description>National Financial Reporting Authority
-NFRA Constitutes Advisory Committee on Audit Quality, Assurance and Technology
-Posted On:
-                        04 SEP 2026 8:17PM by PIB Delhi
-In keeping with Rule 15 and Rule 16 of National Financial Reporting Authority Rules 2018, which authorises National Financial Reporting Authority (NFRA) to form committees, study groups and task forces for effective performance of its functions under the Act, and undertake suitable measures for promotion of awareness and significance of auditing and accounting standards and audit quality, NFRA has constituted…</description>
-<content:encoded><![CDATA[<table width="100%">
-<tr>
-<td style="font-weight: 200; text-align: center">
-                                    National Financial Reporting Authority
-                                    <div style="height: 30px; width: 100%;">
-</div>
-<div style="font-weight: 200; text-align: center; font-size: 30px;">
-                                          NFRA Constitutes Advisory Committee on Audit Quality, Assurance and Technology
-                                    </div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="font-weight: 200; text-align: center; font-size: 30px;">
-</div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="text-align: center; font-size: 14px;">
-                                          Posted On:
-                        04 SEP 2026 8:17PM by PIB Delhi
-                                    </div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="font-weight: 200; text-align: left; font-size: 16px;">
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">In keeping with Rule 15 and Rule 16 of National Financial Reporting Authority Rules 2018, which authorises National Financial Reporting Authority (NFRA) to form committees, study groups and task forces for effective performance of its functions under the Act, and undertake suitable measures for promotion of awareness and significance of auditing and accounting standards and audit quality, NFRA has constituted an Advisory Committee on Audit Quality, Assurance and Technology,  comprising eminent experts from various fields to provide inputs and suggestions on matters that have a significant bearing on audit quality. </span></span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">The Committee comprises of eminent experts, representing various stakeholder groups of NFRA- Professionals, CFOs, Audit Committees, Independent Directors, Technology Experts, Regulators and Industry. </span></span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">This Advisory Committee is the third such Committee, the first being the Technical Advisory Committee, that was constituted in 2020 and whose term ended in December 2022. </span></span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">In July 2024, NFRA had constituted an Advisory Group of eminent experts to advise on Auditor-Audit Committee resources, comprising the Auditor-Audit Committee Interaction (Staff) Series and outreach activities with Audit Committees and Independent Directors. </span></span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">The details of the Advisory Group and Advisory Committee can be found on NFRA website at (<a href="https://nfra.gov.in/advisory-groups-committees-of-nfra/" target="_blank"><span style="color:#467886">https://nfra.gov.in/advisory-groups-committees-of-nfra/</span></a>).</span></span></span></p>
-<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">****</span></span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white"><strong>SR/ONP</strong></span></span></span></p>
-</div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="font-weight: 100; text-align: left; font-size: 16px;">
-                                          (Release ID: 2306815)
                                     </div>
 <div style="height: 30px; width: 100%;">
 </div>
