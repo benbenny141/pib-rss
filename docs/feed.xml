@@ -5,10 +5,421 @@
 <link>https://www.pib.gov.in/allRel.aspx</link>
 <description>All press releases from the Press Information Bureau, Government of India. Unofficial enriched feed with dates, ministries, and full text.</description>
 <language>en-IN</language>
-<lastBuildDate>Wed, 23 Sep 2026 00:31:57 +0000</lastBuildDate>
+<lastBuildDate>Wed, 23 Sep 2026 05:57:50 +0000</lastBuildDate>
 <generator>pib_rss.py</generator>
 <ttl>30</ttl>
 <atom:link href="https://benbenny141.github.io/pib-rss/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>IMEI Tampering</title>
+<link>https://www.pib.gov.in/PressReleasePage.aspx?PRID=2313715</link>
+<guid isPermaLink="false">pib-release-2313715</guid>
+<pubDate>Wed, 23 Sep 2026 10:15:00 +0530</pubDate>
+<category>PIB Backgrounder</category>
+<dc:creator>PIB Backgrounder</dc:creator>
+<category>PIB Delhi</category>
+<description>PIB Backgrounder
+IMEI Tampering
+Threat to Digital Sovereignty
+Posted On:
+                        23 SEP 2026 10:15AM by PIB Delhi
+India's Growing Digital Ecosystem and the Need for Secure Devices
+India’s rapid digital transformation has made
+telecommunications integral to everyday life, commerce and governance
+. The country’s active wireless mobile subscriber base reached
+1,204.01 million in July 2026
+. This vast subscriber base reflects the scale of India’s connected digital ecosystem. Mobile networks and devices increasingly support
+digital payments, online services and citizen-centric…</description>
+<content:encoded><![CDATA[<table width="100%">
+<tr>
+<td style="font-weight: 200; text-align: center">
+                                    PIB Backgrounder
+                                    <div style="height: 30px; width: 100%;">
+</div>
+<div style="font-weight: 200; text-align: center; font-size: 30px;">
+                                          IMEI Tampering
+                                    </div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="font-weight: 200; text-align: center; font-size: 30px;">
+<div style="height:30px;width:100%;"></div>Threat to Digital Sovereignty
+                                    </div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="text-align: center; font-size: 14px;">
+                                          Posted On:
+                        23 SEP 2026 10:15AM by PIB Delhi
+                                    </div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="font-weight: 200; text-align: left; font-size: 16px;">
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:#4472c4"><strong><span style="color:white">India's Growing Digital Ecosystem and the Need for Secure Devices </span></strong></span></span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">India’s rapid digital transformation has made <strong>telecommunications integral to everyday life, commerce and governance</strong>. The country’s active wireless mobile subscriber base reached <strong>1,204.01 million in July 2026</strong>. This vast subscriber base reflects the scale of India’s connected digital ecosystem. Mobile networks and devices increasingly support <strong>digital payments, online services and citizen-centric governance</strong>. As dependence on these technologies grows, ensuring the <strong>security and integrity of telecom networks and devices</strong> becomes increasingly important.</span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">This expanding digital ecosystem also brings new security challenges. One such concern is the misuse of the <strong>International Mobile Equipment Identity (IMEI) number</strong>. Tampering with or misusing IMEI numbers can facilitate the operation of devices with altered identities and complicate the identification of devices on telecom networks. Such practices can create challenges for law enforcement, consumer protection and network security. Strengthening the integrity of device identifiers is therefore essential for maintaining a secure, trusted and resilient telecommunications ecosystem. </span></span></p>
+<p style="text-align:justify"> </p>
+<table align="center" border="1" bordercolor="#ccc" cellpadding="5" cellspacing="0" class="MsoTableGrid" style="border-collapse:collapse">
+<tbody>
+<tr>
+<td style="background-color:#d9e2f3; width:467.5pt">
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><u>What is Unlawful Tampering of an IMEI</u></strong></span></span></p>
+<p style="text-align:justify"> </p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">It shall be unlawful if a person:</span></span></p>
+<ul style="margin-left:40px">
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Intentionally removes, obliterates, changes or alters unique Mobile Device Equipment Identification number; or</span></span></li>
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Intentionally uses, produces, traffics in, has control or custody of, or possesses hardware or software knowing it has been configured as above.</span></span></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p> </p>
+<p style="margin-left:0cm; margin-right:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:#4472c4"><strong><span style="color:white">Understanding IMEI</span></strong></span></span></span></p>
+<ul style="margin-left:40px">
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>What is an IMEI?</strong> The IMEI is a unique <strong>15-digit number</strong> that identifies a mobile device on a telecom network.</span></span></li>
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>What does TAC mean?</strong> The first eight digits of an IMEI form the <strong>Type Allocation Code (TAC)</strong>, which identifies the device model or type.</span></span></li>
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>Who allocates IMEI numbers?</strong> The Global System for Mobile Communications Association (GSMA) oversees the global allocation of <span style="color:black">TAC.</span></span></span></li>
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>How are IMEIs assigned?</strong> GSMA allocate TACs to manufacturers and brand owners. Manufacturers then assign unique IMEIs to individual devices.</span></span></li>
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>How many IMEIs does a dual-SIM phone have?</strong> A dual-SIM phone generally has two IMEI numbers, one for each SIM slot.</span></span></li>
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>How can users find their IMEI?</strong> Users can dial <strong>*#06#</strong> on their mobile device to display its IMEI number. </span></span></li>
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>How can users verify an IMEI?</strong> Users can visit Sanchar Saathi portal or mobile App or send <strong>KYM &lt;15-digit IMEI number&gt;</strong> by <strong>SMS to 14422</strong> to verify device details.</span></span></li>
+</ul>
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/image003_20260923101023_4e96d9.jpg" style="height:273px; width:322px"/></span></span></p>
+<p style="margin-left:0cm; margin-right:0cm; text-align:justify"> </p>
+<p style="margin-left:0cm; margin-right:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:#4472c4"><strong><span style="color:white">Everyone’s Accountability Towards Safety</span></strong></span></span></span></p>
+<p style="margin-left:0cm; margin-right:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">A secure telecom ecosystem requires responsibility across the entire device lifecycle, from manufacturing to everyday use. <strong>Manufacturers, importers, sellers and citizens</strong> each have a role in preventing misuse of IMEI. </span></span></p>
+<ul style="margin-left:40px">
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">Manufacturers</span></strong> must register the IMEI numbers of all applicable telecom devices manufactured in India with the Government <strong>before their first sale, testing, research or other use</strong><strong>. </strong>Registration is carried out through the <strong>Device Setu–Indian Counterfeited Device Restriction (ICDR) portal</strong><strong>.</strong> Manufacturers must also ensure that devices are assigned <strong>valid, unique and untampered IMEI numbers.</strong></span></span></li>
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">Importers</span></strong> must register IMEI numbers with the Central Government <strong>before importing applicable telecom equipment into India</strong>. The registration must be completed through the <strong>Device Setu–ICDR portal</strong> for devices intended for sale, testing, R&amp;D or other purposes. Importers must ensure that imported devices carry <strong>valid and authorised IMEI numbers</strong>.</span></span></li>
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">Resellers and retailers</span></strong> must ensure that telecom devices offered for sale have <strong>valid and untampered IMEI numbers</strong>. Those dealing in used devices should verify the IMEI against the Government’s <strong>central database of tampered and blacklisted devices</strong> before completing transactions, by paying certain fees per IMEI verification. Selling or dealing in devices with tampered or configurable IMEIs can attract <strong>stringent legal action.</strong></span></span></li>
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">Brand owners</span></strong> must ensure that devices sold under their brands comply with applicable IMEI registration and cybersecurity requirements. Their brands must be appropriately registered through the <strong>Device Setu–ICDR portal</strong>, linked to the relevant <strong>GSMA Type Allocation Code (TAC)</strong><strong>.</strong> They should ensure that devices placed on the market carry <strong>authentic and authorised IMEIs.</strong></span></span></li>
+</ul>
+<p style="text-align:justify"> </p>
+<div style="border-bottom:solid windowtext 1.0pt; padding:0cm 0cm 1.0pt 0cm">
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:#4472c4">What Citizens Should Avoid</span></strong></span></span></p>
+</div>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The Department of Telecommunications (DoT) advises citizens to refrain from activities that involve the tampering or misuse of telecommunication identifiers and resources:</span></span></p>
+<ul style="margin-left:40px">
+<li><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white"><span style="color:black">Using, procuring or assembling devices such as modems, modules, SIM Boxes or other equipment with configurable or tampered IMEIs.</span></span></span></span></li>
+<li><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white"><span style="color:black">Procuring SIM cards through fake documents, fraud, cheating or impersonation.</span></span></span></span></li>
+<li><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white"><span style="color:black">Transferring, selling or handing over SIM cards obtained in their name to others who may misuse them.</span></span></span></span></li>
+<li><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white"><span style="color:black">Using mobile applications, websites or any other means to modify Calling Line Identity (CLI) or other telecommunication identifiers.</span></span></span></span></li>
+</ul>
+<table align="center" border="1" bordercolor="#ccc" cellpadding="5" cellspacing="0" class="MsoTableGrid" style="border-collapse:collapse">
+<tbody>
+<tr>
+<td style="background-color:#d9e2f3; width:467.75pt">
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><u>Sanchar Saathi Platform</u></strong></span></span></p>
+<p style="margin-left:0cm; margin-right:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Citizens can leverage the Sanchar Saathi platform to verify and secure their mobile handsets. The platform enables users to validate a device’s <strong>IMEI details</strong>, including the <strong>brand, model, and manufacturer</strong>, helping strengthen device authenticity and security. <strong><em>Read more about the </em></strong><a href="https://www.pib.gov.in/PressNoteDetails.aspx?NoteId=156294&amp;ModuleId=3&amp;reg=3&amp;lang=1" target="_blank"><strong><em>Sanchar Saathi app</em></strong></a><strong><em>.</em></strong></span></span></p>
+<p style="margin-left:0cm; margin-right:0cm; text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/image004_20260923101118_51db16.jpg" style="height:137px; width:151px"/></span></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="text-align:justify"> </p>
+<p style="text-align:justify"><strong><span style="color:#4472c4">What Citizens Should Do</span></strong></p>
+<p style="margin-left:0cm; margin-right:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Consumers should take precautions to protect their devices and ensure that their IMEI numbers remain genuine and secure.</span></span></p>
+<ul style="margin-left:40px">
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Purchase mobile devices only from authorised sellers and verify the IMEI details.</span></span></li>
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Use strong passwords, PINs or biometric authentication to secure the handset.</span></span></li>
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Get devices repaired only at authorised service centres to reduce the risk of IMEI tampering or other malicious activity.</span></span></li>
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">In the event of device loss or theft, follow the official step-by-step blocking procedure:</span></span>
+<ol>
+<li style="list-style-type:none">
+<ol style="list-style-type:lower-roman">
+<li><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">File an immediate report with the local police and secure a copy of the complaint.</span></span></li>
+<li><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Obtain a duplicate SIM card for the lost mobile number from your telecom operator. (Under TRAI regulations, SMS services are restricted for the first 24 hours of a re-issued SIM’s activation. Since Sanchar Saathi requires a mobile OTP verification, you must wait 24 hours after activation to submit your request).</span></span></li>
+<li><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Register the blocking request on the Sanchar Saathi (CEIR) portal or mobile app, uploading the police report and a valid ID proof to receive a unique Request ID.</span></span></li>
+<li><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">If your device is subsequently recovered, report it to the local police first, and then use your Request ID on the portal to safely unblock the handset.</span></span></li>
+</ol>
+</li>
+</ol>
+</li>
+</ul>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Maintaining device security is a <strong>shared responsibility across the telecom ecosystem</strong><strong>.</strong> Awareness, compliance and responsible use can further help prevent fraud, protect citizens and strengthen the security of India’s digital infrastructure.</span></span></p>
+<p style="margin-left:21.3pt; text-align:justify"> </p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:#4472c4"><strong><span style="color:white">Legal Safeguards Against IMEI Tampering</span></strong><span style="color:white"><span style="color:white">[1]</span></span><sup><span style="color:white">&amp;<span style="color:white">[2]</span></span></sup></span></span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">India has established a <strong>strong legal framework</strong> to protect the integrity of the telecommunication ecosystem. </span></span></span></p>
+<ul style="margin-left:40px">
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white"><span style="color:black">The</span> <strong><span style="color:black">Telecommunications Act, 2023</span></strong> <span style="color:black">provides for stringent action against tampering with telecommunication identifiers, including the IMEI number of mobile handsets and other telecommunication devices.</span></span></span></span></li>
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white"><strong><span style="color:black">Section 42(3)(c)</span></strong> <span style="color:black">prohibits tampering with telecommunication identifiers.</span> <strong><span style="color:black">Section 42(3)(e)</span></strong> <span style="color:black">prohibits obtaining Subscriber Identity Modules (SIMs) or telecommunication identifiers through fraud, cheating or impersonation.</span></span></span></span></li>
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white"><span style="color:black">Violations may attract imprisonment for up to</span> <strong><span style="color:black">three years</span></strong><span style="color:black">, a fine of up to</span> <strong><span style="color:black">₹</span></strong><strong><span style="color:black">50 lakh</span></strong><span style="color:black">, or both. Such offences are</span> <strong><span style="color:black">cognizable and non-bailable</span></strong> <span style="color:black">under</span> <strong><span style="color:black">Section 42(7)</span></strong> <span style="color:black">of the Act. </span></span></span></span></li>
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white"><span style="color:black">Under</span> <strong><span style="color:black">Section 42(6)</span></strong><span style="color:black">, persons who abet or promote the commission of such offences are also liable to the same punishment.</span></span></span></span></li>
+</ul>
+<p style="margin-left:0cm; margin-right:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">These provisions create a strong deterrent against <strong>IMEI tampering and misuse of telecom resources.</strong></span></span></span></p>
+<p style="margin-left:0cm; margin-right:0cm; text-align:justify"> </p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:#4472c4"><strong><span style="color:white">Safeguarding India's Digital Future</span></strong></span></span></span></p>
+<p style="margin-left:0cm; margin-right:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">India's telecom journey reflects both remarkable progress and shared responsibility. Strong laws, verification tools and citizen awareness together keep this network secure and trustworthy. Every stakeholder – including the government, industry, and individual users- has a role in preserving this trust. A vigilant, informed citizenry remains the strongest defence against misuse. Sustained cooperation will keep India's digital connectivity safe for generations to come.</span></span></p>
+<p style="margin-left:0cm; margin-right:0cm; text-align:justify"> </p>
+<p style="margin-left:0cm; margin-right:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>References:</strong></span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>Ministry of Communications</strong></span></span></p>
+<ul style="margin-left:40px">
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><a href="https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2305203&amp;reg=3&amp;lang=1" target="_blank">https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2305203&amp;reg=3&amp;lang=1</a></span></span></li>
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><a href="https://www.ceir.gov.in/Home/index.jsp" target="_blank">https://www.ceir.gov.in/Home/index.jsp</a></span></span></li>
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><a href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=2190763&amp;reg=48&amp;lang=2" target="_blank">https://www.pib.gov.in/PressReleasePage.aspx?PRID=2190763&amp;reg=48&amp;lang=2</a></span></span></li>
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><a href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=2190763&amp;reg=48&amp;lang=2" target="_blank">https://www.pib.gov.in/PressReleasePage.aspx?PRID=2190763&amp;reg=48&amp;lang=2</a></span></span></li>
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><a href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=2190763&amp;reg=48&amp;lang=2" target="_blank">https://www.pib.gov.in/PressReleasePage.aspx?PRID=2190763&amp;reg=48&amp;lang=2</a></span></span></li>
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><a href="https://www.eservices.dot.gov.in/sites/default/files/circular-notifications/cybersecurity-rules-2024.pdf" target="_blank">https://www.eservices.dot.gov.in/sites/default/files/circular-notifications/cybersecurity-rules-2024.pdf</a></span></span></li>
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><a href="https://www.eservices.dot.gov.in/sites/default/files/circular-notifications/telecom-cyber-security-amendment-rules-2025.pdf" target="_blank">https://www.eservices.dot.gov.in/sites/default/files/circular-notifications/telecom-cyber-security-amendment-rules-2025.pdf</a></span></span></li>
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><a href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=2193461&amp;lang=2&amp;reg=3&amp;utm_source" target="_blank">https://www.pib.gov.in/PressReleasePage.aspx?PRID=2193461&amp;lang=2&amp;reg=3&amp;utm_source</a></span></span></li>
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><a href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=1598008&amp;lang=2&amp;reg=3&amp;utm_source" target="_blank">https://www.pib.gov.in/PressReleasePage.aspx?PRID=1598008&amp;lang=2&amp;reg=3&amp;utm_source</a></span></span></li>
+</ul>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>Telecom Regulatory Authority of India</strong></span></span></p>
+<ul style="margin-left:40px">
+<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><a href="http://www.trai.gov.in/sites/default/files/2026-08/PR_No116of2026_0.pdf" target="_blank">www.trai.gov.in/sites/default/files/2026-08/PR_No116of2026_0.pdf</a></span></span></li>
+</ul>
+<p style="margin-left:0cm; margin-right:0cm; text-align:justify"> </p>
+<p style="margin-left:0cm; margin-right:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><a href="https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/sep/doc_9952_20260923_10074801.pdf" target="_blank">Click to see pdf</a></span></span></p>
+<p style="margin-left:0cm; margin-right:0cm; text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">***</span></span></p>
+<p style="margin-left:0cm; margin-right:0cm; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>PIB Research </strong></span></span></p>
+</div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="font-weight: 100; text-align: left; font-size: 16px;">
+                                          (Release ID: 2313715)
+                                    </div>
+<div style="height: 30px; width: 100%;">
+</div>
+</td>
+</tr>
+<tr>
+<td style="font-weight: 200; text-align: center; font-size: 24px;"></td>
+</tr>
+</table>]]></content:encoded>
+</item>
+<item>
+<title>National Zoological Park marks World Rhino Day with First Eco-Club Teachers’ Orientation to strengthen School Outreach</title>
+<link>https://www.pib.gov.in/PressReleasePage.aspx?PRID=2313685</link>
+<guid isPermaLink="false">pib-release-2313685</guid>
+<pubDate>Tue, 22 Sep 2026 22:05:00 +0530</pubDate>
+<category>Ministry of Environment, Forest and Climate Change</category>
+<dc:creator>Ministry of Environment, Forest and Climate Change</dc:creator>
+<category>PIB Delhi</category>
+<description>Ministry of Environment, Forest and Climate Change
+National Zoological Park marks World Rhino Day with First Eco-Club Teachers’ Orientation to strengthen School Outreach
+Posted On:
+                        22 SEP 2026 10:05PM by PIB Delhi
+The National Zoological Park (NZP), New Delhi, observed World Rhino Day 2026 today with a series of awareness and educational programmes aimed at promoting rhino conservation and strengthening public and school engagement in wildlife and biodiversity conservation.
+As part of its school outreach initiative, the Zoo organised its first orientation programme…</description>
+<content:encoded><![CDATA[<table width="100%">
+<tr>
+<td style="font-weight: 200; text-align: center">
+                                    Ministry of Environment, Forest and Climate Change
+                                    <div style="height: 30px; width: 100%;">
+</div>
+<div style="font-weight: 200; text-align: center; font-size: 30px;">
+                                          National Zoological Park marks World Rhino Day with First Eco-Club Teachers’ Orientation to strengthen School Outreach
+                                    </div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="font-weight: 200; text-align: center; font-size: 30px;">
+</div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="text-align: center; font-size: 14px;">
+                                          Posted On:
+                        22 SEP 2026 10:05PM by PIB Delhi
+                                    </div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="font-weight: 200; text-align: left; font-size: 16px;">
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">The National Zoological Park (NZP), New Delhi, observed World Rhino Day 2026 today with a series of awareness and educational programmes aimed at promoting rhino conservation and strengthening public and school engagement in wildlife and biodiversity conservation.</span></span></span></p>
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black"><img src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/image001_20260922220605_fe6256.jpg" style="height:451px; width:602px"/></span></span></span></p>
+<p style="text-align:justify"><span style='color:black; font-family:"Times New Roman",Times,serif; font-size:16px'>As part of its school outreach initiative, the Zoo organised its first orientation programme for eco-club in-charge teachers. Teachers from 12 schools of Delhi participated in the programme. The Director (NZP) interacted with the teachers and highlighted the importance of strengthening collaboration between the Zoo and schools for environmental education and conservation awareness.</span></p>
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black"><img src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/image002_20260922220614_bbd893.jpg" style="height:451px; width:602px"/></span></span></span></p>
+<p style="text-align:justify"><span style='color:black; font-family:"Times New Roman",Times,serif; font-size:16px'>The orientation familiarised teachers with the Zoo’s environmental education initiatives, nature-based educational activities, citizen science initiatives and other outreach programmes. It also envisaged greater participation of schools in workshops, awareness programmes and competitions organised on important eco days and other relevant occasions.</span></p>
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black"><img src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/image003_20260922220623_9a5698.jpg" style="height:451px; width:602px"/></span></span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">A doodle activity and public awareness talk was subsequently organised for visitors at the Zoo’s exit gate. Zoo staff interacted with visitors and shared information on rhinoceros, their ecological significance, conservation status and the challenges faced by rhino populations in the wild. The programmes witnessed enthusiastic participation from school teachers and visitors and provided an important platform to enhance awareness about rhino conservation, wildlife protection and the need to conserve biodiversity.</span></span></span></p>
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black"><img src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/image004_20260922220637_1f8806.jpg" style="height:451px; width:602px"/></span></span></span></p>
+<p style="text-align:justify"><span style='color:black; font-family:"Times New Roman",Times,serif; font-size:16px'>A special keepers’ talk on rhinos was also organised at the rhino enclosures. Zoo keepers interacted with visitors and provided insights into rhino behaviour, feeding habits, daily care and scientific management at the National Zoological Park. At present, the National Zoological Park, New Delhi, has one adult female rhinoceros, named Anjuha, in its collection.</span></p>
+<p style="text-align:justify"> </p>
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">*****</span></span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">VM</span></strong></span></span></p>
+</div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="font-weight: 100; text-align: left; font-size: 16px;">
+                                          (Release ID: 2313685)
+                                    </div>
+<div style="height: 30px; width: 100%;">
+</div>
+</td>
+</tr>
+<tr>
+<td style="font-weight: 200; text-align: center; font-size: 24px;"></td>
+</tr>
+</table>]]></content:encoded>
+</item>
+<item>
+<title>Department of Telecommunications Hosts Third Investors’ Roundtable in Bengaluru for Telecom Manufacturing Zone Focusing on Investment, Innovation and Domestic Manufacturing</title>
+<link>https://www.pib.gov.in/PressReleasePage.aspx?PRID=2313673</link>
+<guid isPermaLink="false">pib-release-2313673</guid>
+<pubDate>Tue, 22 Sep 2026 21:45:00 +0530</pubDate>
+<category>Ministry of Communications</category>
+<dc:creator>Ministry of Communications</dc:creator>
+<category>PIB Delhi</category>
+<description>Ministry of Communications
+Department of Telecommunications Hosts Third Investors’ Roundtable in Bengaluru for Telecom Manufacturing Zone Focusing on Investment, Innovation and Domestic Manufacturing
+Union Minister of Communications Shri Jyotiraditya Scindia and Chief Minister of Madhya Pradesh Dr. Mohan Yadav Chair Investors Roundtable in Bengaluru
+“24 companies already on board, propose to invest ₹5,500 crore in Gwalior Telecom Manufacturing Zone”: Union Minister Shri Jyotiraditya Scindia
+Industry Engagement Focuses on Strengthening Domestic Telecom Manufacturing and Innovation Ecosystem;…</description>
+<content:encoded><![CDATA[<table width="100%">
+<tr>
+<td style="font-weight: 200; text-align: center">
+                                    Ministry of Communications
+                                    <div style="height: 30px; width: 100%;">
+</div>
+<div style="font-weight: 200; text-align: center; font-size: 30px;">
+                                          Department of Telecommunications Hosts Third Investors’ Roundtable in Bengaluru for Telecom Manufacturing Zone Focusing on Investment, Innovation and Domestic Manufacturing
+                                    </div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="font-weight: 200; text-align: center; font-size: 30px;">
+<div style="height:30px;width:100%;"></div>Union Minister of Communications Shri Jyotiraditya Scindia and Chief Minister of Madhya Pradesh Dr. Mohan Yadav Chair Investors Roundtable in Bengaluru<div style="height:30px;width:100%;"></div><div style="height:30px;width:100%;"></div>“24 companies already on board, propose to invest ₹5,500 crore in Gwalior Telecom Manufacturing Zone”: Union Minister Shri Jyotiraditya Scindia<div style="height:30px;width:100%;"></div><div style="height:30px;width:100%;"></div>Industry Engagement Focuses on Strengthening Domestic Telecom Manufacturing and Innovation Ecosystem; ~₹700 crores committed in Bengaluru Investor Roadshow for TMZ, Gwalior<div style="height:30px;width:100%;"></div><div style="height:30px;width:100%;"></div>The establishment of India’s first integrated Telecom Manufacturing Zone (TMZ) is in line with Prime Minister Shri Narendra Modi's Vision of Aatmanirbhar Bharat and Make in India Initiative
+                                    </div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="text-align: center; font-size: 14px;">
+                                          Posted On:
+                        22 SEP 2026 9:45PM by PIB Delhi
+                                    </div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="font-weight: 200; text-align: left; font-size: 16px;">
+<p style="margin-right:18.05pt; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The Department of Telecommunications (DoT) organised its 3<sup>rd</sup> Investors’ Roundtable in Bengaluru today to engage with leading technology, telecom, semiconductor and electronics industry stakeholders on investment opportunities in India’s first integrated Telecom Manufacturing Zone (TMZ) coming up in Gwalior, Madhya Pradesh.</span></span></p>
+<p style="margin-right:18.05pt; text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/image001_20260922214638_aa3ee0.jpg" style="height:432px; width:648px"/></span></span></p>
+<p><span style='font-family:"Times New Roman",Times,serif; font-size:16px'>The roundtable, chaired by Shri Jyotiraditya M. Scindia, Union Minister of Communications and Development of North Eastern Region along with Dr. Mohan Yadav, Chief Minister of Madhya Pradesh brought together industry leaders and potential investors to deliberate on strengthening domestic telecom manufacturing capabilities, enhancing value addition, promoting research and development, encouraging innovation, supporting exports and developing a globally competitive telecom and electronics ecosystem.</span></p>
+<p><span style='font-family:"Times New Roman",Times,serif; font-size:16px'>Speaking on the occasion, Shri Jyotiraditya M. Scindia said, “The Telecom Manufacturing Zone is a powerful example of cooperative federalism in action. The Union Government and the Madhya Pradesh Government are working hand in hand, with the State putting in place incentives and subsidies of around ₹8,000 crore. This kind of collaborative approach creates the confidence for the private sector to invest, innovate and scale.”</span></p>
+<div class="WordSection2">
+<p style="margin-left:0cm; margin-right:18pt; text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/image002_20260922214650_a06d5f.jpg" style="height:460px; width:648px"/></span></span></p>
+<p><span style='font-family:"Times New Roman",Times,serif; font-size:16px'>The Union Minister further added, “India is now moving decisively from being a services-led nation to a product-led nation. In telecom, our three priorities are clear: increase domestic value addition, create intellectual property in India, and take Indian-designed and Indian-manufactured products to every corner of the world. We have seen India’s Atmanirbharta journey gather momentum across sectors, from semiconductors to aviation. The next frontier is telecom. Under Prime Minister Shri Narendra Modi’s vision of Make in India, Make for India and Make for the World, we must now also Design in India and build products that compete globally”</span></p>
+<p style="margin-right:17.9pt; text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/image003_20260922214701_ce69b6.jpg" style="height:432px; width:648px"/></span></span></p>
+<p><span style='font-family:"Times New Roman",Times,serif; font-size:16px'>The Union Minister also highlighted that, “Today’s Bengaluru roadshow marks the completion of Phase 1 of our investor outreach, with nearly 24 companies already on board. Our commitment is simple: if an investor has a query or faces an issue related to the TMZ, we will work to resolve it within 48 hours. We want to make Gwalior not just a manufacturing destination, but a destination where industry knows it has a responsive government partner.”</span></p>
+<p style="margin-left:0cm; margin-right:18.0pt; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Dr. Mohan Yadav, Chief Minister of Madhya Pradesh, said, “Madhya Pradesh is emerging as a strong destination for investment across sectors, with immense potential backed by its strategic location and infrastructure. We are committed to creating a conducive ecosystem for industries, particularly in emerging technology and telecom sectors. I am confident that this partnership will bring new investments, generate employment and contribute to India’s journey towards becoming a global economic leader.”</span></span></p>
+<p style="margin-right:18.3pt; text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img alt="WhatsApp Image 2026-09-22 at 20.07.01" src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/image004_20260922214713_80d835.jpg" style="height:432px; width:648px"/></span></span></p>
+<p style="margin-right:18.3pt; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The Bengaluru Investors’ Roundtable was part of the continued investor outreach by the Department of Telecommunications following the launch of the Telecom Manufacturing Zone initiative.</span></span></p>
+<p style="margin-right:18.3pt; text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/image005_20260922214722_c55e95.jpg" style="height:432px; width:648px"/></span></span></p>
+<p><span style='font-family:"Times New Roman",Times,serif; font-size:16px'>On 30</span><sup>th</sup><span style='font-family:"Times New Roman",Times,serif; font-size:16px'> July 2026, Department of Telecommunications and the Government of Madhya Pradesh signed a Memorandum of Understanding (MoU) at New Delhi, for establishment of India’s first Telecom Manufacturing Zone, Phase-I, at Gwalior. The MoU envisages a plug-and-play industrial cluster with integrated infrastructure for telecom and electronics manufacturing, research and development, innovation and allied activities. The Central Government is providing 100 per cent funding support of ₹493 crore for Phase-I, while the Government of Madhya Pradesh has provided approximately 170 acres of land free of cost along with investor incentives.</span></p>
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/image006_20260922214732_609a21.jpg" style="height:432px; width:648px"/></span></span></p>
+<p><span style='font-family:"Times New Roman",Times,serif; font-size:16px'>This was followed by the two Investors’ Roundtable in Delhi and Mumbai, where the industry assured investment commitments of ₹5,500 crore, with the potential to generate around 18,000 employment opportunities under the Telecom Manufacturing Zone.</span></p>
+<p style="margin-left:0cm; margin-right:17.95pt; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The third Investors’ Roundtable, reflected  deep engagement of investors with the TMZ initiative, proposing investments between Rs. 700 crore to Rs. 800 crores after due consideration by their management. Several companies offered positive reviews for the  investments and will undertake site visits for evaluation.</span></span></p>
+</div>
+<p style="margin-left:0cm; margin-right:17.9pt; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The Telecom Manufacturing Zone initiative is aligned with the vision of Aatmanirbhar Bharat and Make in India, Make for the World, and is intended to catalyse investment, manufacturing, innovation and employment in the telecom and electronics sectors.</span></span></p>
+<p style="margin-left:0cm; margin-right:17.9pt; text-align:justify"><span style='font-family:"Times New Roman",Times,serif; font-size:16px'>Before the Investors’ Roundtable, the Union Minister visited Qualcomm in Bengaluru, a leading technology and telecom company. During the industry visit, the Union Minister interacted with company leadership and senior representatives and discussed developments in telecom technologies, semiconductor capabilities, indigenous product development, research and innovation, and the scope for greater participation of technology companies in India’s telecom manufacturing ecosystem.</span></p>
+<p style="margin-right:18.15pt; text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/image007_20260922214745_ab4652.jpg" style="height:432px; width:648px"/></span></span></p>
+<p><span style='font-family:"Times New Roman",Times,serif; font-size:16px'>The industrial visit provided an opportunity to understand industry requirements and explore avenues for stronger Government-industry collaboration in areas including telecom equipment, semiconductor technologies, product design, research and development and next-generation communication technologies.</span></p>
+<h1 style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><u><span style="color:#333333">About Telecom Manufacturing Zone (TMZ), Gwalior</span></u></span></span></h1>
+<p style="margin-left:0cm; margin-right:17.9pt; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:#333333">The proposed Telecom Manufacturing Zone (TMZ) in Gwalior is envisaged as an integrated plug-and-play industrial cluster for telecom manufacturing, R&amp;D and innovation, covering mobile devices, optical fibre, telecom equipment and next-generation 5G/6G technologies. Under the recently signed MoU, the Central Government is providing 100% funding support of ₹493 crore for Phase-I, while the Government of Madhya Pradesh has provided approximately 170 acres of land free of cost along with various investor incentives.</span></span></span></p>
+<p style="margin-left:0cm; margin-right:18.25pt; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:#333333">A Special Purpose Vehicle (SPV) has been established for this purpose with 51% equity from the Government of Madhya Pradesh and 49% from the Department of Telecommunications.</span></span></span></p>
+<table border="1" cellspacing="0" class="MsoTableGrid" style="border-collapse:collapse; border:solid windowtext 1.0pt">
+<tbody>
+<tr>
+<td style="width:368.1pt">
+<p style="margin-left:5.25pt; margin-right:284.75pt"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>Follow DoT Handles for more: - X - </strong><a href="https://x.com/DoT_India" target="_blank"><strong><span style="color:blue">https://x.com/DoT_India</span></strong></a><strong> </strong></span></span></p>
+<p style="margin-left:5.25pt; margin-right:284.75pt"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>Insta </strong><a href="https://www.instagram.com/department_of_telecom?igsh=MXUxbHFjd3llZTU0YQ" target="_blank"><strong><span style="color:blue">https://www.instagram.com/department_of_telecom?igsh=MXUxbHFjd3llZTU0YQ</span></strong></a><strong>== </strong></span></span></p>
+<p style="margin-left:5.25pt; margin-right:284.75pt"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>Fb - </strong><a href="https://www.facebook.com/DoTIndia" target="_blank"><strong><span style="color:blue">https://www.facebook.com/DoTIndia</span></strong></a></span></span></p>
+<p style="margin-left:5.25pt"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><u>Youtube: </u></strong><a href="https://youtube.com/%40departmentoftelecom?si=DALnhYkt89U5jAaa" target="_blank"><strong><span style="color:blue">https://youtube.com/@departmentoftelecom?si=DALnhYkt89U5jAaa</span></strong></a></span></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p style="margin-left:1.65pt; margin-right:19.25pt; text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">*****</span></span></p>
+<p style="margin-left:1.65pt; margin-right:19.25pt"><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">NJ/ARJ</span></span></strong></p>
+</div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="font-weight: 100; text-align: left; font-size: 16px;">
+                                          (Release ID: 2313673)
+                                    </div>
+<div style="height: 30px; width: 100%;">
+</div>
+</td>
+</tr>
+<tr>
+<td style="font-weight: 200; text-align: center; font-size: 24px;"></td>
+</tr>
+</table>]]></content:encoded>
+</item>
+<item>
+<title>Union Minister Shri Piyush Goyal Interacts with Industry Stakeholders on Ease of Doing Business, FTA Opportunities and Trade Reforms Workshop</title>
+<link>https://www.pib.gov.in/PressReleasePage.aspx?PRID=2313668</link>
+<guid isPermaLink="false">pib-release-2313668</guid>
+<pubDate>Tue, 22 Sep 2026 21:36:00 +0530</pubDate>
+<category>Ministry of Commerce &amp; Industry</category>
+<dc:creator>Ministry of Commerce &amp; Industry</dc:creator>
+<category>PIB Delhi</category>
+<description>Ministry of Commerce &amp; Industry
+Union Minister Shri Piyush Goyal Interacts with Industry Stakeholders on Ease of Doing Business, FTA Opportunities and Trade Reforms Workshop
+Shri Goyal Calls for Strengthening Export Facilitation through Physical and Digital Mechanisms
+Local Personnel Proposed to Strengthen Exporter Support at District and State Levels: Shri Goyal
+Trade Connect platform envisaged to provide product-wise and HSN-code-wise information on tariffs, FTA opportunities and procedures
+Posted On:
+                        22 SEP 2026 9:36PM by PIB Delhi
+The Department for Promotion of…</description>
+<content:encoded><![CDATA[<table width="100%">
+<tr>
+<td style="font-weight: 200; text-align: center">
+                                    Ministry of Commerce &amp; Industry
+                                    <div style="height: 30px; width: 100%;">
+</div>
+<div style="font-weight: 200; text-align: center; font-size: 30px;">
+                                          Union Minister Shri Piyush Goyal Interacts with Industry Stakeholders on Ease of Doing Business, FTA Opportunities and Trade Reforms Workshop
+                                    </div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="font-weight: 200; text-align: center; font-size: 30px;">
+<div style="height:30px;width:100%;"></div>Shri Goyal Calls for Strengthening Export Facilitation through Physical and Digital Mechanisms<div style="height:30px;width:100%;"></div><div style="height:30px;width:100%;"></div>Local Personnel Proposed to Strengthen Exporter Support at District and State Levels: Shri Goyal<div style="height:30px;width:100%;"></div><div style="height:30px;width:100%;"></div>Trade Connect platform envisaged to provide product-wise and HSN-code-wise information on tariffs, FTA opportunities and procedures
+                                    </div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="text-align: center; font-size: 14px;">
+                                          Posted On:
+                        22 SEP 2026 9:36PM by PIB Delhi
+                                    </div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="font-weight: 200; text-align: left; font-size: 16px;">
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The Department for Promotion of Industry and Internal Trade (DPIIT) organised a stakeholder workshop on Ease of Doing Business, Free Trade Agreement opportunities and ongoing trade-related reforms at Bharat Mandapam, New Delhi, today, followed by an interactive session with Union Minister of Commerce and Industry Shri Piyush Goyal and Minister of State for Commerce and Industry Shri Jitin Prasada.</span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">During the interaction, Shri Goyal outlined the Government’s approach to strengthening export facilitation through physical and digital mechanisms. He said that instead of establishing separate offices of every department in every location, integrated Commerce and Industry offices are envisaged in major cities to provide businesses with a common point of access to multiple departments and agencies.</span></span></p>
+<p><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">He had a frank interaction with industry representatives and directed officials to examine some of the suggestions made by industry.</span></span></p>
+<p><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The interaction was the first such interaction with a regional industry association.</span></span></p>
+<p><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The roller chain and industrial components manufacturing sector highlighted the positive impact of recent policy interventions in strengthening domestic manufacturing. The industry reported that measures including Quality Control Orders (QCOs), Minimum Import Price (MIP) provisions and higher import duties have supported significant growth in the sector, contributing to a 15-fold expansion, fresh investments of approximately ₹500 crore and the generation of around 5,000 new jobs. The industry appreciated these interventions for supporting domestic manufacturing capacity, encouraging investment and creating employment opportunities.</span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The Minister also announced a proposed network of approximately 1,000 trained local personnel, with knowledge of regional languages, to support exporters and prospective exporters at the district and State levels. These personnel would be trained and subsequently deployed to provide handholding support to businesses, including through industry chambers and regional associations.</span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Shri Goyal also informed participants about the Trade Connect platform being developed to provide exporters with product-wise and HSN-code-wise information, including destination-country tariffs, FTA opportunities and procedures for availing FTA benefits. The platform is also envisaged to use digital and AI-enabled tools to help businesses identify potential export opportunities and infrastructure gaps.</span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The workshop brought together representatives from industry associations, trade bodies and sectoral organisations, along with senior officials of DPIIT and the Department of Commerce. Discussions focused on ongoing EoDB reforms, trade facilitation measures, opportunities under India’s FTAs and challenges faced by industry in accessing markets and navigating regulatory and procedural requirements.</span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Presentations by DPIIT officials covered key initiatives relating to Startup India, Intellectual Property Rights (IPR), investment facilitation, the National Single Window System, industrial infrastructure and reforms relating to the Petroleum and Explosives Safety Organisation (PESO). The presentations highlighted measures relating to simplification and rationalisation of regulatory processes, digitalisation, reduction of compliance burden and improvement in approval and service delivery mechanisms.</span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">A dedicated session on recent FTAs and trade facilitation reforms provided industry with an overview of opportunities and obligations arising from India’s trade agreements. The session also covered ongoing measures relating to digitalisation, documentation and simplification of trade-related processes and procedures.</span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Representatives from sectors including pharmaceuticals, textiles, man-made fibres, copper, automotive and engineering, air-conditioners and logistics, along with MSMEs and women entrepreneurs, raised issues relating to export competitiveness, trade documentation, regulatory processes, FTA utilisation, logistics, domestic supply chains, standards and testing infrastructure and regulatory certainty.</span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Industry representatives highlighted the need for greater interoperability between government systems and foreign trade platforms, including digital transmission and verification of Certificates of Origin under FTAs. The proposal to extend such electronic processes to other FTA partners was noted for examination. Industry also highlighted the need for further integration of the export cycle involving the Directorate General of Foreign Trade (DGFT), Customs, banks and other stakeholders.</span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The interaction also covered logistics and trade-process bottlenecks, including documentation backlogs and concerns relating to sea-freight costs. Sector-specific issues relating to rules of origin and imports, export quality and regulatory processes, import competition, testing and certification infrastructure, and regulatory certainty for MSMEs were also raised.</span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The importance of quality and adherence to international standards for strengthening India’s export credibility was also emphasised. Industry associations and Export Promotion Councils were encouraged to support awareness and compliance with destination-market standards and assist in identifying instances of fraudulent, substandard or non-compliant manufacturing for appropriate regulatory action.</span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The interaction reaffirmed the Government’s emphasis on Government–Industry partnership in addressing practical barriers to trade, strengthening domestic manufacturing and supply chains, and facilitating greater participation of Indian enterprises in global markets.</span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The workshop was part of the Government’s continuing efforts to strengthen the Ease of Doing Business framework, facilitate trade and enable Indian industry to effectively utilise opportunities arising from India’s expanding network of Free Trade Agreements.</span></span></p>
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">*****</span></span></p>
+<p style="text-align:justify"><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Abhishek Dayal/Abhijith Narayanan/Anushka Pandey</span></span></strong></p>
+</div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="font-weight: 100; text-align: left; font-size: 16px;">
+                                          (Release ID: 2313668)
+                                    </div>
+<div style="height: 30px; width: 100%;">
+</div>
+</td>
+</tr>
+<tr>
+<td style="font-weight: 200; text-align: center; font-size: 24px;"></td>
+</tr>
+</table>]]></content:encoded>
+</item>
 <item>
 <title>PRESIDENT OF INDIA PRESENTS 72nd NATIONAL FILM AWARDS; CONFERS DADASAHEB PHALKE AWARD ON SHRI ANANT NAG</title>
 <link>https://www.pib.gov.in/PressReleasePage.aspx?PRID=2313663</link>
@@ -68,6 +479,71 @@ The President of India, Smt Droupadi Murmu presented the 72nd National Film Awar
 </div>
 <div style="font-weight: 100; text-align: left; font-size: 16px;">
                                           (Release ID: 2313663)
+                                    </div>
+<div style="height: 30px; width: 100%;">
+</div>
+</td>
+</tr>
+<tr>
+<td style="font-weight: 200; text-align: center; font-size: 24px;"></td>
+</tr>
+</table>]]></content:encoded>
+</item>
+<item>
+<title>Prime Minister meets Sri Sri Vishwaprasanna Tirtha Swamiji of Sri Pejavara Adhokshaja Matha, Udupi, Karnataka</title>
+<link>https://www.pib.gov.in/PressReleasePage.aspx?PRID=2313656</link>
+<guid isPermaLink="false">pib-release-2313656</guid>
+<pubDate>Tue, 22 Sep 2026 21:03:00 +0530</pubDate>
+<category>Prime Minister's Office</category>
+<dc:creator>Prime Minister's Office</dc:creator>
+<category>PIB Delhi</category>
+<description>Prime Minister's Office
+Prime Minister meets Sri Sri Vishwaprasanna Tirtha Swamiji of Sri Pejavara Adhokshaja Matha, Udupi, Karnataka
+PM unveils logo of birth centenary celebrations of Padma Vibhushan Yatikula Chakravarti Sri Vishwesha Tirtha Swamiji
+Posted On:
+                        22 SEP 2026 9:03PM by PIB Delhi
+Prime Minister Shri Narendra Modi today met Sri Sri Vishwaprasanna Tirtha Swamiji of Sri Pejavara Adhokshaja Matha, Udupi, Karnataka, along with other dignitaries.
+The Prime Minister unveiled the logo of the Birth Centenary Celebrations of Padma Vibhushan Yatikula Chakravarti Sri…</description>
+<content:encoded><![CDATA[<table width="100%">
+<tr>
+<td style="font-weight: 200; text-align: center">
+                                    Prime Minister's Office
+                                    <div style="height: 30px; width: 100%;">
+</div>
+<div style="font-weight: 200; text-align: center; font-size: 30px;">
+                                          Prime Minister meets Sri Sri Vishwaprasanna Tirtha Swamiji of Sri Pejavara Adhokshaja Matha, Udupi, Karnataka
+                                    </div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="font-weight: 200; text-align: center; font-size: 30px;">
+<div style="height:30px;width:100%;"></div>PM unveils logo of birth centenary celebrations of Padma Vibhushan Yatikula Chakravarti Sri Vishwesha Tirtha Swamiji
+                                    </div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="text-align: center; font-size: 14px;">
+                                          Posted On:
+                        22 SEP 2026 9:03PM by PIB Delhi
+                                    </div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="font-weight: 200; text-align: left; font-size: 16px;">
+<p style="text-align:justify"><span style="font-size:16px"><span style="font-family:Times New Roman,Times,serif">Prime Minister Shri Narendra Modi today met Sri Sri Vishwaprasanna Tirtha Swamiji of Sri Pejavara Adhokshaja Matha, Udupi, Karnataka, along with other dignitaries.</span></span></p>
+<p style="text-align:justify"><span style="font-size:16px"><span style="font-family:Times New Roman,Times,serif">The Prime Minister unveiled the logo of the Birth Centenary Celebrations of Padma Vibhushan Yatikula Chakravarti Sri Vishwesha Tirtha Swamiji. He stated that his life of devotion, learning, and service continues to inspire countless people. Shri Modi added that the various initiatives being undertaken in the run-up to his birth centenary will further carry forward his noble ideals.</span></span></p>
+<p style="text-align:justify"><span style="font-size:16px"><span style="font-family:Times New Roman,Times,serif">In a post on X, the Prime Minister shared:</span></span></p>
+<p style="text-align:justify"><span style="font-size:16px"><span style="font-family:Times New Roman,Times,serif">"Met Sri Sri Vishwaprasanna Tirtha Swamiji of Sri Pejavara Adhokshaja Matha, Udupi, along with other dignitaries.</span></span></p>
+<p style="text-align:justify"><span style="font-size:16px"><span style="font-family:Times New Roman,Times,serif">Unveiled the logo of the Birth Centenary Celebrations of Padma Vibhushan Yatikula Chakravarti Sri Vishwesha Tirtha Swamiji. His life of devotion, learning and service continues to inspire countless people. The various initiatives being undertaken in the run-up to his birth centenary will further carry forward his noble ideals."</span></span></p>
+<p style="text-align:justify"><br/>
+<center><blockquote class="twitter-tweet"><p dir="ltr" lang="hi">Met Sri Sri Vishwaprasanna Tirtha Swamiji of Sri Pejavara Adhokshaja Matha, Udupi, along with other dignitaries. <br/><br/>Unveiled the logo of the Birth Centenary Celebrations of Padma Vibhushan Yatikula Chakravarti Sri Vishwesha Tirtha Swamiji. His life of devotion, learning and… <a href="https://t.co/an2ExoXDcM">pic.twitter.com/an2ExoXDcM</a></p>— Narendra Modi (@narendramodi) <a href="https://x.com/narendramodi/status/2102416566625476854?ref_src=twsrc%5Etfw">September 22, 2026</a></blockquote> </center>
+<p style="text-align:justify"> </p>
+<p style="text-align:center"><span style="font-size:16px"><span style="font-family:Times New Roman,Times,serif">***</span></span></p>
+<p style="text-align:justify"><span style="font-size:16px"><span style="font-family:Times New Roman,Times,serif">MJPS/SS/PRK</span></span></p>
+</p></div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="font-weight: 100; text-align: left; font-size: 16px;">
+                                          (Release ID: 2313656)
                                     </div>
 <div style="height: 30px; width: 100%;">
 </div>
@@ -184,6 +660,86 @@ I&amp;B Minister Announces next edition of WAVES to…</description>
 </div>
 <div style="font-weight: 100; text-align: left; font-size: 16px;">
                                           (Release ID: 2313647)
+                                    </div>
+<div style="height: 30px; width: 100%;">
+</div>
+</td>
+</tr>
+<tr>
+<td style="font-weight: 200; text-align: center; font-size: 24px;"></td>
+</tr>
+</table>]]></content:encoded>
+</item>
+<item>
+<title>NHRC, India holds Statutory Full Commission Meeting in New Delhi</title>
+<link>https://www.pib.gov.in/PressReleasePage.aspx?PRID=2313640</link>
+<guid isPermaLink="false">pib-release-2313640</guid>
+<pubDate>Tue, 22 Sep 2026 20:20:00 +0530</pubDate>
+<category>National Human Rights Commission</category>
+<dc:creator>National Human Rights Commission</dc:creator>
+<category>PIB Delhi</category>
+<description>National Human Rights Commission
+NHRC, India holds Statutory Full Commission Meeting in New Delhi
+The meeting aimed to enhance synergy and cooperation among the Commissions for the promotion and protection of human rights
+Chairing the meeting, Chairperson Justice V. Ramasubramanian says, the NHRC may explore extending support to other Commissions if lacking in machinery in the investigation of cases
+Shares concerns over the lack of rehabilitation of mentally ill women engaged in begging, social security for PwDs and the denial of insurance coverage to them by insurance companies
+Posted On:
+ …</description>
+<content:encoded><![CDATA[<table width="100%">
+<tr>
+<td style="font-weight: 200; text-align: center">
+                                    National Human Rights Commission
+                                    <div style="height: 30px; width: 100%;">
+</div>
+<div style="font-weight: 200; text-align: center; font-size: 30px;">
+                                          NHRC, India holds Statutory Full Commission Meeting in New Delhi
+                                    </div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="font-weight: 200; text-align: center; font-size: 30px;">
+<div style="height:30px;width:100%;"></div>The meeting aimed to enhance synergy and cooperation among the Commissions for the promotion and protection of human rights<div style="height:30px;width:100%;"></div><div style="height:30px;width:100%;"></div>Chairing the meeting, Chairperson Justice V. Ramasubramanian says, the NHRC may explore extending support to other Commissions if lacking in machinery in the investigation of cases <div style="height:30px;width:100%;"></div><div style="height:30px;width:100%;"></div>Shares concerns over the lack of rehabilitation of mentally ill women engaged in begging, social security for PwDs and the denial of insurance coverage to them by insurance companies
+                                    </div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="text-align: center; font-size: 14px;">
+                                          Posted On:
+                        22 SEP 2026 8:20PM by PIB Delhi
+                                    </div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="font-weight: 200; text-align: left; font-size: 16px;">
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The National Human Rights Commission (NHRC), India, organised a Statutory Full Commission meeting with representatives of all seven deemed members of the Commission in New Delhi today. The meeting aimed to enhance synergy and cooperation among the Commissions for the promotion and protection of human rights.</span></span></p>
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/image001_20260922202235_16d0a3.jpg" style="height:243px; width:602px"/></span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Chairing the meeting, Justice Shri V. Ramasubramanian, Chairperson, NHRC, India, emphasised the importance of collaborative functioning among the Commissions. He said that the Chairpersons of all the National Commissions are ex-officio Members of the NHRC and, therefore, are part of it. He said that together, the Commissions can undertake meaningful work for promoting and protecting the human rights of various sections of society.</span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Justice Ramasubramanian suggested appointing a Nodal Officer to coordinate among all the National Commissions. He said that the NHRC may explore extending support to other Commissions if lacking in machinery in the investigation of cases. In his concluding remarks, he also shared the concern over the lack of rehabilitation measures for mentally ill women engaged in begging, which requires attention. He noted that there is a sizeable population of persons with disabilities (PwDs) worldwide and stressed the need to examine policies intended for their welfare and identify gaps. The NHRC, India Chairperson expressed concern over the lack of social security for PwDs and the denial of insurance coverage by insurance companies. He also appreciated the suggestion for interfaith dialogue and coordinated research, particularly in overlapping areas.</span></span></p>
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/image002_20260922202243_97d6c1.jpg" style="height:187px; width:602px"/></span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The meeting discussed issues including an integrated approach towards protecting the rights of vulnerable and marginalised sections, identification of key areas for collaborative efforts, sharing of best practices and minimising duplication of cases. The participants emphasised the need for joint fact-finding efforts, research, awareness campaigns and outreach programmes.</span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Smt. Vijaya K. Rahatkar, Chairperson, National Commission for Women (NCW), highlighted the work of the NCW towards promoting and protecting women's rights and various programmes, including public hearings organised in different districts to hear their complaints. She said that, besides handling complaints, the NCW also focuses on research, awareness and outreach training programmes for the welfare of women. She added that the NCW has been organising anti-human trafficking campaigns in collaboration with Central Armed Police Forces and holding dialogues with youth on POSH, POCSO and cybercrime-related issues in collaboration with different institutions.</span></span></p>
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/image003_20260922202250_335c35.jpg" style="height:487px; width:602px"/></span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Smt. Kiran Umesh Mahalle, Member, National Commission for Backward Classes (NCBC), spoke about the problems faced by the beggar community, particularly those suffering from mental health issues. She expressed concern over mentally ill women being left by their families to beg on the roads. She suggested that the National Commissions may consider formulating a policy for their rehabilitation and recommending its implementation to the Government.</span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Shri S. Govindraj, Commissioner for Persons with Disabilities (CCPD) said that the CCPD has been focusing on reaching those who have remained unreached. He stressed the need for research into gaps in welfare measures for persons with disabilities, who he described as among the most vulnerable populations facing discrimination.</span></span></p>
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/image004_20260922202259_6d96e2.jpg" style="height:319px; width:602px"/></span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Dr. Sanjeev Sharma, Member Secretary, National Commission for Protection of Child Rights (NCPCR), highlighted the NCPCR's work on rescue and rehabilitation of children in a campaign mode. He said that over 8,000 children have been rescued and rehabilitated. He also underscored the need for capacity building and training. He said that the circulation of child sexual abuse material on social media platforms requires immediate attention. He suggested joint investigations and joint bench sittings of Statutory Commission members, besides strengthening State Commissions.</span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Shri Vivek Kumar Dewangan, Secretary, National Commission for Scheduled Castes (NCSC), said that the NCSC has set up an e-grievance monitoring portal, which has resulted in quicker redressal of grievances. He emphasised better coordination among the Statutory Commission members, collaboration on capacity building and awareness in educational institutions, joint studies on socio-economic indicators and joint action plans with measurable objectives.</span></span></p>
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/image005_20260922202306_499178.jpg" style="height:238px; width:357px"/></span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Shri Suchindra Misra, Secretary, National Commission for Minorities (NCM), highlighted the importance of electronic grievance redressal systems and capacity building with support from the NHRC. He also stressed coordination with States to establish State Minority Commissions, noting that only 18 States have such Commissions so far. He further underscored the significance of coordinated research and complaint redressal, besides holding interfaith dialogues.</span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Shri Manohar N. Sukole, Deputy Secretary, National Commission for Scheduled Tribes (NCST), highlighting the importance of registering of <em>suomotu</em> cases besides the need for establishing grievance redressal platforms with real time tracking provisions and early warning systems identifying the recurring issues and overlapping matters requiring a more integrated approach among Statutory Commission Members.</span></span></p>
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/image006_20260922202314_9da113.jpg" style="height:175px; width:602px"/></span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Justice (Dr.) Bidyut Ranjan Sarangi, Member, NHRC, India said that the endeavour should be to work together to ensure that benefits reach the grassroots level. He said that while the Statutory Commission members work in different fields, their purpose is the same. He observed that SOPs can be effective if implemented properly and emphasised the need for adequate staff and infrastructure for all the Commissions to achieve their objectives.</span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Dr. Anupama Nilekar Chandra, DG (Inv) NHRC, India said that the Commission will be organising a training programme for investigation officers on the last Wednesday of each month beginning 30<sup>th</sup> September 2026. It will be further expanded over the course of time.</span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Earlier, setting the agenda for the meeting, Shri Piyush Goyal, Secretary General, NHRC, India, gave an overview of the country's unique institutional human rights protection framework. He emphasised that interactions among these institutions are useful in forming synergy and cooperation between different Commissions to protect the rights of vulnerable and disadvantaged communities including bonded labours, older persons and manual scavengers. The interactions can also help in paving the way forward for capacity building and sharing of best practices.</span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Shri Samir Kumar, Joint Secretary, NHRC, India, summarised the activities undertaken by the Commission over the last year.</span></span></p>
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The meeting concluded with a renewed commitment to collaborative efforts among the Commissions for the promotion and protection of human rights in India.</span></span></p>
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/image007_20260922202322_48f17b.jpg" style="height:297px; width:602px"/></span></span></p>
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">***** </span></span></p>
+<p><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">NSK</span></span></strong></p>
+</div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="height: 30px; width: 100%;">
+</div>
+<div style="font-weight: 100; text-align: left; font-size: 16px;">
+                                          (Release ID: 2313640)
                                     </div>
 <div style="height: 30px; width: 100%;">
 </div>
@@ -25769,477 +26325,6 @@ The 139th meeting of the Enforcement Task Force (ETF) of the Commission for Air 
 </div>
 <div style="font-weight: 100; text-align: left; font-size: 16px;">
                                           (Release ID: 2310540)
-                                    </div>
-<div style="height: 30px; width: 100%;">
-</div>
-</td>
-</tr>
-<tr>
-<td style="font-weight: 200; text-align: center; font-size: 24px;"></td>
-</tr>
-</table>]]></content:encoded>
-</item>
-<item>
-<title>Department of Drinking Water and Sanitation Organises 12th District Collectors’ Peyjal Samvad</title>
-<link>https://www.pib.gov.in/PressReleasePage.aspx?PRID=2310538</link>
-<guid isPermaLink="false">pib-release-2310538</guid>
-<pubDate>Tue, 15 Sep 2026 17:36:00 +0530</pubDate>
-<category>Ministry of Jal Shakti</category>
-<dc:creator>Ministry of Jal Shakti</dc:creator>
-<category>PIB Delhi</category>
-<description>Ministry of Jal Shakti
-Department of Drinking Water and Sanitation Organises 12th District Collectors’ Peyjal Samvad
-Six Districts Showcase Innovative Practices on Source Sustainability, Behaviour Change through IEC activities, Grievance Redressal Mechanism and Convergence
-Posted On:
-                        15 SEP 2026 5:36PM by PIB Delhi
-The Department of Drinking Water &amp; Sanitation (DDWS), Ministry of Jal Shakti, organised the
-12
-th
-edition of the District Collectors’ Peyjal Samvad
-today through video conferencing, bringing together senior officials, District Collectors/ District…</description>
-<content:encoded><![CDATA[<table width="100%">
-<tr>
-<td style="font-weight: 200; text-align: center">
-                                    Ministry of Jal Shakti
-                                    <div style="height: 30px; width: 100%;">
-</div>
-<div style="font-weight: 200; text-align: center; font-size: 30px;">
-                                          Department of Drinking Water and Sanitation Organises 12th District Collectors’ Peyjal Samvad
-                                    </div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="font-weight: 200; text-align: center; font-size: 30px;">
-<div style="height:30px;width:100%;"></div>Six Districts Showcase Innovative Practices on Source Sustainability, Behaviour Change through IEC activities, Grievance Redressal Mechanism and Convergence<div style="height:30px;width:100%;"></div>
-</div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="text-align: center; font-size: 14px;">
-                                          Posted On:
-                        15 SEP 2026 5:36PM by PIB Delhi
-                                    </div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="font-weight: 200; text-align: left; font-size: 16px;">
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The Department of Drinking Water &amp; Sanitation (DDWS), Ministry of Jal Shakti, organised the <strong>12<sup>th</sup> edition of the District Collectors’ Peyjal Samvad</strong> today through video conferencing, bringing together senior officials, District Collectors/ District Magistrates/ Deputy Commissioners, to deliberate on accelerating the implementation of Jal Jeevan Mission (JJM) 2.0 and sharing of best practices.</span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The Samvad was chaired by <strong>Shri Ashok K.K. Meena</strong>, <strong>Secretary, DDWS</strong>. Shri Kamal Kishore Soan, Additional Secretary &amp; Mission Director, National Jal Jeevan Mission (NJJM) and Senior Officers from SWSM and DDWS were also present during the Samvad.</span></span></p>
-<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/image002_20260915173822_032406.jpg" style="height:236px; width:403px"/></span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Addressing the occasion, <strong>Shri Ashok K.K. Meena, Secretary, DDWS</strong>, emphasized the importance of regular monthly District Water and Sanitation Mission (DWSM) meetings to review scheme progress, service delivery, water quality, and source sustainability under JJM 2.0. He stressed that completed schemes should be handed over to Gram Panchayats through the Jal Arpan programme after the prescribed trial run and proper documentation, thereby promoting community ownership and sustainable operation and maintenance. He urged districts to actively involve MPs, MLAs, and other public representatives through Jal Arpan ceremonies, DISHA meetings, and DWSM reviews to enhance transparency and public confidence in rural water supply systems. He also highlighted the need for timely utilization of JJM 2.0 funds, accurate reporting of physical and financial progress, and preparation of District and State Improvement Plans to address service gaps. Further, he encouraged the use of the Decision Support System (DSS) for planning source sustainability measures such as rainwater harvesting and groundwater recharge, while underscoring that regular monitoring of scheme functionality, water quality, and sustainability interventions is essential to ensure reliable and sustainable drinking water services for all rural households.</span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The progress and best practices of six selected districts, <strong>Shahdol (Madhya Pradesh), Samba (Jammu &amp; Kashmir), Hooghly (West Bengal), Dhamtari (Chhattisgarh), Fatehgarh Sahib (Punjab) and North &amp; Middle Andaman (Andaman &amp; Nicobar Islands) </strong>were also presented by the respective District Collectors/District Magistrates/District Commissioners to facilitate cross-learning and support other districts in strengthening implementation under JJM 2.0.</span></span><br/>
-<span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Innovative Best Practices shared by <strong>six districts</strong> through presentations by the respective District Collector/ District Magistrate/ Deputy Commissioner:</span></span></p>
-<ul style="margin-left:40px">
-<li style="text-align: justify;"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>Shahdol, Madhya Pradesh- Sh. Parth Jaiswal, District</strong> <strong>Collector</strong> informed that civil and electrical works for the water supply schemes have largely been completed, and the remaining works are expected to be commissioned by November 2026. Emphasis was laid on conducting weekly reviews to ensure timely completion of all Single Village Schemes (SVSs) and Multi Village Schemes (MVSs). Out of 544 completed SVSs, 405 have already been handed over, while 35 more are planned for handover on 2 October 2026 through the Jal Arpan programme. The district has set a target to achieve full completion and functionality of all rural water supply schemes by December 2026 and to declare the district fully functional by 26 January 2027. The district also showcased best practices, including a digital platform for overhead tank cleaning and maintenance, an online mechanism for collection of water and sanitation charges through UPI and net banking, and systems to strengthen Gram Panchayat-led operation and maintenance. These initiatives are helping improve transparency, service delivery, revenue collection, and long-term sustainability of rural drinking water infrastructure. </span></span></li>
-</ul>
-<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/image003_20260915173830_3fd365.jpg" style="height:191px; width:605px"/></span></span></p>
-<ul style="margin-left:40px">
-<li style="text-align: justify;"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>Samba, Jammu &amp; Kashmir- Smt Ayushi Sudan, Deputy Commissioner</strong> presented Samba as a model district under Jal Jeevan Mission, despite facing significant water management challenges due to diverse geographical conditions and dependence on groundwater sources. Through JJM, the district increased Functional Household Tap Connection (FHTC) coverage with prescribed service levels from about 23% to nearly 70%, adding around 35,000 new tap connections. The district implemented 130 water supply schemes, supported by filtration plants, tube wells, dug wells, pumping stations, and storage infrastructure. Key challenges included difficult hilly terrain, declining groundwater levels, source sustainability concerns, power supply constraints, land-related issues, and the high operation and maintenance requirements of water supply systems. To address these challenges, the district adopted location-specific solutions based on local hydrogeological conditions. Several successful interventions were highlighted, including the revival of a 60-year-old dug well at the revered Uttar Behni Temple, which now provides drinking water to hundreds of households, and the development of customized schemes for remote hilly villages through a combination of filtration plants and tube wells to ensure universal coverage. </span></span></li>
-</ul>
-<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/image004_20260915173849_0d2cb1.jpg" style="height:236px; width:605px"/></span></span></p>
-<ul style="margin-left:40px">
-<li style="text-align: justify;"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>Hooghly, West Bengal- Sh. Khursheed Ali Qadri, District Magistrate</strong> showcased the district’s substantial progress in creating drinking water infrastructure, the district shifted its focus towards community participation, service assessment, and grievance redressal to ensure sustainable service delivery under Jal Jeevan Mission. Under the Jal Seva Abhiyan, village-level service assessments were conducted by Village Water and Sanitation Committees (VWSCs), followed by validation exercises. The findings and suggested improvements were incorporated into the District Improvement Plan and submitted to the State Government. A strong emphasis was also placed on community awareness through Self-Help Groups (SHGs), with meetings, workshops, and campaigns involving nearly seven lakh women. These initiatives focused on water conservation, efficient water use, source sustainability, and reducing water wastage. To strengthen accountability, the district established a robust grievance redressal mechanism, receiving complaints through multiple channels, including helplines, emails, public representatives, and government platforms. Dedicated public hearing days are organized every week to address drinking water-related grievances promptly. Strict action has also been taken against illegal water connections and unauthorized usage to prevent water losses and ensure equitable distribution. Regular District Water and Sanitation Committee (DWSC) and DISHA meetings are being conducted with active participation of public representatives to review JJM implementation, address concerns, and undertake corrective measures. These efforts have significantly improved community engagement, transparency, service delivery, and public confidence in rural drinking water systems. </span></span></li>
-</ul>
-<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">​​​​​​​<img src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/image005_20260915173906_a3802c.jpg" style="height:186px; width:608px"/></span></span></p>
-<ul style="margin-left:40px">
-<li style="text-align: justify;"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>Dhamtari, Chhattisgarh- Sh. Abhinash Mishra, District Collector</strong> showcased that the district reported significant progress in the implementation of MVSs, with the majority of schemes already completed and the remaining works expected to be completed after obtaining necessary clearances, particularly in forest and tiger reserve areas. To ensure effective operation and maintenance (O&amp;M), regular DWSM meetings are being conducted twice a month, focusing on scheme sustainability, convergence activities, payment issues, and service delivery improvements. The district has strengthened community ownership by ensuring active participation of VWSCs, with user charges being collected online based on population served. Gram Panchayats have been entrusted with the day-to-day O&amp;M of water supply assets. Special emphasis has been placed on awareness generation through SHGs and community mobilization, with women playing a leading role in water governance. More than two-thirds of the Sarpanches and community representatives involved in these initiatives are women. A notable success story highlighted was a solar-powered Single Village Scheme in a remote tribal habitation, which has significantly improved access to drinking water in difficult terrain. The initiative received wide public appreciation and demonstrated how community participation, renewable energy, and decentralized management can contribute to sustainable rural drinking water service delivery. </span></span></li>
-</ul>
-<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">​​​​​​​<img src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/image006_20260915173921_0ee4b3.jpg" style="height:188px; width:610px"/></span></span></p>
-<ul style="margin-left:80px">
-<li style="text-align: justify;"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>Fatehgarh Sahib, Punjab- Dr. Sona Thind, Deputy Commissioner</strong> highlighted the district’s successful achievement of 100%  FHTC coverage, ensuring tap water supply to all 78,475 rural households across 429 villages, along with full coverage of schools and Anganwadi centres. Building upon this achievement, the district has shifted its focus towards maintaining service quality, with nearly 80% of rural households receiving more than 70 lpcd of water, exceeding the JJM benchmark of 55 lpcd. To address groundwater depletion and water quality concerns, the district implemented a major 12 MLD surface water project drawing water from the Rajpura Distributary. The project serves 92 villages and has significantly benefited fluoride-affected areas by providing safe drinking water to over 86,000 people through an extensive pipeline network. The district has also adopted IoT-based real-time monitoring systems and a dedicated grievance redressal mechanism to ensure continuous service delivery and prompt response to complaints. Regular DWSM meetings, community participation through Gram Panchayats and VWSCs, and structured planning have strengthened local ownership of water supply systems. A strong emphasis has been placed on water quality surveillance, with NABL-accredited laboratories conducting regular testing and women-led community monitoring through Field Testing Kits (FTKs). Through a combination of surface water infrastructure, digital monitoring, community participation, and rigorous quality testing, the district has developed a sustainable model for maintaining safe and reliable drinking water services under Jal Jeevan Mission.</span></span></li>
-</ul>
-<p style="margin-left:17pt; text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/image007_20260915173931_05e509.jpg" style="height:186px; width:606px"/></span></span></p>
-<ul style="margin-left:40px">
-<li style="text-align: justify;"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>North and Middle Andaman, Andaman &amp; Nicobar Islands- Sh. Sushant Padha, Deputy Commissioner</strong> highlighted the district's achievement of 100% FHTC coverage, covering all villages and approximately 24,400 households under Jal Jeevan Mission. A total of eight JJM schemes were completed with an expenditure of about ₹5.2 crore, ensuring universal rural water supply coverage. Given the district's unique island geography and recurring summer water scarcity, monthly DWSM meetings are being conducted to review water availability and plan long-term sustainability measures. Discussions focus on rejuvenation of existing water sources, construction of ponds, ring wells, and water treatment plants, as well as expediting Environmental Impact Assessment (EIA) clearances, which often delay project implementation due to the district's extensive forest cover. To address seasonal water shortages, the district has adopted a decentralized approach by creating village-level water storage structures and enhancing local water security through convergence with MGNREGA and other development programmes. The administration is also working closely with ISRO's National Remote Sensing Centre (NRSC) to identify and study spring sources, assess groundwater feasibility, and improve recharge measures. The district has placed strong emphasis on water quality monitoring, with regular sample testing through WQMIS-enabled laboratories and continuous surveillance of drinking water sources. A proactive grievance redressal mechanism, supported by digital communication platforms and local stakeholder networks, helps ensure prompt resolution of complaints, including a focus on zero-leakage service delivery. Awareness campaigns on water conservation, social water audits, community training, and public outreach through print and social media are being conducted extensively to promote responsible water use and strengthen long-term source sustainability in the island district. </span></span></li>
-</ul>
-<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/image008_20260915173938_3f38b3.jpg" style="height:182px; width:624px"/></span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">In his concluding remarks, <strong>Shri Kamal Kishore Soan, AS&amp;MD, NJJM </strong>appreciated the presentations made by Districts and urged that all Mission Directors to actively participate in the upcoming Skilling and Nal Jal Mitra Programme discussions by coordinating with the State Skill Development Departments and sharing inputs before the virtual meeting scheduled on 21 September 2026. Further, he stated that States/UTs were also advised to commence geo-tagging of rural water supply sources from 2 October 2026. Further, Jal Arpan activities should be organized on 2 October 2026 across the maximum possible number of Gram Panchayats, with details of participating GPs to be shared with the Department by 20 September 2026. States/UTs were also directed to initiate post-monsoon testing of water supply sources from 2 October 2026. The meeting concluded with appreciation for the efforts of all participating States and Districts towards effective implementation of the Jal Jeevan Mission 2.0.</span></span></p>
-<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">***</span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>PS/AK</strong></span></span></p>
-</div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="font-weight: 100; text-align: left; font-size: 16px;">
-                                          (Release ID: 2310538)
-                                    </div>
-<div style="height: 30px; width: 100%;">
-</div>
-</td>
-</tr>
-<tr>
-<td style="font-weight: 200; text-align: center; font-size: 24px;"></td>
-</tr>
-</table>]]></content:encoded>
-</item>
-<item>
-<title>In the presence of Union Home Minister and Minister of Cooperation Shri Amit Shah and Union Jal Shakti Minister Shri C. R. Patil, CMs of Uttar Pradesh, Uttarakhand, Himachal Pradesh, Rajasthan, Delhi and Haryana signed the Kishau Multipurpose Project agreement</title>
-<link>https://www.pib.gov.in/PressReleasePage.aspx?PRID=2310528</link>
-<guid isPermaLink="false">pib-release-2310528</guid>
-<pubDate>Tue, 15 Sep 2026 17:26:00 +0530</pubDate>
-<category>Ministry of Home Affairs</category>
-<dc:creator>Ministry of Home Affairs</dc:creator>
-<category>PIB Delhi</category>
-<description>Ministry of Home Affairs
-In the presence of Union Home Minister and Minister of Cooperation Shri Amit Shah and Union Jal Shakti Minister Shri C. R. Patil, CMs of Uttar Pradesh, Uttarakhand, Himachal Pradesh, Rajasthan, Delhi and Haryana signed the Kishau Multipurpose Project agreement
-This agreement is an excellent example of Modi Ji’s “Sabka Saath, Sabka Vikas, Sabka Vishwas aur Sabka Prayas” and the core mantra of Team India
-Gratitude to all the Chief Ministers for making this decades-pending project successful by following Modi Ji’s mantra of ‘Samvad se Samadhan’
-Under the Modi government,…</description>
-<content:encoded><![CDATA[<table width="100%">
-<tr>
-<td style="font-weight: 200; text-align: center">
-                                    Ministry of Home Affairs
-                                    <div style="height: 30px; width: 100%;">
-</div>
-<div style="font-weight: 200; text-align: center; font-size: 30px;">
-                                          In the presence of Union Home Minister and Minister of Cooperation Shri Amit Shah and Union Jal Shakti Minister Shri C. R. Patil, CMs of Uttar Pradesh, Uttarakhand, Himachal Pradesh, Rajasthan, Delhi and Haryana signed the Kishau Multipurpose Project agreement
-                                    </div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="font-weight: 200; text-align: center; font-size: 30px;">
-<div style="height:30px;width:100%;"></div>This agreement is an excellent example of Modi Ji’s “Sabka Saath, Sabka Vikas, Sabka Vishwas aur Sabka Prayas” and the core mantra of Team India<div style="height:30px;width:100%;"></div><div style="height:30px;width:100%;"></div>Gratitude to all the Chief Ministers for making this decades-pending project successful by following Modi Ji’s mantra of ‘Samvad se Samadhan’<div style="height:30px;width:100%;"></div><div style="height:30px;width:100%;"></div>Under the Modi government, this tenth water dispute is set to be resolved today<div style="height:30px;width:100%;"></div><div style="height:30px;width:100%;"></div>The agreement reached today will benefit all these states — Himachal Pradesh, Uttarakhand, Uttar Pradesh, Haryana, Rajasthan and Delhi<div style="height:30px;width:100%;"></div><div style="height:30px;width:100%;"></div>The period from 2018 to 2026 will be known as the era of resolving water disputes in North India through mutual consensus under the leadership of Modi Ji<div style="height:30px;width:100%;"></div><div style="height:30px;width:100%;"></div>The Kishau Multipurpose Project agreement will prove extremely beneficial for both Delhi and the Yamuna; it will give a boost to environmental conservation<div style="height:30px;width:100%;"></div><div style="height:30px;width:100%;"></div>The Kishau Multipurpose Project has been declared a national project approximately 90% of its financial burden will be borne by the Government of India, and the remaining 10% by the partner states<div style="height:30px;width:100%;"></div><div style="height:30px;width:100%;"></div>Under the Kishau Multipurpose Project agreement, a 232.6-metre-high concrete gravity dam will be constructed on the Tons River flowing along the border of Uttarakhand and Himachal Pradesh, with a water storage capacity of 1,562 million cubic metres<div style="height:30px;width:100%;"></div><div style="height:30px;width:100%;"></div>Delhi will get the biggest benefit from the Kishau Multipurpose Project agreement<div style="height:30px;width:100%;"></div><div style="height:30px;width:100%;"></div>Under the project, 97,000 hectares of land will be irrigated and 1,476 million units of clean hydropower will also be generated
-                                    </div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="text-align: center; font-size: 14px;">
-                                          Posted On:
-                        15 SEP 2026 5:26PM by PIB Delhi
-                                    </div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="font-weight: 200; text-align: left; font-size: 16px;">
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">In the presence of Union Home Minister and Minister of Cooperation Shri Amit Shah and Union Jal Shakti Minister Shri C. R. Patil, the Chief Ministers of Uttar Pradesh Shri Yogi Adityanath, Uttarakhand Shri Pushkar Singh Dhami, Himachal Pradesh Shri Sukhvinder Singh Sukhu, Rajasthan Shri Bhajan Lal Sharma, Delhi Smt. Rekha Gupta, and Haryana Shri Nayab Singh Saini today signed the Kishau Multipurpose Project agreement. On this occasion, the Union Home Secretary, the Secretary of the Department of Water Resources, River Development and Ganga Rejuvenation, and the Chief Secretaries of the concerned states were also present.</span></span></span></p>
-<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black"><img alt="KISHAU03.jpeg" src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/image001_20260915171933_9d93fd.jpg" style="height:306px; width:624px"/></span></span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Addressing the meeting, Union Home Minister and Minister of Cooperation Shri Amit Shah said that today we have witnessed a historic agreement. He expressed confidence that once the project is completed, this event will become an important chapter in history. He said that the agreement reached today will benefit Himachal Pradesh, Uttarakhand, Uttar Pradesh, Haryana, Rajasthan and Delhi in one way or another. Shri Shah said that the most important aspect is that all six states have given their consent and signed the agreement. Union Home Minister congratulated the Chief Ministers of all six states and Union Minister for Jal Shakti Shri C. R. Patil for playing an important role in bringing the project to this stage. He said that the Government of India and the Chief Ministers of these six states of the Yamuna basin are committed to completing the project at the earliest.</span></span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Union Home Minister Shri Amit Shah said that since Shri Narendra Modi became Prime Minister, this is the tenth water dispute that is now set to be resolved. He said that under Prime Minister Narendra Modi’s leadership, an initiative has been undertaken to resolve serious disputes that had continued for the past fifty years. He said that first, in August 2018, the dispute over the Lakhwar Multipurpose Project was resolved. In the same month, the dispute over the Shahpur Kandi Dam Project was settled. In 2019, the dispute over the Renukaji Multipurpose Dam Project in the Upper Yamuna Basin was resolved. In 2021, Madhya Pradesh and Uttar Pradesh reached an agreement on the Ken-Betwa Link Project, benefiting the water-stressed region of Bundelkhand. The revised Parbati-Kalisindh-Chambal River Link project moved forward in 2024. The scheme for transferring water from Hathinikund to the Yamuna through an underground pipeline was approved in February 2024. The dispute over the rehabilitation of families displaced by the Narmada Project was resolved in July 2026. The dispute over water sharing between Bihar and Jharkhand in the Son Basin was settled in August 2026 and today, finally, an agreement has been reached on the Kishau Multipurpose Project.</span></span></span></p>
-<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black"><img alt="KISHAU02.jpeg" src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/image002_20260915171941_df651b.jpg" style="height:319px; width:624px"/></span></span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Shri Amit Shah said that the period from 2018 to 2026, under the leadership of Modi Ji, will be remembered as a period in which almost all water disputes, from Kashmir to Uttar Pradesh, were resolved. He said that the foundation for these resolutions was laid in meetings of the Zonal Councils and the Ministry of Jal Shakti efficiently took these agreements forward. He said that after becoming Minister of Jal Shakti, Shri C. R. Patil took upon himself the responsibility of resolving long-pending disputes. He took initiatives at every level and, wherever assistance was required whether it was activating the Inter-State Council or involving the Ministry of Home Affairs, ensured that the task was brought to its conclusion.</span></span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Union Home Minister Shri Amit Shah said that with regard to the Kishau Multipurpose Project, an agreement was reached on 12 May 1994 that separate agreements would be entered into for each storage project coming up in the basin. Without that arrangement, this would not have been possible. Subsequently, after the disputes concerning the Lakhwar and Renukaji projects were resolved in 2019, work on Kishau moved forward. Formal agreement on the project was reached on 16 June this year. The Ministry of Jal Shakti took the matter forward and after securing the consent of all the states, while considering the technical and economic aspects and safeguarding the interests of all the states, brought the matter to a resolution.</span></span></span></p>
-<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black"><img alt="KISHAU01.jpeg" src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/image003_20260915171952_29df99.jpg" style="height:262px; width:624px"/></span></span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Union Home Minister said that under the leadership of Prime Minister Shri Narendra Modi, the Government of India has declared the Kishau Multipurpose Project a National Project. The Government of India will bear approximately 90 per cent of its financial burden, while the remaining 10 per cent will be borne by the participating states in accordance with the 1994 agreement. He said that the Government of Uttarakhand had certain difficulties. On behalf of the Government of India, we have assured them that efforts will be made to accommodate their demands under the schemes of the Government of India, and going forward, we will also assist Uttarakhand in bearing the financial burden that may fall upon the state.</span></span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Shri Amit Shah said that a 232.6-metre-high concrete gravity dam will be constructed on the Tons River, which flows along the border of Uttarakhand and Himachal Pradesh, with a water storage capacity of 1,562 million cubic metres. It will irrigate 97,000 hectares of land and generate 1,476 million units of clean hydropower. He said that Delhi will be the biggest beneficiary of the project.</span></span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Union Home Minister said that when the waters of the Yamuna were allocated, there was a serious lapse on the part of policymakers. The environmental flow of the Yamuna was not calculated at all, and all the available water was distributed among the states. No water was left for the river itself. He said that 25 per cent of the water will become available through the Kishau Multipurpose Project Agreement, which will prove extremely beneficial for both Delhi and the Yamuna. It will also contribute to environmental conservation.</span></span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Shri Amit Shah said that ever since Smt. Rekha Gupta became the Chief Minister of Delhi, continuous work has been underway under Prime Minister Narendra Modi’s leadership to clean the Yamuna. He expressed confidence that we will be able to achieve the goal of a clean Yamuna by 2029. When the Yamuna becomes clean, the Ganga also becomes clean, because ultimately the Yamuna merges with the Ganga at Prayagraj. He said that until the dream of cleaning the Yamuna is fulfilled, the dream of a clean Ganga will also remain incomplete.</span></span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Union Home Minister Shri Amit Shah said that the Chief Minister of Delhi and all concerned stakeholders are moving forward with full cooperation and dedication towards making the Yamuna clean. He said that today’s success is an excellent example of Prime Minister Narendra Modi’s guiding mantra of “Sabka Saath, Sabka Vikas, Sabka Vishwas and Sabka Prayas” and the core mantra of Team India. It also reflects the vision of India in which everyone moves forward together. He expressed confidence that just as all the parties worked with a common purpose and in the same direction to reach this agreement, all the states will similarly work in one direction to complete the project. This will enable us to clean the Yamuna at the earliest and provide crores of people with water for drinking, agriculture, development and industrial use.</span></span></span></p>
-<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">***</span></strong></span></span></p>
-<p><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">RK/RR/RKB/PS/PR</span></strong></span></span></p>
-</div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="font-weight: 100; text-align: left; font-size: 16px;">
-                                          (Release ID: 2310528)
-                                    </div>
-<div style="height: 30px; width: 100%;">
-</div>
-</td>
-</tr>
-<tr>
-<td style="font-weight: 200; text-align: center; font-size: 24px;"></td>
-</tr>
-</table>]]></content:encoded>
-</item>
-<item>
-<title>CCPA Imposed ₹10 Lakh Penalty on Rapido for Misleading Tipping Prompts and Dark Patterns</title>
-<link>https://www.pib.gov.in/PressReleasePage.aspx?PRID=2310526</link>
-<guid isPermaLink="false">pib-release-2310526</guid>
-<pubDate>Tue, 15 Sep 2026 17:24:00 +0530</pubDate>
-<category>Ministry of Consumer Affairs, Food &amp; Public Distribution</category>
-<dc:creator>Ministry of Consumer Affairs, Food &amp; Public Distribution</dc:creator>
-<category>PIB Delhi</category>
-<description>Ministry of Consumer Affairs, Food &amp; Public Distribution
-CCPA Imposed ₹10 Lakh Penalty on Rapido for Misleading Tipping Prompts and Dark Patterns
-CCPA finds “Confirm Shaming” and “Interface Interference” in Rapido’s ride-booking interface
-CCPA directs Rapido to discontinue misleading prompts and practices that steer consumers towards paying more
-CCPA’s action follows sector-wide examination of advance-tipping and dynamic pricing practices by ride-hailing platforms
-Posted On:
-                        15 SEP 2026 5:24PM by PIB Delhi
-The
-Central Consumer Protection Authority (CCPA)
-, headed…</description>
-<content:encoded><![CDATA[<table width="100%">
-<tr>
-<td style="font-weight: 200; text-align: center">
-                                    Ministry of Consumer Affairs, Food &amp; Public Distribution
-                                    <div style="height: 30px; width: 100%;">
-</div>
-<div style="font-weight: 200; text-align: center; font-size: 30px;">
-                                          CCPA Imposed ₹10 Lakh Penalty on Rapido for Misleading Tipping Prompts and Dark Patterns
-                                    </div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="font-weight: 200; text-align: center; font-size: 30px;">
-<div style="height:30px;width:100%;"></div>CCPA finds “Confirm Shaming” and “Interface Interference” in Rapido’s ride-booking interface<div style="height:30px;width:100%;"></div><div style="height:30px;width:100%;"></div>CCPA directs Rapido to discontinue misleading prompts and practices that steer consumers towards paying more<div style="height:30px;width:100%;"></div><div style="height:30px;width:100%;"></div>CCPA’s action follows sector-wide examination of advance-tipping and dynamic pricing practices by ride-hailing platforms
-                                    </div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="text-align: center; font-size: 14px;">
-                                          Posted On:
-                        15 SEP 2026 5:24PM by PIB Delhi
-                                    </div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="font-weight: 200; text-align: left; font-size: 16px;">
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The <strong>Central Consumer Protection Authority (CCPA)</strong>, headed by <strong>Chief Commissioner Smt. Nidhi Khare</strong> and <strong>Commissioner Shri Anupam Mishra</strong>, has imposed a <strong>penalty of ₹10 lakh on Roppen Transportation Services Private Limited</strong>, which operates the ride-hailing platform <strong>Rapido</strong>, for <strong>misleading advertisements, unfair trade practices, unfair contract and dark patterns</strong> in the manner in which riders were prompted to pay more before their rides were confirmed.</span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The action follows a <strong>sector-wide examination of cab and bike-taxi aggregator platforms operating in India</strong> undertaken by CCPA to examine practices relating to <strong>pre-ride tipping and dynamic pricing</strong>. During its examination of various platforms, CCPA found that the Rapido app displayed prompts such as <strong>“Higher the price, higher the chance of getting a ride”</strong> and <strong>“Captains aren't accepting at ₹60. Try adding +10, +20, +30”</strong> while a rider’s booking was still being processed.</span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>CCPA finds prompts amount to “Confirm Shaming”</strong></span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">CCPA found that Rapido’s algorithm first quoted a fare to the rider and, after the rider booked at that fare, prompted the rider to pay more on the ground that Captains were not accepting the original price. CCPA held that this practice creates a <strong>false impression that a rider’s chances of getting a ride quickly depend on paying an additional amount</strong>, at the precise stage when the rider has already committed to the booking and has limited scope to negotiate.The practice was held to constitute <strong>“Confirm Shaming”</strong>, a dark pattern identified under the <a href="https://consumeraffairs.nic.in/" target="_blank"><strong><span style="color:blue">Guidelines for Prevention and Regulation of Dark Patterns, 2023</span></strong></a>, as it creates a sense of urgency and fear of losing the ride if the consumer does not agree to pay more. </span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>Colour-coded pricing slider found to be a second dark pattern</strong></span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">CCPA also examined Rapido’s <strong>“Set your price”</strong> slider and found that it was colour-coded to influence the rider’s pricing decision.</span></span></p>
-<ul style="margin-left:40px">
-<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Raising the price displayed <strong>“higher chance of getting a ride”</strong> in green.</span></span></li>
-<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Lowering the price triggered a <strong>red or orange warning</strong>.</span></span></li>
-<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The slider provided <strong>more room to increase the price than to decrease it</strong>.</span></span></li>
-</ul>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">CCPA held that this amounted to a second dark pattern <strong>“Interface Interference”</strong>  as the design of the interface visually steered consumers towards paying a higher amount, independent of the accompanying text.</span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>Advance payment cannot be presented as a genuine “tip”</strong></span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">CCPA noted that the fare displayed to a rider at the time of booking already takes into account factors including <strong>distance, time, traffic, tolls and the amount payable to the captain</strong>.In this context, CCPA found no justification for subsequently suggesting that the rider pay an additional amount for the same ride before the ride had commenced. CCPA observed that a <strong>tip is ordinarily a voluntary payment made after a service has been rendered</strong> and should not be presented as a condition for the service to be provided.</span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">CCPA also referred to the <a href="https://morth.nic.in/" target="_blank"><strong><span style="color:blue">Motor Vehicle Aggregator Guidelines, 2025</span></strong></a>, which require that any tipping feature be made available <strong>only after completion of the ride</strong>, and not at the time of booking or during the ride. Rapido had argued that tipping is voluntary, that its matching algorithm continues to operate irrespective of whether a rider pays an additional amount, and that the prompts merely reflected real-time negotiation similar to an offline conversation between a rider and a driver.</span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">CCPA rejected these submissions, holding that the <strong>timing and design of the prompts placed pressure on the rider at the very moment when the rider was most dependent on the platform</strong>’s further noted that Rapido had <strong>not placed any data on record demonstrating that paying an additional amount actually increases the likelihood of a rider getting a ride</strong>. The claim was therefore held to be <strong>unsubstantiated and misleading</strong>.</span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>Sector-wide scrutiny of ride-hailing platforms</strong></span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The action against Rapido forms part of CCPA’s wider scrutiny of <strong>advance-tip and dark-pattern practices across ride-hailing and bike-taxi platforms</strong>. CCPA had earlier issued notices to platforms including <strong>Uber, Ola, Rapido and Namma Yatri</strong>, directing them to comply with the <strong>Guidelines for Prevention and Regulation of Dark Patterns, 2023</strong> and submit self-declarations regarding compliance. CCPA’s examination of <strong>Uber and Ola</strong> in this regard is currently ongoing.</span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>CCPA reiterates commitment to consumer protection</strong></span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">In exercise of its statutory mandate under the <strong>Consumer Protection Act, 2019</strong>, CCPA continues to take proactive measures to protect consumers as a class, prevent unfair trade practices and ensure that no false or misleading advertisement is made in respect of goods or services.Consumers having complaints or grievances relating to <strong>misleading advertisements, unfair trade practices or dark patterns</strong> may register their grievances through the <strong>National Consumer Helpline (NCH) at 1915</strong> or write to CCPA at <a href='https://www.pib.gov.in/com-ccpa[at]gov[dot]in"' style="color:black;text-decoration:none;pointer-events:none;">com-ccpa[at]gov[dot]in</a>.</span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>The Final Order is available on the </strong><a href="https://ccpa.doca.gov.in/" target="_blank"><strong><span style="color:blue">CCPA website</span></strong></a><strong>. </strong></span></span></p>
-<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>*** </strong></span></span></p>
-<p><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong> RRTN/RT/SB/ ARC</strong></span></span></p>
-</div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="font-weight: 100; text-align: left; font-size: 16px;">
-                                          (Release ID: 2310526)
-                                    </div>
-<div style="height: 30px; width: 100%;">
-</div>
-</td>
-</tr>
-<tr>
-<td style="font-weight: 200; text-align: center; font-size: 24px;"></td>
-</tr>
-</table>]]></content:encoded>
-</item>
-<item>
-<title>GATC Network Expands to Strengthen Legal Metrology Verification Infrastructure Across the Country</title>
-<link>https://www.pib.gov.in/PressReleasePage.aspx?PRID=2310523</link>
-<guid isPermaLink="false">pib-release-2310523</guid>
-<pubDate>Tue, 15 Sep 2026 17:21:00 +0530</pubDate>
-<category>Ministry of Consumer Affairs, Food &amp; Public Distribution</category>
-<dc:creator>Ministry of Consumer Affairs, Food &amp; Public Distribution</dc:creator>
-<category>PIB Delhi</category>
-<description>Ministry of Consumer Affairs, Food &amp; Public Distribution
-GATC Network Expands to Strengthen Legal Metrology Verification Infrastructure Across the Country
-Fresh applications from industry, laboratories and technical institutions under process
-51 Government Approved Test Centres already recognised; network set to expand further
-Several States notify GATC Rules in alignment with amended central framework
-Posted On:
-                        15 SEP 2026 5:21PM by PIB Delhi
-The
-Department of Consumer Affairs, Ministry of Consumer Affairs, Food &amp; Public Distribution
-, is strengthening the country’s…</description>
-<content:encoded><![CDATA[<table width="100%">
-<tr>
-<td style="font-weight: 200; text-align: center">
-                                    Ministry of Consumer Affairs, Food &amp; Public Distribution
-                                    <div style="height: 30px; width: 100%;">
-</div>
-<div style="font-weight: 200; text-align: center; font-size: 30px;">
-                                          GATC Network Expands to Strengthen Legal Metrology Verification Infrastructure Across the Country
-                                    </div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="font-weight: 200; text-align: center; font-size: 30px;">
-<div style="height:30px;width:100%;"></div>Fresh applications from industry, laboratories and technical institutions under process<div style="height:30px;width:100%;"></div><div style="height:30px;width:100%;"></div>51 Government Approved Test Centres already recognised; network set to expand further<div style="height:30px;width:100%;"></div><div style="height:30px;width:100%;"></div>Several States notify GATC Rules in alignment with amended central framework
-                                    </div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="text-align: center; font-size: 14px;">
-                                          Posted On:
-                        15 SEP 2026 5:21PM by PIB Delhi
-                                    </div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="font-weight: 200; text-align: left; font-size: 16px;">
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The <strong>Department of Consumer Affairs, Ministry of Consumer Affairs, Food &amp; Public Distribution</strong>, is strengthening the country’s Legal Metrology verification infrastructure through the expanding network of <strong>Government Approved Test Centres (GATCs)</strong>. A fresh round of applications for recognition has received strong response from <strong>industry, laboratories and technical institutions</strong> across the country.</span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Following amendments to the <strong>Legal Metrology (Government Approved Test Centre) Rules, 2013</strong>, the scope of GATCs has been broadened to cover <strong>23 categories of weighing and measuring instruments</strong> across sectors including healthcare, energy, transport, retail, manufacturing, infrastructure and emerging clean-energy sectors.</span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The Department has continued to invite eligible <strong>industries, laboratories, engineering colleges, polytechnics, ITIs and testing facilities</strong> to seek recognition as GATCs. Applications were once again invited through the Department’s online portal, with the latest application window receiving active response from prospective applicants.</span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">A number of applications have been received from eligible organisations following the latest call and are presently under process by the Department in consultation with the concerned State Legal Metrology Departments.</span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The applications are being examined for:</span></span></p>
-<ul style="margin-left:40px">
-<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Completeness of documentation;</span></span></li>
-<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Adequacy of verification infrastructure;</span></span></li>
-<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Availability of qualified technical personnel; and</span></span></li>
-<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Site inspection prior to grant of recognition.</span></span></li>
-</ul>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">With <strong>51 GATCs already recognised</strong> and a healthy pipeline of applications under active consideration, the GATC network is set to expand further in the coming months, widening the base of technically competent verification facilities available to industry and consumers.</span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>Key Highlights</strong></span></span></p>
-<ul style="margin-left:40px">
-<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Fresh round of applications for <strong>GATC recognition</strong> invited, with strong response from industry, laboratories and technical institutions.</span></span></li>
-<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Applications received are under process, with <strong>site inspections and technical verification</strong> being carried out in coordination with State Legal Metrology Departments.</span></span></li>
-<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>51 GATCs</strong> have already been recognised, with the network set to expand further as more applications are approved.</span></span></li>
-<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Several States have <strong>finalised and notified their own GATC Rules</strong>, aligning them with the amended central framework.</span></span></li>
-<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Verification scope covers <strong>23 categories of instruments</strong>, including water, gas and energy meters, breath analysers, vehicle speedometers, weighing instruments and fuel dispensers for petrol, diesel, CNG, LPG, LNG and hydrogen.</span></span></li>
-<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The expanded network strengthens <strong>Ease of Doing Business while reinforcing consumer protection</strong>, in line with India’s status as an <strong>OIML Certification Authority</strong>.</span></span></li>
-</ul>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>Several States align GATC Rules with amended central framework</strong></span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">In a significant development reinforcing the <strong>Centre-State partnership</strong> underpinning the GATC framework, several States have finalised and notified their own GATC Rules in line with the amended central framework. This alignment at the State level is expected to further deepen the reach of the verification ecosystem, enable smoother coordination between <strong>State Legal Metrology Departments and recognised GATCs</strong>, and support faster and more localised verification services for businesses and consumers across the country.</span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>GATCs supplement State Legal Metrology infrastructure</strong></span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The expansion of the GATC network is a significant step in the Department’s ongoing efforts to modernise India’s Legal Metrology ecosystem. By enabling technically competent private institutions to undertake <strong>verification and re-verification of specified weights and measures</strong>, the initiative supplements the capacity of State Legal Metrology Departments.</span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">This allows Legal Metrology Officers to devote greater attention to:</span></span></p>
-<ul style="margin-left:40px">
-<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Market surveillance;</span></span></li>
-<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Risk-based inspections;</span></span></li>
-<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Enforcement against serious violations; and</span></span></li>
-<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Consumer grievance redressal.</span></span></li>
-</ul>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>Verification covers 23 categories of instruments</strong></span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The expanded GATC framework covers <strong>23 categories of weighing and measuring instruments</strong>, including:</span></span></p>
-<ul style="margin-left:40px">
-<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Water, gas and energy meters;</span></span></li>
-<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Breath analysers;</span></span></li>
-<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Speedometers used to measure the speed of vehicles;</span></span></li>
-<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Weighing instruments; and</span></span></li>
-<li style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Fuel dispensers for <strong>petrol, diesel, CNG, LPG, LNG and hydrogen</strong>.</span></span></li>
-</ul>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">As the network of GATCs continues to grow, supported by fresh applications and the alignment of State-level rules with the central framework, the Department is steadily building a <strong>larger, more accessible and technologically capable verification infrastructure</strong>. The expansion reflects the combined efforts of the Legal Metrology system to advance <strong>Ease of Doing Business</strong> while simultaneously strengthening <strong>consumer protection and confidence in everyday commercial transactions</strong>.</span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The Department reiterates its commitment to building a <strong>transparent, technology-driven and self-reliant system of measurement verification</strong> that enhances fairness in trade and protects the interests of consumers across the country. </span></span></p>
-<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">*** </span></span></p>
-<p><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>RRTN/RT/SB/ARC</strong></span></span></p>
-</div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="font-weight: 100; text-align: left; font-size: 16px;">
-                                          (Release ID: 2310523)
-                                    </div>
-<div style="height: 30px; width: 100%;">
-</div>
-</td>
-</tr>
-<tr>
-<td style="font-weight: 200; text-align: center; font-size: 24px;"></td>
-</tr>
-</table>]]></content:encoded>
-</item>
-<item>
-<title>INDIA-US JOINT MILITARY EXERCISE YUDH ABHYAS 2026 COMMENCES AT AULI AND MAHAJAN</title>
-<link>https://www.pib.gov.in/PressReleasePage.aspx?PRID=2310476</link>
-<guid isPermaLink="false">pib-release-2310476</guid>
-<pubDate>Tue, 15 Sep 2026 16:45:00 +0530</pubDate>
-<category>Ministry of Defence</category>
-<dc:creator>Ministry of Defence</dc:creator>
-<category>PIB Delhi</category>
-<description>Ministry of Defence
-INDIA-US JOINT MILITARY EXERCISE YUDH ABHYAS 2026 COMMENCES AT AULI AND MAHAJAN
-Posted On:
-                        15 SEP 2026 4:45PM by PIB Delhi
-The opening ceremony of 22
-nd
-edition of India-US Joint Military Exercise Yudh Abhyas was held today at Auli Foreign Training Node in Uttarakhand. Major General Amaresh Gunjan, General Officer Commanding, 14 Infantry Division and Colonel Benjamin Jackman, Commander, 1
-st
-Infantry Brigade Combat Team, 11
-th
-Airborne Division, US Army, addressed the participating contingents comprising of 600 personnel from each side. The…</description>
-<content:encoded><![CDATA[<table width="100%">
-<tr>
-<td style="font-weight: 200; text-align: center">
-                                    Ministry of Defence
-                                    <div style="height: 30px; width: 100%;">
-</div>
-<div style="font-weight: 200; text-align: center; font-size: 30px;">
-                                          INDIA-US JOINT MILITARY EXERCISE YUDH ABHYAS 2026 COMMENCES AT AULI AND MAHAJAN
-                                    </div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="font-weight: 200; text-align: center; font-size: 30px;">
-</div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="text-align: center; font-size: 14px;">
-                                          Posted On:
-                        15 SEP 2026 4:45PM by PIB Delhi
-                                    </div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="font-weight: 200; text-align: left; font-size: 16px;">
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The opening ceremony of 22<sup>nd</sup> edition of India-US Joint Military Exercise Yudh Abhyas was held today at Auli Foreign Training Node in Uttarakhand. Major General Amaresh Gunjan, General Officer Commanding, 14 Infantry Division and Colonel Benjamin Jackman, Commander, 1<sup>st</sup> Infantry Brigade Combat Team, 11<sup>th</sup> Airborne Division, US Army, addressed the participating contingents comprising of 600 personnel from each side. The exercise is simultaneously being conducted at Auli and Mahajan Field Firing Range in Rajasthan.</span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The exercise is aimed at enhancing the joint military capability of both armies for employment of Integrated Battle Groups in mountainous and semi-mountainous terrain, with emphasis on infantry-dominated operations. It will strengthen interoperability, facilitate exchanges of best operational practices and strengthen joint planning and execution.</span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Technology infusion will form a key focus area. The training will include the employment of drones and autonomous systems for surveillance and reconnaissance as well as demonstration of contemporary weapon systems will be undertaken at Mahajan Field Firing Ranges. Subject Matter Experts from both Armies will also exchange views on emerging technologies and developments in multi-domain warfare.</span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">The exercise provides an opportunity for both Armies to share tactics, techniques and procedures; and enhance their ability to undertake coordinated military operations across varied terrain and operational environment.</span></span></span></p>
-<p style="text-align:center"><img alt="" src="https://static.pib.gov.in/WriteReadData/userfiles/image/2026/sep/Img_20260915164616_70e06c.jpeg" style="height:401px; width:601px"/></p>
-<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">****</span></span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black"><strong>Nishant / Pradeep </strong></span></span></span></p>
-</div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="font-weight: 100; text-align: left; font-size: 16px;">
-                                          (Release ID: 2310476)
-                                    </div>
-<div style="height: 30px; width: 100%;">
-</div>
-</td>
-</tr>
-<tr>
-<td style="font-weight: 200; text-align: center; font-size: 24px;"></td>
-</tr>
-</table>]]></content:encoded>
-</item>
-<item>
-<title>Prime Minister pays tribute to Saratchandra Chattopadhyay on his 150th birth anniversary</title>
-<link>https://www.pib.gov.in/PressReleasePage.aspx?PRID=2310466</link>
-<guid isPermaLink="false">pib-release-2310466</guid>
-<pubDate>Tue, 15 Sep 2026 16:38:00 +0530</pubDate>
-<category>Prime Minister's Office</category>
-<dc:creator>Prime Minister's Office</dc:creator>
-<category>PIB Delhi</category>
-<description>Prime Minister's Office
-Prime Minister pays tribute to Saratchandra Chattopadhyay on his 150th birth anniversary
-Posted On:
-                        15 SEP 2026 4:38PM by PIB Delhi
-The Prime Minister,  Shri Narendra Modi has paid homage to renowned Bengali writer Saratchandra Chattopadhyay on his 150th birth anniversary. Remembering the eminent writer, Shri Modi highlighted the enduring significance of his literary works, which have been translated into every Indian language and several foreign languages. He noted that Saratchandra Chattopadhyay’s writings provide an accurate and sensitive…</description>
-<content:encoded><![CDATA[<table width="100%">
-<tr>
-<td style="font-weight: 200; text-align: center">
-                                    Prime Minister's Office
-                                    <div style="height: 30px; width: 100%;">
-</div>
-<div style="font-weight: 200; text-align: center; font-size: 30px;">
-                                          Prime Minister pays tribute to Saratchandra Chattopadhyay on his 150th birth anniversary
-                                    </div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="font-weight: 200; text-align: center; font-size: 30px;">
-</div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="text-align: center; font-size: 14px;">
-                                          Posted On:
-                        15 SEP 2026 4:38PM by PIB Delhi
-                                    </div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="font-weight: 200; text-align: left; font-size: 16px;">
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The Prime Minister,  Shri Narendra Modi has paid homage to renowned Bengali writer Saratchandra Chattopadhyay on his 150th birth anniversary. Remembering the eminent writer, Shri Modi highlighted the enduring significance of his literary works, which have been translated into every Indian language and several foreign languages. He noted that Saratchandra Chattopadhyay’s writings provide an accurate and sensitive portrayal of 19th-century India, particularly Bengali society in rural areas.</span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">The Prime Minister posted on X:</span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Homage to noted Bengali writer, the versatile Saratchandra Chattopadhyay on his 150th birth anniversary.</span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">His works, translated into every Indian language and several foreign languages, are remembered for their accurate depiction of 19th century India, especially Bengali society in rural areas. Equally noteworthy was his commitment to social reform, women’s rights and nationalism.</span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">I call upon more youngsters to read his writings in the times to come.</span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">প্রখ্যাত বাঙালি লেখক, বহুমুখী প্রতিভার অধিকারী শরৎচন্দ্র চট্টোপাধ্যায়ের ১৫০তম জন্মবার্ষিকীতে জানাই বিনম্র শ্রদ্ধাঞ্জলি।</span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">ভারতের সমস্ত ভাষায় এবং একাধিক আন্তর্জাতিক ভাষায় অনূদিত তাঁর সাহিত্যকর্মগুলি উনিশ শতকের ভারত, বিশেষ করে গ্রামীণ অঞ্চলের বাঙালি সমাজকে সঠিকভাবে চিত্রিত করার জন্য স্মরণীয় হয়ে রয়েছে। সামাজিক সংস্কার, নারী অধিকার এবং জাতীয়তাবাদের প্রতি তাঁর দায়বদ্ধতাও সমানভাবে স্মরণীয়।</span></span></p>
-<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">আগামী দিনের তরুণ-তরুণীকে আমি আরও বেশি করে তাঁর রচনা পড়ার জন্য আহ্বান জানাচ্ছি।</span></span></p>
-<center><blockquote class="twitter-tweet"><p dir="ltr" lang="en">Homage to noted Bengali writer, the versatile Saratchandra Chattopadhyay on his 150th birth anniversary. <br/><br/>His works, translated into every Indian language and several foreign languages, are remembered for their accurate depiction of 19th century India, especially Bengali society…</p>— Narendra Modi (@narendramodi) <a href="https://x.com/narendramodi/status/2099811223508484245?ref_src=twsrc%5Etfw">September 15, 2026</a></blockquote> </center>
-<p style="text-align:center">****</p>
-<p style="text-align:justify"><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">MJPS/SS/VJ</span></span></strong></p>
-</div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="height: 30px; width: 100%;">
-</div>
-<div style="font-weight: 100; text-align: left; font-size: 16px;">
-                                          (Release ID: 2310466)
                                     </div>
 <div style="height: 30px; width: 100%;">
 </div>
